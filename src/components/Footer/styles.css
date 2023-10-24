@@ -5,11 +5,11 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    border-top: 2px solid var(--orangered);
-    color: var(--orangered);
+    border-top: 2px solid rgba(218,148,27,1);
+    color: rgba(218,148,27,1);
     margin: 0 auto;
-    font-size: 1.25rem;  
-    font-weight: 400;
+    font-size: 1.0rem;  
+    font-weight: 200;
 }
 
 .time  {
@@ -18,7 +18,6 @@ footer {
     color: var(--orangered);
     font-size: 1.25rem;
     font-weight: 400;
-
 }
 
 footer i {

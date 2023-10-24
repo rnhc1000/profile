@@ -8,7 +8,7 @@ export default function Header() {
             <nav id="navbar" className="nav-main">
                 <a href="#">Home</a>
                 <a href="#">Projects</a>
-                <a href="#">Skills</a>
+                <a href="#skill-section">Skills</a>
                 <a href="#contact-section">Contact</a>
             </nav>
         </header>
