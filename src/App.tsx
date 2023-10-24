@@ -1,19 +1,20 @@
-import Welcome from "./components/Welcome"
 import Contacts from "./routes/Contacts"
-import Feet from "./routes/Feet"
 import Home from "./routes/Home"
 import Skills from "./routes/Skills"
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function App() {
 
   return (
     <>
-      <Home />
-      <Welcome />
-      <Skills />
-      <Contacts />
-      <Feet />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}> </Route>
+        <Route path="contacts" element= {<Contacts />}></Route>
+        <Route path="skills" element={<Skills />}></Route>
+        
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }

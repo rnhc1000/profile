@@ -20,15 +20,21 @@
     color: var(--text-linen);
 }
 
+
+
 .welcome-important {
-  color: var(--main-white)
+  color: var(--main-white);
+
 }
 
 .welcome-important span {
   color: rgba(218,148,27,1);
 }
 
-
+.welcome-important p {
+    color: var(--main-white)
+  }
+  
 .welcome-bullets:hover {
   cursor: pointer;
   transform: translateY(5px);
