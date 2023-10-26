@@ -31,7 +31,7 @@ body, html {
   min-width: 320px;
   min-height: 100vh;
   box-sizing: border-box; 
-  background: linear-gradient(115deg, rgba(0,0,0,0.95), rgba(0, 0, 0, 0.85)), url('assets/lightbulb-1875247_1920.jpg');
+  background: linear-gradient(115deg, rgba(0,0,0,0.65), rgba(0, 0, 0, 0.95)), url('assets/lightbulb-1875247_1920.jpg');
   background-size: auto;
   scroll-behavior: smooth;
   font-family: Poppins, sans-serif;

@@ -2,14 +2,18 @@ import './styles.css';
 import profilePhoto from '../../assets/rnhc.jpg';
 
 import { Link } from 'react-router-dom';
+import Zoom from 'react-reveal/Zoom';
 
 export default function Contact() {
 
     return (
         <section id="contact-section" className="contacts-section">
             <div className="contacts-section-header">
+                <Zoom>
                 <p><img className="welcome-img" src={profilePhoto} />Want to keep in touch to know more about projects, coding techniques, tech stuff...</p>
+                
                 <p>Make a break, text me, send me an email or even call me ...</p>
+                </Zoom>
             </div>
             <div className="contacts-links">
                 <Link to="https://twitter.com/Ricardo18101957" target="_blank" className="contacts-details">Twitter

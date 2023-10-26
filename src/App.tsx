@@ -1,3 +1,4 @@
+import React from "react";
 import Contacts from "./routes/Contacts"
 import Home from "./routes/Home"
 import Projects from "./routes/Projects";
@@ -6,6 +7,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function App() {
 
+const MemoizedComponent = React.memo(Projects);
+
   return (
     <>
       <BrowserRouter>
@@ -13,7 +16,7 @@ export default function App() {
         <Route path="/" element={<Home />}> </Route>
         <Route path="contacts" element= {<Contacts />}></Route>
         <Route path="skills" element={<Skills />}></Route>
-        <Route path="projects" element={<Projects />}></Route>
+        <Route path="projects" element={<MemoizedComponent />}></Route>
       </Routes>
       </BrowserRouter>
     </>
