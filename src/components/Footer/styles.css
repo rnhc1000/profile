@@ -1,15 +1,26 @@
 
 footer {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+
     border-top: 2px solid rgba(218,148,27,1);
+    margin: 1rem auto;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
     color: rgba(218,148,27,1);
-    margin: 0 auto;
+    margin: 1rem auto;
     font-size: 1.0rem;  
-    font-weight: 200;
+    font-weight: 200; 
+}
+
+.footer-container span {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: orangered;
 }
 
 .time  {
@@ -28,3 +39,48 @@ footer i {
         width: 25%;
         height: auto
 }
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--orangered);
+    font-family: "Poppins", sans-serif;
+
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    animation: waviy 4s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+
+  .waviy span:hover {
+    transform: translateY(8px);
+    font-weight: 1000;
+    transition: transform 0.3s ease-out;
+
+  }
+
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }

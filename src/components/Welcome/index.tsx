@@ -3,6 +3,9 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
+import contactLogo from '../../assets/whatsapp.svg';
+import projectsLogo from '../../assets/activity.svg';
+import skillsLogo from '../../assets/tools.svg';
 
 export default function Welcome() {
 
@@ -90,13 +93,12 @@ export default function Welcome() {
                     <Zoom>
                         <p className="welcome-important">
                             If you want to go down to the nitty-gritty of my
-                            challenging career as
-                            a solutions developer drop me a quick message,
-                            clicking on the social media icons shown below or
-                            even take a look at my current
-                            <Link to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details">
+                            challenging career as a solutions developer, keep in touch clicking at my <span>contacts </span><Link to="/contacts"> <img src={contactLogo}></img></Link>  or 
+                            take a quick look at the current projects I am working on, clicking here<Link to="/projects"> <img src={projectsLogo}/></Link> or 
+                            even take a look at my current <span>skills</span>
+                            <Link to="/skills">
                                 <span className="resume">
-                                    Resume...
+                                    <img src={skillsLogo}/>
                                 </span>
                             </Link>
                         </p>
