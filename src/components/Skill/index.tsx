@@ -47,7 +47,7 @@ export default function Skill() {
                             </li>
 
                             <li>
-                                <Link to="https://www.scrumstudy.com/certification/verify?type=SFC&number=984118">
+                                <Link to="https://www.scrumstudy.com/certification/verify?type=SFC&number=984118" target="_blank">
                                     Scrums Foundations Certified
                                     <span> by SCRUMstudy - Accreditation Body for Scrum and Agile</span>
                                 </Link>
