@@ -1,7 +1,9 @@
 import './styles.css';
 
 import { Link } from 'react-router-dom';
+// @ts-ignore
 import Zoom from 'react-reveal/Zoom';
+// @ts-ignore
 import Rotate from 'react-reveal/Rotate';
 import contactLogo from '../../assets/whatsapp.svg';
 import projectsLogo from '../../assets/activity.svg';
@@ -35,7 +37,8 @@ export default function Welcome() {
                                         Playing into this market for almost 25 years 🕵️ I have been exposed to a myriad of
                                         technologies and for some of them, being a very early adopter.
                                         My first contact with a programming language was Pascal in the university, where I learnt the key concepts of any
-                                        programming language, but my first professional job was to deal with Assembler (8085, 8086 and Z-80) and C languages, building device drivers for mass storage devices
+                                        programming language, but my first professional job was to deal with Assembler (8085, 8086 and Z-80) and C languages, 
+                                        building device drivers for mass storage devices
                                         for the x86 platform (yep, XT and AT IBM PCs), having Turbo C and Turbo Assembler, by Herbert Schildt, as my bedside books
                                         to put some light on to those hours coding in C and using inline Assembler 👨‍💻. Loved it 💘 ...
                                     </blockquote>
@@ -46,11 +49,11 @@ export default function Welcome() {
                                     <br />
                                     <dt> Surfing the web...</dt>
                                     <blockquote>
-                                        Moved to the networking market
-                                        to surf the wave of the Internet at its infancy in the 90s and got the most of that including some Cisco Networking certifications
-                                        and from that jumped to Web world 🕸️ and back to software development using LAMP... 🥴 Yeah ... Good times, where you did not
-                                        have available frameworks suchs as ReactJS, Angular and others available today to help you build a professional UI/UX front-end
-                                        of a web-based application...
+                                        Moved to the networking market to surf the wave of the Internet at its infancy in the 90s and got the most of that 
+                                        getting some Cisco Networking certifications and help to build the infrastructure of systems integration service provider
+                                        and from that jumped to Web world 🕸️ and back to software development using LAMP "framework" (Linux, Apache, MySQL and PHP)... 
+                                        🥴 Yeah ... Good times or not, when you did not have available frameworks as you have currently such as ReactJS, Angular and others 
+                                        available today to help you build a dynamic and responsive UI/UX front-end application...
                                     </blockquote>
                                 </dd>
                                 <br />
@@ -67,12 +70,13 @@ export default function Welcome() {
                                 <dt> Current Stack</dt>
                                 <dd>
                                     <blockquote>
-                                        Currently, I have been playing with PHP, JS, HTML, CSS, Bootstrap, ReactJS for frontend
-                                        and and Laravel, Java, Spring Boot for backend apps as well dealing in a daily basis with
-                                        CI/CD, Jenkins, SonarQube, SOLID, MVC, Git, SQL and NoSQL databases as MySQL, MongoDB and tools
-                                        such as Docker, Portainer, Kubernetes, Nginx and so many exciting technologies to provide secure
-                                        first financial applications available at your fingertips across the country, designing, coding and supporting the lifecycle
-                                        of cloud-based payment applications.
+                                        My current stack is Java, Spring Boot and PostgreSQL for backend applications building REST APIs 
+                                        to support the business scalability and JavaScript, ReactJS for 
+                                        frontend applications, but I am still in charge of supporting the lifecycle of legacy applications
+                                        using Laravel and PHP8 as well and dealing in a daily basis with CI/CD, Jenkins, SonarQube, SOLID, MVC, Git, 
+                                        NoSQL databases as MongoDB and tools such as Docker, Portainer, Kubernetes, Nginx and so many exciting technologies 
+                                        to provide secure-first financial applications available at each retail store across the country, capturing digital
+                                        payments, preprocessing them, requiring authorization and help to improve the retail store productivity  and profitability.
                                     </blockquote>
                                 </dd>
                             </Zoom>
