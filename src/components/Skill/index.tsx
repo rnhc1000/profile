@@ -1,7 +1,14 @@
 import './styles.css';
 
 import { Link } from 'react-router-dom';
+// @ts-ignore
 import LightSpeed from 'react-reveal/LightSpeed';
+// @ts-ignore
+import Zoom from 'react-reveal/Zoom';
+import contactLogo from '../../assets/whatsapp.svg';
+import homeLogo from '../../assets/house-check.svg';
+import codeLogo from '../../assets/activity.svg';
+
 
 
 export default function Skill() {
@@ -121,6 +128,13 @@ export default function Skill() {
                             </li>
                         </ul>
                     </div>
+                    <Zoom>
+                        <div className="contact-me">
+                            <Link to="/">        <img src={homeLogo}></img></Link>
+                            <Link to="/projects"><img src={codeLogo}></img></Link>
+                            <Link to="/contacts"><img src={contactLogo}></img></Link>
+                        </div>
+                    </Zoom>
                 </section>
             </LightSpeed>
         </>

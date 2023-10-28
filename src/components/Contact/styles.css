@@ -15,7 +15,7 @@
 .contacts-section-header p {
     font-size: 1.25rem;
     font-weight: 300;
-    color: var(--text-linen);
+    color: rgba(218,148,27,1);
 }
 
 @media (max-width: 28.75em) {
@@ -36,11 +36,11 @@
 }
 
 .contacts-details {
-    font-size: 1.25rem;
+    font-size: 2rem;
     /* text-shadow: 2px 2px 1px #1f1f1f; */
     margin-top: 1.25rem;
     transition: transform 0.3s ease-in-out;
-    color: rgba(218,148,27,1);
+    color: #FFF;
 }
 
 .contacts-details:hover {
