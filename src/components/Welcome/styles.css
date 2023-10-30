@@ -114,3 +114,21 @@ dt {
 blockquote {
     color: #fff;
 }
+
+@media (min-width: 320px) {
+  .welcome-container {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+  }
+}
+
+.contact-me {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
