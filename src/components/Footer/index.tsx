@@ -9,21 +9,16 @@ import logoLinux from '../../assets/icons/linux-original.svg';
 // @ts-ignore
 import Zoom from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
-import Typewriter from 'typewriter-effect';
-
+import Typewriter from '../../utils/TypeWriter';
 
 export default function Footer() {
-
+    
     return (
         <footer>
             <div className="footer-container">
                 <p> &copy; 2023 - All Rights Reserved </p>
-                <Typewriter options={{
-                    strings: ['I myself designed and coded with the tools below:'],
-                    autoStart: true,
-                    loop: true,
-                }}>
-                </Typewriter>
+                    <span id="footnote" className="waviy">
+                    <Typewriter text="Proudly designed and coded by myself..." delay={200} infinite /></span>
             </div>
             <Zoom>
                 <div className="footer-icons">
