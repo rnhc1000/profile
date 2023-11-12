@@ -72,3 +72,11 @@
     justify-content: center;
     gap: 5rem;
   }
+
+  @media (max-width: 640px) {
+
+    .skills-section {
+        margin: 0 auto;
+        text-align: center;
+    }
+} 
