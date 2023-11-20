@@ -8,26 +8,21 @@ import ScrollToTop from './utils/ScrollToTop';
 
 export default function App() {
 
-  const MemoizedComponent = React.memo(Projects);
+  const MemoizedProjects = React.memo(Projects);
+  const MemoizedSkills = React.memo(Skills);
+  const MemoizedHome = React.memo(Home);
+  const MemoizedContacts = React.memo(Contacts);
 
   return (
-    <>
-
-
-      <BrowserRouter>
+    <BrowserRouter>
         <ScrollToTop />
-
         <Routes>
-          <Route path="/" element={<Home />}> </Route>
-
-          <Route path="contacts" element={<Contacts />}></Route>
-          <Route path="skills" element={<Skills />}></Route>
-          <Route path="projects" element={<MemoizedComponent />}></Route>
-
+          <Route path="/" element={<MemoizedHome />}> </Route>
+          <Route path="contacts" element={<MemoizedContacts />}></Route>
+          <Route path="skills" element={<MemoizedSkills />}></Route>
+          <Route path="projects" element={<MemoizedProjects />}></Route>
         </Routes>
       </BrowserRouter>
-
-    </>
   )
 }
 
