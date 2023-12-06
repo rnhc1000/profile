@@ -13,7 +13,6 @@ import skillLogo from '../../assets/tools.svg';
 export default function Welcome() {
 
     return (
-        <>
             <section id="welcome-section">
                 <div className="welcome-container">
 
@@ -23,9 +22,9 @@ export default function Welcome() {
 
                                 <dd>
                                     <dt> Hi everyone!</dt>
-                                    <blockquote>I am a
-                                        <Link to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Full Stack Software Engineer</Link>,
-                                        🛠️ who loves to design, code and deploy business applications.
+                                    <blockquote>
+                                        I am called <span>Ricardo Ferreira</span> and as a <Link to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Full Stack Software Engineer</Link>,
+                                        🛠️ love to design, write clean code and deploy business applications.
                                         I have been very succesful in being the architect of solutions that have met and even exceeded businesses
                                         and customers requirements in all companies I have been working for, since the very beginning of my career
                                         as a Junior Engineer.
@@ -72,9 +71,8 @@ export default function Welcome() {
                                 <dd>
                                     <blockquote>
                                         My current stack is Java, Spring Boot and PostgreSQL for backend applications building REST APIs 
-                                        to support the business scalability and JavaScript, ReactJS for 
-                                        frontend applications, but I am still in charge of supporting the lifecycle of legacy applications
-                                        using Laravel and PHP8 as well and dealing in a daily basis with CI/CD, Jenkins, SonarQube, SOLID, MVC, Git, 
+                                        to support the business scalability and JavaScript, ReactJS for frontend applications. 
+                                        Besides this responsability I have dealt in a daily basis with CI/CD, Jenkins, SonarQube, SOLID, MVC, Git, 
                                         NoSQL databases as MongoDB and tools such as Docker, Portainer, Kubernetes, Nginx and so many exciting technologies 
                                         to provide secure-first financial applications available at each retail store across the country, capturing digital
                                         payments, preprocessing them, requiring authorization and help to improve the retail store productivity  and profitability.
@@ -111,6 +109,5 @@ export default function Welcome() {
                     </Zoom>
                 </div>
             </section>
-        </>
     );
 }
