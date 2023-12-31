@@ -10,26 +10,16 @@ import codeLogo from '../../assets/activity.svg';
 import skillLogo from '../../assets/tools.svg';
 
 
-export default function Welcome() {
+export default function History() {
 
     return (
-            <section id="welcome-section">
-                <div className="welcome-container">
+            <section id="history-section">
+                <div className="history-container">
 
                     <dl>
-                        <p className="welcome-important">
+                        <p className="history-important">
                             <Zoom>
 
-                                <dd>
-                                    <dt> Hi everyone!</dt>
-                                    <blockquote>
-                                        I am called <span>Ricardo Ferreira</span> and as a <Link to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Full Stack Software Engineer</Link>,
-                                        🛠️ love to design, write clean code and deploy business applications.
-                                        I have been very succesful in being the architect of solutions that have met and even exceeded businesses
-                                        and customers requirements in all companies I have been working for, since the very beginning of my career
-                                        as a Junior Engineer.
-                                    </blockquote>
-                                </dd>
                                 <dd>
                                     <br />
                                     <dt> Getting up to speed!</dt>
@@ -82,7 +72,7 @@ export default function Welcome() {
                         </p>
                     </dl>
                     <Rotate top-left>
-                        <ul className="welcome-bullets">
+                        <ul className="history-bullets">
                             <li>Design, Development and Deployment of web-based digital payment applications,</li>
                             <li>Development and Deployment of OOP applications, </li>
                             <li>Creating and maintaining a Jenkins-based pipeline for CI/CD,</li>
@@ -94,7 +84,7 @@ export default function Welcome() {
                         </ul>
                     </Rotate>
                     <Zoom>
-                        <p className="welcome-important">
+                        <p className="history-important">
                             If you want to go down to the nitty-gritty of my
                             challenging career as a solutions developer, text me, call me or drop me a quick message and 
                             I will return as soon as possible.
