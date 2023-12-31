@@ -7,21 +7,18 @@
     height: 100%;
     max-width: 960px;
     margin: 2rem auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     font-style: normal;
-    color: var(--text-linen);
-    
+    color: var(--text-linen);   
 }
 
 .welcome {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     font-style: normal;
     color: var(--text-linen);
-    
 }
-
 
 
 .welcome-important {
@@ -121,6 +118,7 @@ blockquote {
       margin: 0 auto;
       width: 100%;
       text-align: center;
+      font-size: 1.25rem;
   }
 }
 
