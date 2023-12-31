@@ -1,4 +1,4 @@
-.welcome-container {
+.history-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@
     
 }
 
-.welcome {
+.history {
     font-size: 2rem;
     font-weight: 200;
     font-style: normal;
@@ -24,21 +24,21 @@
 
 
 
-.welcome-important {
+.history-important {
 
   color: var(--main-white);
 
 }
 
-.welcome-important span {
+.history-important span {
   color: rgba(218,148,27,1);
 }
 
-.welcome-important p {
+.history-important p {
     color: var(--main-white)
   }
   
-.welcome-bullets:hover {
+.history-bullets:hover {
   cursor: pointer;
   transform: translateY(5px);
   font-weight: 400;
@@ -47,7 +47,7 @@
   color: rgba(218,148,27,1);
 }
 
-.welcome-bullets li {
+.history-bullets li {
 
     margin: 1.25rem auto;
     text-align: center;
@@ -55,7 +55,7 @@
 
 }
 
-.welcome-bullets ul {
+.history-bullets ul {
     margin: 0;
     padding: 0;
 }
@@ -117,7 +117,7 @@ blockquote {
 
 
 @media (max-width: 640px) {
-  .welcome-container {
+  .history-container {
       margin: 0 auto;
       width: 100%;
       text-align: center;

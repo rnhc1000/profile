@@ -11,19 +11,21 @@
     font-weight: 300;
     font-style: normal;
     color: var(--text-linen);   
+    overflow: auto;
 }
 
 .welcome {
     font-size: 1.5rem;
-    font-weight: 200;
-    font-style: normal;
-    color: var(--text-linen);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--orange);
 }
 
 
 .welcome-important {
 
   color: var(--main-white);
+  font-size: 3rem;
 
 }
 
@@ -119,6 +121,10 @@ blockquote {
       width: 100%;
       text-align: center;
       font-size: 1.25rem;
+  }
+  .welcome {
+    font-size: 1rem;
+    font-style: italic;
   }
 }
 
