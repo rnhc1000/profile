@@ -44,7 +44,7 @@ export default function Welcome() {
         }
 
         $javac EveryBody.java
-        $java  EveryBody.class
+        $java  EveryBody
         `}
                         </code>
                     </pre>

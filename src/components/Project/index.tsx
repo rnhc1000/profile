@@ -48,15 +48,6 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link to="https://easypay.simatef.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={easyPay}
-                                    alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    &copy;easyPAY backEnd
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
                         </Zoom>
                         <Zoom>
                             <Link to="https://easypag.simatef.com.br" target="_blank" className="project project-tile">
@@ -96,7 +87,7 @@ export default function Project() {
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link to="https://zabbix.enormity.com.br" target="_blank" className="project project-tile">
+                            <Link to="https://zabbixx.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={zabbix} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
