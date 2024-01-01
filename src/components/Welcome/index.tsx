@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 // @ts-ignore
 import Zoom from 'react-reveal/Zoom';
 // @ts-ignore
+import skillLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
-import codeLogo from '../../assets/activity.svg';
-import skillLogo from '../../assets/tools.svg';
-import history from '../../assets/history.svg';
+import codeLogo from '../../assets/tools.svg';
+import history from '../../assets/txt.svg';
 // import Prism from 'prismjs';
 // import 'prismjs/components/prism-clike';
 // import 'prismjs/themes/prism.css';
@@ -15,7 +15,7 @@ import history from '../../assets/history.svg';
 //import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
 
 // import "../../css/prism.css";
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 
 export default function Welcome() {
@@ -61,17 +61,17 @@ export default function Welcome() {
                         and customers requirements in all companies I have been working for, specially in the digital payment industry, having deployes
                         over the years, applications that helped retail stores increase their profitablity and keeping up with a
                         fast changing payment requirements. For a comprehensive description of my journey and roadmap up to today,
-                        take a look at my history, clicking on the links below to find out more about my career. 
+                        take a look at my history, clicking on the links below to find out more about my career.
                     </blockquote>
                     <br></br>
                 </Zoom>
 
                 <Zoom>
                     <div className="contact-me">
-                        <Link to="/history"><img src={history}></img></Link>
-                        <Link to="/projects"><img src={codeLogo}></img></Link>
-                        <Link to="/skills"><img src={skillLogo}></img></Link>
-                        <Link to="/contacts"><img src={contactLogo}></img></Link>
+                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} /></Link>
+                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillLogo} /></Link>
+                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" src={codeLogo} /></Link>
+                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} /></Link>
                     </div>
                 </Zoom>
             </div>

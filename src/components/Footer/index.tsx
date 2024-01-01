@@ -16,9 +16,9 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer-container">
-                <p> &copy; 2023 - All Rights Reserved </p>
+                <p> &copy; 2024 - All Rights Reserved </p>
                     <span id="footnote" className="waviy">
-                    <Typewriter text="Proudly designed and coded by myself..." delay={200} infinite /></span>
+                    <Typewriter text="Proudly designed and coded by @Ricardo Ferreira!" delay={200} infinite /></span>
             </div>
             <Zoom>
                 <div className="footer-icons">

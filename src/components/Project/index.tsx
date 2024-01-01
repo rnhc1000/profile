@@ -1,6 +1,5 @@
 import './styles.css';
 import dashBoard from '../../assets/dashboard.png';
-import easyPay from '../../assets/easypayFrontEnd.png';
 import { Link } from 'react-router-dom';
 import easyPag from '../../assets/easypayBackEnd.png';
 import devOps from '../../assets/devOps.png';
@@ -12,13 +11,15 @@ import viaCep from '../../assets/viaCEP.png';
 import Zoom from 'react-reveal/Zoom';
 import Iframe from 'react-iframe';
 import homeLogo from '../../assets/house-check.svg';
-import skillsLogo from '../../assets/tools.svg';
+import skillsLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
+import history from '../../assets/txt.svg';
+
 
 export default function Project() {
 
     return (
-        <>
+        
             <section id="project-section" className="projects-section-header">
                 <p>Here are a few of my latest projects!</p>
                 <p>Give them a try.... Just click on each image below...</p>
@@ -108,13 +109,14 @@ export default function Project() {
                 </div>
                 <Zoom>
                     <div className="contact-me">
-                        <Link to="/"> <img src={homeLogo}></img></Link>
-                        <Link to="/skills">   <img src={skillsLogo}></img></Link>
-                        <Link to="/contacts"> <img src={contactLogo}></img></Link>
+                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} /></Link>
+                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} /></Link>
+                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillsLogo} /></Link>
+                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} /></Link>
                     </div>
                 </Zoom>
             </section>
 
-        </>
+        
     );
 }
