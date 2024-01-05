@@ -38,7 +38,7 @@ export default function Welcome() {
             public String hello() {
                 return ("Hello Everybody!");
             }      
-            void main(String... args) {
+            public static void main(String... args) {
               System.out.println(new Everybody().hello());
             }
         }
