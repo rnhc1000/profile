@@ -3,6 +3,7 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 // @ts-ignore
 import Zoom from 'react-reveal/Zoom';
+import Rotate from 'react-reveal/Rotate';
 // @ts-ignore
 import skillLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
@@ -29,29 +30,41 @@ export default function Welcome() {
 
                 <Zoom>
                     <pre>
-                        <code className="welcome">{`
-        interface Hello{ 
+                        <code className="welcome-code">{`
+        interface Hello {
             String hello();
         }
 
-        public class EveryBody implements Hello {
+        interface EveryBody {
+            String everybody();
+        }
+
+        public class Greetings implements Hello, EveryBody {
+            @Override
             public String hello() {
-                return ("Hello Everybody!");
-            }      
+              return "Hello, ";
+            }
+            @Override
+            public String everybody() {
+              return "Everybody!";
+            }
+
             public static void main(String... args) {
-              System.out.println(new Everybody().hello());
+              Greetings greetings = new Greetings();
+              System.out.println(
+                      greetings.hello() + greetings.everybody());
             }
         }
 
-        $javac EveryBody.java
-        $java  EveryBody
+        $javac Greetings.java
+        $java  Greetings
         `}
                         </code>
                     </pre>
 
-                    <Zoom>
-                        <h1 className="welcome-important">'Hello Everybody!'</h1>
-                    </Zoom>
+                    <Rotate>
+                        <h1 className="welcome-important">Hello, Everybody!</h1>
+                    </Rotate>
                     <br></br>
 
                     <blockquote>
