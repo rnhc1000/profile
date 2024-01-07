@@ -26,7 +26,7 @@
   font-size: 1.5rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-white);
+  color: var(--orange);
   font-family: Poppins, sans-serif;
 
 
@@ -129,12 +129,20 @@ blockquote {
   .welcome-container {
       margin: 0 auto;
       width: 100%;
+      max-width: fit-content;
       text-align: center;
       font-size: 1.25rem;
   }
+
   .welcome {
     font-size: 1rem;
     font-style: italic;
+  }
+
+  .welcome-code {
+    font-size: 0.9rem;
+    color: var(--orange);
+    font-style:italic;
   }
 }
 
