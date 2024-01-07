@@ -31,33 +31,33 @@ export default function Welcome() {
                 <Zoom>
                     <pre>
                         <code className="welcome-code">{`
-        interface Hello {
-            String hello();
+interface Hello {
+    String hello();
+}
+
+interface EveryBody {
+    String everybody();
+}
+
+public class Greetings implements Hello, EveryBody {
+    @Override
+    public String hello() {
+        return "Hello, ";
+    }
+    @Override
+    public String everybody() {
+        return "Everybody!";
+    }
+
+    public static void main(String... args) {
+        Greetings greetings = new Greetings();
+        System.out.println(
+                greetings.hello() + greetings.everybody());
         }
+    }
 
-        interface EveryBody {
-            String everybody();
-        }
-
-        public class Greetings implements Hello, EveryBody {
-            @Override
-            public String hello() {
-              return "Hello, ";
-            }
-            @Override
-            public String everybody() {
-              return "Everybody!";
-            }
-
-            public static void main(String... args) {
-              Greetings greetings = new Greetings();
-              System.out.println(
-                      greetings.hello() + greetings.everybody());
-            }
-        }
-
-        $javac Greetings.java
-        $java  Greetings
+    $javac Greetings.java
+    $java  Greetings
         `}
                         </code>
                     </pre>
