@@ -9,28 +9,25 @@ import skillLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
 import codeLogo from '../../assets/tools.svg';
 import history from '../../assets/txt.svg';
-// import Prism from 'prismjs';
-// import 'prismjs/components/prism-clike';
-// import 'prismjs/themes/prism.css';
 
-//import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
-
-// import "../../css/prism.css";
-// import { useEffect } from 'react';
-
+import Prism from 'prismjs';
+import 'prismjs/components/prism-clike';
+import "prismjs/themes/prism-twilight.css"
+import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
+import { useEffect } from 'react';
 
 export default function Welcome() {
-    // useEffect(() => {
-    //     Prism.highlightAll()
-    //   }, [])
+    useEffect(() => {
+        Prism.highlightAll()
+    }, [])
 
     return (
         <section id="welcome-section">
             <div className="welcome-container">
-
                 <Zoom>
                     <pre>
-                        <code className="welcome-code">{`
+                        <code className="language-javascript">
+                            {`
 interface Hello {
     String hello();
 }
@@ -58,7 +55,8 @@ public class Greetings implements Hello, EveryBody {
 
     $javac Greetings.java
     $java  Greetings
-        `}
+        
+`}
                         </code>
                     </pre>
 
