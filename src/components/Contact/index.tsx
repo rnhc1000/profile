@@ -10,7 +10,7 @@ export default function Contact() {
             <div className="contacts-section-header">
                 <Zoom>
                     <p>
-                        <img className="welcome-img" src={profilePhoto} />
+                        <img className="contacts-img" src={profilePhoto} />
                         Want to keep in touch to know more about projects, coding techniques, tech stuff...
                     </p>
                     <p>Make a break, text me, send me an email or even call me ...</p>

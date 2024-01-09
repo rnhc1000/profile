@@ -15,10 +15,12 @@
     "@types/react": "^18.2.33",
     "@types/react-router-dom": "^5.3.3",
     "react": "^18.2.0",
+    "react-code-blocks-latest": "^1.0.0",
     "react-dom": "^18.2.0",
     "react-iframe": "^1.8.5",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.17.0",
+    "react-syntax-highlighter": "^15.5.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

@@ -37,7 +37,6 @@
 
 .contacts-details {
     font-size: 2rem;
-    /* text-shadow: 2px 2px 1px #1f1f1f; */
     margin-top: 1.25rem;
     transition: transform 0.3s ease-in-out;
     color: #FFF;
@@ -53,11 +52,21 @@
     align-items: center;
 }
 
-.welcome-img {
-    border-radius: 50%;
+.contacts-img {
+    border-radius: 45%;
     position: relative;
     margin-right: 20px;
-    width:128px;
-    height: 148px;
+    width:374px;
+    height: 280px;
     float: left;
 }
+
+@media (max-width: 640px) {
+    .contacts-img {
+        font-size: 1rem;
+        width:288px;
+        height: 204px;
+        margin: 40px;
+        border-radius: 25%
+    }
+  }
