@@ -12,7 +12,7 @@ import history from '../../assets/txt.svg';
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
-import "prismjs/themes/prism-twilight.css"
+import "prismjs/themes/prism-twilight.css";
 import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
 import { useEffect } from 'react';
 
