@@ -19,12 +19,12 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<MemoizedHome />}> </Route>
+          <Route index element={<MemoizedHome />}></Route>
           <Route path="contacts" element={<MemoizedContacts />}></Route>
           <Route path="skills" element={<MemoizedSkills />}></Route>
           <Route path="projects" element={<MemoizedProjects />}></Route>
           <Route path="history" element={<MemoizedHistory />}></Route>
-        </Routes>
-        
+        </Routes>  
       </BrowserRouter>
   )
 }
