@@ -28,8 +28,6 @@
   font-style: italic;
   color: var(--orange);
   font-family: Poppins, sans-serif;
-
-
 }
 
 .welcome-important {
@@ -125,13 +123,15 @@ blockquote {
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 860px) {
   .welcome-container {
       margin: 0 auto;
       width: 100%;
-      max-width: fit-content;
       text-align: center;
-      font-size: 1.25rem;
+      font-size: 1rem;
+  }
+  .language-javascript {
+    font-size: 1rem;
   }
 
   .welcome {
@@ -141,6 +141,28 @@ blockquote {
 
   .welcome-code {
     font-size: 1.5rem;
+    color: var(--orange);
+    font-style:italic;
+  }
+}
+@media (max-width: 640px) {
+  .welcome-container {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      font-size: 0.75rem;
+  }
+  .language-javascript {
+    font-size: 0.75rem;
+  }
+
+  .welcome {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .welcome-code {
+    font-size: 1rem;
     color: var(--orange);
     font-style:italic;
   }

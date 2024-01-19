@@ -17,7 +17,7 @@ export default function Contact() {
                     <br></br>
                     <p>Still curious... Take a look at my wakatime data for the past 7 days...</p>
                 <figure>
-                    <embed src="https://wakatime.com/share/@4662cdeb-1d44-45f0-96d8-039e03637bb8/932c2392-2f95-4ddd-84bc-37329dd93748.svg"></embed>
+                    <embed src="https://wakatime.com/share/@rferreira_757/cfb117ee-0978-450f-b112-ad8398eb358a.svg"></embed>
                 </figure>
                 </Zoom>
             </div>

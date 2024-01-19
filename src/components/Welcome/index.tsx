@@ -28,15 +28,9 @@ export default function Welcome() {
                     <pre>
                         <code className="language-javascript">
                             {`
-interface Hello {
-    String hello();
-}
-
-interface EveryBody {
-    String everybody();
-}
-
-public class Greetings implements Hello, EveryBody {
+import java.util.ferreiras.profile;
+public class Greetings implements 
+                        Hello, EveryBody {
     @Override
     public String hello() {
         return "Hello, ";
@@ -49,7 +43,7 @@ public class Greetings implements Hello, EveryBody {
     public static void main(String... args) {
         Greetings greetings = new Greetings();
         System.out.println(
-                greetings.hello() + greetings.everybody());
+            greetings.hello() + greetings.everybody());
         }
     }
 
