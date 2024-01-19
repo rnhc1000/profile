@@ -1,32 +1,16 @@
 ## Professional Web Page - @Ricardo Ferreira
-Here you have an attempt to have an idea of trajetory as a Software Engineer facing a lot of different projects most of them very turned put to be very succesful products and helped companies I worked for to increate their profitability and productivity.
+Here I attempt to show my trajetory as a Software Engineer facing a lot of different projects most of them turned out to be very succesful products and helped companies I worked for, to increase their profitability and productivity.
 Here are some of the technologies I have dealt with
-- SCSI - Small Ccomputer Interfaces
-- C language
-- OSI Networking Model
-- OpenBSD
-- FreeBSD
-- Linux
-- Cisco IOS
-- DNS - Bind
-- Apache/Nginx
-- MySQL
-- PHP
-- HTML
-- CSS
-- Javascript
-- Java
-- Spring Boot
+- ReactJS, HTML, CSS & JavaScript
+- Java & Spring Boot & Maven
+- PHP, MySQL & Apache/Nginx
 - MongoDB
-- OpenVPN
-- Firewall
-- Zabbix
-- Nagios
-- Prometheus
-- Grafana
-- Jenkins
-- Maven
-- SonarQube
+- Zabbix & Nagios
+- ElasticSearch, Prometheus, Grafana 
+- Jenkins & SonarQube
+- Drivers for SCSI mass storage devices
+- Networking, DNS, Firewall
+- OpenBSD & FreeBSD & Linux
 - etc...
 ## _Table of contents_
 - [Professional Web Page - @Ricardo Ferreira](#professional-web-page---ricardo-ferreira)
@@ -41,7 +25,7 @@ Here are some of the technologies I have dealt with
 - [_Author_](#author)
 - [Acknowledgments](#acknowledgments)
 ## _Overview_
-The portfolio is coded using ReactJS, using hooks such as useState, useLocation, useEffect:
+These web pages were coded using ReactJS exploring hooks such as useState, useLocation, useEffect:
 - src|
     - App.tsx
     - assets|
