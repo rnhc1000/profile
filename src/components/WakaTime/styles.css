@@ -1,31 +1,23 @@
 @import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
 
-
-.contacts-section {
+.wakatime-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
+    max-width: 1024px;
     padding: 1rem;
     margin: 1rem auto;
     color: var(--text-linen);
-}
-
-.contacts-section-header p {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 300;
-    color: rgba(218,148,27,1);
 }
 
-@media (max-width: 28.75em) {
-    .contacts-section-header h2 {
-        font-size: 4rem;
-    }
-}
 
-.contacts-links {
+
+.wakatime-links {
     display: flex;
     justify-content: space-evenly;
     gap: 2.5rem;
@@ -36,14 +28,14 @@
     padding: 0 0 1rem 0;
 }
 
-.contacts-details {
+.wakatime-details {
     font-size: 2rem;
     margin-top: 1.25rem;
     transition: transform 0.3s ease-in-out;
     color: #FFF;
 }
 
-.contacts-details:hover {
+.wakatime-details:hover {
     transform: translateY(8px);
 }
 
@@ -53,7 +45,7 @@
     align-items: center;
 }
 
-.contacts-img {
+.wakatime-img {
     border-radius: 45%;
     position: relative;
     margin-right: 20px;
@@ -62,16 +54,8 @@
     float: left;
 }
 
-.contacts-waka {
-    position: relative;
-    margin: 0 0.5rem;
-    width:48px;
-    height: 48px;
-    
-}
-
 @media (max-width: 640px) {
-    .contacts-img {
+    .wakatime-img {
         font-size: 1rem;
         width:288px;
         height: 204px;

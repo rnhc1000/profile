@@ -6,7 +6,7 @@ import logoCSS from '../../assets/icons/css3-original-wordmark.svg';
 import logoHTML from '../../assets/icons/html5-original-wordmark.svg';
 import logoTS from '../../assets/icons/ts-logo-128.svg';
 import logoLinux from '../../assets/icons/linux-original.svg';
-// @ts-ignore
+
 import Zoom from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
 import Typewriter from '../../utils/TypeWriter';

@@ -5,6 +5,7 @@ import Projects from "./routes/Projects";
 import Skills from "./routes/Skills";
 import Background from "./routes/Background";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './utils/ScrollToTop';
+import Wakatime from "./routes/Wakatime";
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
   const MemoizedHome = React.memo(Home);
   const MemoizedContacts = React.memo(Contacts);
   const MemoizedHistory = React.memo(Background);
+  const MemoizedWakatime = React.memo(Wakatime);
 
   return (
     <BrowserRouter>
@@ -24,7 +26,9 @@ export default function App() {
           <Route path="skills" element={<MemoizedSkills />}></Route>
           <Route path="projects" element={<MemoizedProjects />}></Route>
           <Route path="history" element={<MemoizedHistory />}></Route>
+          <Route path="wakatime" element={<MemoizedWakatime />}></Route>
         </Routes>  
+
       </BrowserRouter>
   )
 }
