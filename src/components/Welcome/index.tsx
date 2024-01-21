@@ -1,10 +1,8 @@
 import './styles.css';
 
 import { Link } from 'react-router-dom';
-// @ts-ignore
 import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
-// @ts-ignore
 import skillLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
 import codeLogo from '../../assets/tools.svg';
@@ -62,10 +60,11 @@ public class Greetings implements
                     <blockquote>
                         I am called <span>Ricardo Ferreira</span> and as a <Link to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Sr Software Engineer</Link>,
                         🛠️ loves to design, writes clean code and deploy web-based business applications.
-                        I have been very succesful being the architect of solutions and applications that have met and even exceeded businesses
-                        and customers requirements in all companies I have been working for, specially in the digital payment industry, having deployes
-                        over the years, applications that helped retail stores increase their profitablity and keeping up with a
-                        fast changing payment requirements. For a comprehensive description of my journey and roadmap up to today,
+                        I have been very succesful being the architect and head developer of solutions and applications that 
+                        have met and even exceeded businesses and customers requirements in all companies I have been working for, 
+                        specially in the digital payments industry, having deployed over the years, applications that have helped retail 
+                        stores increase their profitablity and keeping up with a fast changing payment requirements. 
+                        For a comprehensive description of my journey and roadmap up to today,
                         take a look at my history, clicking on the links below to find out more about my career.
                     </blockquote>
                     <br></br>
@@ -73,10 +72,10 @@ public class Greetings implements
 
                 <Zoom>
                     <div className="contact-me">
-                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} /></Link>
-                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillLogo} /></Link>
-                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" src={codeLogo} /></Link>
-                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} /></Link>
+                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} alt="History"/></Link>
+                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillLogo} alt="Skills"/></Link>
+                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" src={codeLogo} alt="Projects"/></Link>
+                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} alt="Contact"/></Link>
                     </div>
                 </Zoom>
             </div>
