@@ -50,7 +50,7 @@ export default function Contact() {
                     target="_blank"
                     className="contacts-details"
                 >
-                    <i className="fab fa-twitter"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
                 </Link>
                 <Link
                     to="https://www.instagram.com/rnhc1000/"
