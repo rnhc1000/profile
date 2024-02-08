@@ -13,13 +13,14 @@ footer {
     align-items: center;
     color: rgba(218,148,27,1);
     margin: 1rem auto;
-    font-size: 1.0rem;  
+    font-size: 1.25rem;  
     font-weight: 200; 
 }
 
 .footer-container span {
-    font-size: 0.8rem;
-    font-style: italic;
+    font-size: 1.0rem;
+    font-weight: 300;
+    font-style: normal;
     color: orangered;
 }
 

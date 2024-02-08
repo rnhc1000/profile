@@ -7,16 +7,19 @@ import logoHTML from '../../assets/icons/html5-original-wordmark.svg';
 import logoTS from '../../assets/icons/ts-logo-128.svg';
 import logoLinux from '../../assets/icons/linux-original.svg';
 
+
 import Zoom from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
 import Typewriter from '../../utils/TypeWriter';
+import CountUp from 'react-countup';
 
 export default function Footer() {
     
     return (
         <footer>
             <div className="footer-container">
-                <p> &copy; 2024 - All Rights Reserved </p>
+            <CountUp separator="" delay={2} end={2024} />
+                 &copy; All Rights Reserved 
                     <span id="footnote" className="waviy">
                     <Typewriter text="Proudly designed and coded by @Ricardo Ferreira!" delay={200} infinite /></span>
             </div>
