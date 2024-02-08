@@ -7,7 +7,7 @@ import skillLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
 import codeLogo from '../../assets/tools.svg';
 import history from '../../assets/txt.svg';
-
+import CountUp from 'react-countup';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
 import "prismjs/themes/prism-twilight.css";
@@ -54,6 +54,7 @@ public class Greetings implements
 
                     <Rotate>
                         <h1 className="welcome-important">Hello, Everybody!</h1>
+                        
                     </Rotate>
                     <br></br>
 

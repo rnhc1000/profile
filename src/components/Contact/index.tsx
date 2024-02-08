@@ -7,6 +7,7 @@ import springLogo from "../../assets/Spring_Boot.svg";
 import reactLogo from "../../assets/react.svg";
 import mongoLogo from "../../assets/mongo.svg";
 import mysqlLogo from "../../assets/mysql-official.svg";
+import leetcode  from "../../assets/icons/leetcode-svgrepo-com.svg";
 
 import jenkinsLogo from "../../assets/Jenkins_logo.svg";
 
@@ -65,6 +66,13 @@ export default function Contact() {
                     className="contacts-details"
                 >
                     <i className="fab fa-linkedin-in"></i>
+                </Link>
+                <Link
+                    to="https://leetcode.com/rferreira_757/"
+                    target="_blank"
+                    className="contacts-details"
+                >
+                    <img className="contacts-waka" alt="leetcode" src={leetcode}/>
                 </Link>
                 <Link
                     to="mailto:ricardo@ferreiras.dev.br"
