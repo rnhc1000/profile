@@ -21,7 +21,7 @@ export default function Footer() {
             <CountUp separator="" delay={2} end={2024} />
                  &copy; All Rights Reserved 
                     <span id="footnote" className="waviy">
-                    <Typewriter text="Proudly designed and coded by @Ricardo Ferreira!" delay={200} infinite /></span>
+                    <Typewriter text="Designed and coded by Ricardo Ferreira!" delay={200} infinite /></span>
             </div>
             <Zoom>
                 <div className="footer-icons">
