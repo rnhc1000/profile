@@ -16,6 +16,9 @@
 }
 
 
+.sizeSmiley {
+    font-size: 3rem;
+}
 
 .wakatime-links {
     display: flex;
@@ -45,21 +48,45 @@
     align-items: center;
 }
 
-.wakatime-img {
-    border-radius: 45%;
+.contacts-waka {
     position: relative;
-    margin-right: 20px;
-    width:374px;
-    height: 280px;
-    float: left;
+    margin: 0 0.5rem;
+    width:56px;
+    height: 56px;
+    
 }
 
+figure.wakatime-img  {
+
+    border-radius: .1em;
+	border: .1em solid hsl(34, 85%, 47%); /* #282A2B */
+	box-shadow: 1px 1px .5em rgb(20, 20, 20) inset;
+    
+}
+
+.waka-section-qanda {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-linen);
+}
 @media (max-width: 640px) {
     .wakatime-img {
         font-size: 1rem;
-        width:288px;
-        height: 204px;
-        margin: 40px;
-        border-radius: 25%
+        border-radius: .5em;
+    }
+    .contacts-waka {
+        position: relative;
+        margin: 0 0.5rem;
+        width:32px;
+        height: 32px;
+        
+    }
+    .wakatime-section {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    .sizeSmiley {
+        font-size: 2rem;
     }
   }

@@ -3,13 +3,9 @@ import profilePhoto from "../../assets/rnhc.jpg";
 import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 import wakaLogo from "../../assets/java-icon.svg";
-import springLogo from "../../assets/Spring_Boot.svg";
-import reactLogo from "../../assets/react.svg";
-import mongoLogo from "../../assets/mongo.svg";
-import mysqlLogo from "../../assets/mysql-official.svg";
+
 import leetcode  from "../../assets/icons/leetcode-svgrepo-com.svg";
 
-import jenkinsLogo from "../../assets/Jenkins_logo.svg";
 
 
 export default function Contact() {
@@ -19,27 +15,22 @@ export default function Contact() {
 
             <div className="contacts-section-header">
                 <Zoom>
-                    <p><img className="contacts-img" src={profilePhoto} />
-                        Want to keep in touch to know more about projects, coding techniques, tech stuff...
+                    <p className="contacts-section-qanda">
+                        <img className="contacts-img" alt="Photo Profile" src={profilePhoto}/>
+                        Keep in touch to learn details about projects, coding challenges, tech stack...
                     </p>
-                    <p>Make a break, text me, send me an email or even call me ...</p>
                     <br></br>
-                    <p>Real time info?... Take a look at my wakatime data for the past 7 days...</p>
-                    <p> clicking below...😎</p>
+                    <p className = "contacts-section-qanda">
+                        Make a break, text me, send me an email or even call me ...
+                    </p>
                     <br></br>
-                    <div>
-                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" src={wakaLogo}/></Link>
-                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" src={springLogo}/></Link>
-                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" src={reactLogo}/></Link>
-
-                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" src={mongoLogo}/></Link>
-                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" src={mysqlLogo}/></Link>
-
-                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" src={jenkinsLogo}/></Link>
-
-
-                    </div>
-
+                    <p>
+                        <span className = "questions"></span>Q: I still want to know more details as current tech stack, CI/CD, AWS skills... 
+                    </p>
+                    <br></br>
+                    <p className="contacts-section-qanda"> 
+                        A: Find out, clicking here...<Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Wakatime" src={wakaLogo}/></Link>
+                    </p>
                 </Zoom>
                 
 

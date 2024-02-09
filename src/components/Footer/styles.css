@@ -14,7 +14,7 @@ footer {
     color: rgba(218,148,27,1);
     margin: 1rem auto;
     font-size: 1.25rem;  
-    font-weight: 200; 
+    font-weight: 300; 
 }
 
 .footer-container span {
@@ -83,4 +83,9 @@ footer i {
       width: 100%;
       text-align: center;
   }
+  .footer-container {
+
+    font-size: 1rem;  
+    font-weight: 300; 
+}
 }

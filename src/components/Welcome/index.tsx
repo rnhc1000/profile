@@ -7,10 +7,9 @@ import skillLogo from '../../assets/mortarboard.svg';
 import contactLogo from '../../assets/whatsapp.svg';
 import codeLogo from '../../assets/tools.svg';
 import history from '../../assets/txt.svg';
-import CountUp from 'react-countup';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
-import "prismjs/themes/prism-twilight.css";
+import "prismjs/themes/prism-tomorrow.css";
 import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
 import { useEffect } from 'react';
 
@@ -26,7 +25,7 @@ export default function Welcome() {
                     <pre>
                         <code className="language-javascript">
                             {`
-import java.util.ferreiras.profile;
+import java.util.profile.ferreiras.ricardo;
 public class Greetings implements 
                         Hello, EveryBody {
     @Override
