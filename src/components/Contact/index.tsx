@@ -2,8 +2,6 @@ import "./styles.css";
 import profilePhoto from "../../assets/rnhc.jpg";
 import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
-import wakaLogo from "../../assets/java-icon.svg";
-
 import leetcode  from "../../assets/icons/leetcode-svgrepo-com.svg";
 
 
@@ -12,11 +10,9 @@ export default function Contact() {
 
     return (
         <section id="contact-section" className="contacts-section">
-
             <div className="contacts-section-header">
                 <Zoom>
-                    <p className="contacts-section-qanda">
-                        <img className="contacts-img" alt="Photo Profile" src={profilePhoto}/>
+                    <p className="contacts-section-qanda"><img className="contacts-img" alt="Photo Profile" src={profilePhoto}/>
                         Keep in touch to learn details about projects, coding challenges, tech stack...
                     </p>
                     <br></br>
@@ -24,17 +20,14 @@ export default function Contact() {
                         Make a break, text me, send me an email or even call me ...
                     </p>
                     <br></br>
-                    <p>
-                        <span className = "questions"></span>Q: I still want to know more details as current tech stack, CI/CD, AWS skills... 
+                    <p className = "questions">Q: I still want to know more details such as current 
+                    tech stack, CI/CD, AWS skills and more importantly what you been doing most of time ultimately...
                     </p>
                     <br></br>
-                    <p className="contacts-section-qanda"> 
-                        A: Find out, clicking here...<Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Wakatime" src={wakaLogo}/></Link>
+                    <p className="questions"> 
+                        A: OK! Sounds good for me. To find out, click here...<Link to='/Wakatime' className="sizeSmiley">✋🏾</Link>
                     </p>
-                </Zoom>
-                
-
-                    
+                </Zoom>       
             </div>
             <div className="contacts-links">
                 <Link
@@ -102,6 +95,5 @@ export default function Contact() {
                 </Link>
             </div>
         </section>
-
     );
 }
