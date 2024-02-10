@@ -19,11 +19,9 @@ export default function WakaTime() {
 
             <div className="wakatimes-section-header">
                 <Zoom>
-                    <p>
-                        <ReactTyped strings={["Q: How are you doing, Ricardo?"]} typeSpeed={40} /> 
-                    </p>
+
                     <p className="waka-section-qanda">
-                        <ReactTyped strings={["A: I've been doing what I love the most... "]} typeSpeed={100} />
+                        <ReactTyped strings={["This is how I have been spending most of time... coding!"]} typeSpeed={100} />
                     </p>
 
                     <p className="sizeSmiley">

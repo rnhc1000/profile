@@ -8,9 +8,25 @@ import contactLogo from '../../assets/whatsapp.svg';
 import history from '../../assets/txt.svg';
 import codeLogo from '../../assets/tools.svg';
 import { useState } from "react";
-
-
 const imageData = [
+    {
+        label: "cloudOCI",
+        alt: "cloudOCI",
+        url:
+            "src/assets/eCertificateArchitect.jpg"
+    },
+    {
+        label: "fullStack",
+        alt: "fullStack",
+        url:
+            "src/assets/unyLeyaFullStack.jpg"
+    },
+    {
+        label: "scrum",
+        alt: "agile",
+        url:
+            "src/assets/scrum.jpg"
+    },
     {
         label: "git",
         alt: "git",
@@ -109,6 +125,12 @@ const imageData = [
         url:
             "src/assets/springBoot.jpg"
     },
+    {
+        label: "JavaScript",
+        alt: "javaScript",
+        url:
+            "src/assets/freeJavaScript.jpg"
+    },
 
     {
         label: "JavaScript",
@@ -134,6 +156,12 @@ const imageData = [
         alt: "UML",
         url:
             "src/assets/uml.jpg"
+    },
+    {
+        label: "CSS",
+        alt: "CSS",
+        url:
+            "src/assets/webResponsive.jpg"
     },
     {
         label: "CSS",
@@ -205,7 +233,6 @@ const renderSlides = imageData.map((image) => (
     </div>
 ));
 
-
 export default function Skill() {
 
     const [currentIndex, setCurrentIndex] = useState();
@@ -220,7 +247,6 @@ export default function Skill() {
             </div>
             <div>
                 <Carousel
-                    width={1024}
                     interval={5000}
                     showThumbs={false}
                     transitionTime={2}

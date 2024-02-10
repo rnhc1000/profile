@@ -7,7 +7,6 @@ import springBoot from '../../assets/code.png';
 import mapa from '../../assets/mapa.png';
 import zabbix from '../../assets/zbx.png';
 import viaCep from '../../assets/viaCEP.png';
-// @ts-ignore
 import Zoom from 'react-reveal/Zoom';
 import Iframe from 'react-iframe';
 import homeLogo from '../../assets/house-check.svg';
@@ -21,9 +20,9 @@ export default function Project() {
     return (
         
             <section id="project-section" className="projects-section-header">
-                <p>Here are a few of my latest projects!</p>
+                <h4>Here are a few of my latest projects!</h4>
                 <p>Give them a try.... Just click on each image below...</p>
-                <h4>As some of them are corporate apps, call me if you want to know details...</h4>
+                <p>As some of them are corporate apps, call me if you want to know details...</p>
                 <div className="projects-session">
                     <div className="projects-grid">
                         <Zoom>
