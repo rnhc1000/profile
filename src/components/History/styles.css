@@ -104,13 +104,13 @@
     }
   }
 
-dt {
+.dt {
     font-style: italic;
 
 }
 
-blockquote {
-    color: #fff;
+.blockquote {
+    color: var(--text-linen);
 }
 
 
