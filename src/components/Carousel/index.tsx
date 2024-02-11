@@ -73,6 +73,10 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/regex.jpg"
+    },
+    {
+        url:
             "src/assets/phpOOP.png"
     },
     {
@@ -135,11 +139,19 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/dbExpertsPostgreS.png"
+    },
+    {
+        url:
             "src/assets/docker.jpg"
     },
     {
         url:
             "src/assets/kubernets.jpg"
+    },
+    {
+        url:
+            "src/assets/ipv6Br.png"
     },
     {
         url:

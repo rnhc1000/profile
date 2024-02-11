@@ -36,6 +36,11 @@
     color: orangered;
 }
 
+.contacts-waka {
+    height: 48px;
+    width: 48px;
+    color: var(--main-orange);
+}
 
 
 @media (max-width: 28.75em) {

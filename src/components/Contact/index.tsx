@@ -2,7 +2,6 @@ import "./styles.css";
 import profilePhoto from "../../assets/rnhc.jpg";
 import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
-import leetcode  from "../../assets/icons/leetcode-svgrepo-com.svg";
 
 
 
@@ -51,13 +50,7 @@ export default function Contact() {
                 >
                     <i className="fab fa-linkedin-in"></i>
                 </Link>
-                <Link
-                    to="https://leetcode.com/rferreira_757/"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <img className="contacts-waka" alt="leetcode" src={leetcode}/>
-                </Link>
+
                 <Link
                     to="mailto:ricardo@ferreiras.dev.br"
                     target="_blank"
