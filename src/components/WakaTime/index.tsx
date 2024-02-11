@@ -9,6 +9,7 @@ import wakaLogo from "../../assets/java-icon.svg";
 import intellijLogo from "../../assets/icons/IntelliJ_IDEA_Icon.svg";
 import gitLogo from "../../assets/icons/git-scm-icon.svg";
 import bashLogo from "../../assets/icons/icons8-javascript.svg";
+import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
 import Zoom from "react-reveal/Zoom";
 import { ReactTyped } from "react-typed";
 
@@ -30,6 +31,7 @@ export default function WakaTime() {
                     <div>
                     <br></br>
                     <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Wakatime" src={wakaLogo}/></Link>
+                    <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Spring" src={dockerLogo} width="48px" height="48px"/></Link>
                     <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Spring" src={springLogo}/></Link>
                     <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="React" src={reactLogo}/></Link>
                     <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Mongo" src={mongoLogo}/></Link>

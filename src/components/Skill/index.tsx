@@ -1,5 +1,3 @@
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.css";
 import './styles.css';
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
@@ -7,258 +5,20 @@ import homeLogo from '../../assets/house-check.svg';
 import contactLogo from '../../assets/whatsapp.svg';
 import history from '../../assets/txt.svg';
 import codeLogo from '../../assets/tools.svg';
-import { useState } from "react";
-const imageData = [
-    {
-        label: "cloudOCI",
-        alt: "cloudOCI",
-        url:
-            "src/assets/eCertificateArchitect.jpg"
-    },
-    {
-        label: "fullStack",
-        alt: "fullStack",
-        url:
-            "src/assets/unyLeyaFullStack.jpg"
-    },
-    {
-        label: "scrum",
-        alt: "agile",
-        url:
-            "src/assets/scrum.jpg"
-    },
-    {
-        label: "git",
-        alt: "git",
-        url:
-            "src/assets/git.jpg"
-    },
-    {
-        label: "java",
-        alt: "java",
-        url:
-            "src/assets/javaAdvanced.jpg"
-    },
-    {
-        label: "java",
-        alt: "java",
-        url:
-            "src/assets/advancedJava.jpg"
-    },
-    {
-        label: "java",
-        alt: "java",
-        url:
-            "src/assets/javaIntermediate.jpg"
-    },
-    {
-        label: "java",
-        alt: "java",
-        url:
-            "src/assets/javaOO.png"
-    },
-    {
-        label: "java",
-        alt: "java",
-        url:
-            "src/assets/oop.1.jpg"
-    },
-    {
-        label: "dsa",
-        alt: "algoritmos",
-        url:
-            "src/assets/dsaLeetCode.jpg"
-    },
-    {
-        label: "dsa",
-        alt: "algoritmos",
-        url:
-            "src/assets/algoritmosLP.jpg"
-    },
-
-    {
-        label: "dsa",
-        alt: "dsa",
-        url:
-            "src/assets/dsa.jpg"
-    },
-    {
-        label: "dsa",
-        alt: "dsa",
-        url:
-            "src/assets/dataStructures.jpg"
-    },
-    {
-        label: "PHP",
-        alt: "PHP",
-        url:
-            "src/assets/phpOOP.png"
-    },
-    {
-        label: "laravel",
-        alt: "laravel",
-        url: "src/assets/laravelUdemy.jpg"
-    },
-    {
-        label: "mvc",
-        alt: "mvc",
-        url:
-            "src/assets/mvc.jpg"
-    },
-    {
-        label: "mongoDB",
-        alt: "mongoDB",
-        url:
-            "src/assets/mongoDB.jpg"
-    },
 
 
-    {
-        label: "jenkins",
-        alt: "jenkins",
-        url:
-            "src/assets/jenkins.jpg"
-    },
-    {
-        label: "spring",
-        alt: "spring",
-        url:
-            "src/assets/springBoot.jpg"
-    },
-    {
-        label: "JavaScript",
-        alt: "javaScript",
-        url:
-            "src/assets/freeJavaScript.jpg"
-    },
 
-    {
-        label: "JavaScript",
-        alt: "javaScript",
-        url:
-            "src/assets/asyncJS.jpg"
-    },
-    {
-        label: "JavaScript",
-        alt: "javaScript",
-        url:
-            "src/assets/typeScript.jpg"
-    },
-    {
-        label: "JavaScript",
-        alt: "javaScript",
-        url:
-            "src/assets/algaJS.png"
-    },
 
-    {
-        label: "UML",
-        alt: "UML",
-        url:
-            "src/assets/uml.jpg"
-    },
-    {
-        label: "CSS",
-        alt: "CSS",
-        url:
-            "src/assets/webResponsive.jpg"
-    },
-    {
-        label: "CSS",
-        alt: "CSS",
-        url:
-            "src/assets/css.jpg"
-    },
-    {
-        label: "HTML",
-        alt: "HTML",
-        url:
-            "src/assets/algaHtml.png"
-    },
-    {
-        label: "HTML",
-        alt: "HTML",
-        url:
-            "src/assets/html.jpg"
-    },
-    {
-        label: "Docker",
-        alt: "Docker",
-        url:
-            "src/assets/docker.jpg"
-    },
-    {
-        label: "K8",
-        alt: "K8",
-        url:
-            "src/assets/kubernets.jpg"
-    },
-    {
-        label: "Internet",
-        alt: "Internet",
-        url:
-            "src/assets/ccna.jpg"
-    },
-    {
-        label: "Internet",
-        alt: "Internet",
-        url:
-            "src/assets/ccnp.jpg"
-    },
-    {
-        label: "Internet",
-        alt: "Internet",
-        url:
-            "src/assets/ccda.jpg"
-    },
-    {
-        label: "Internet",
-        alt: "Internet",
-        url:
-            "src/assets/ccdp.jpg"
-    },
-    {
-        label: "trello",
-        alt: "trello",
-        url:
-            "src/assets/trello.jpg"
-    },
 
-];
-
-const renderSlides = imageData.map((image) => (
-    <div key={image.alt}>
-        <img src={image.url} alt={image.alt} />
-        <span className="legend">{image.label}</span>
-    </div>
-));
 
 export default function Skill() {
-
-    const [currentIndex, setCurrentIndex] = useState();
-    function handleChange(index) {
-        setCurrentIndex(index);
-    }
 
     return (
         <section id="skill-section" className="skills-section">
             <div className="skills-section-header">
                 <h3>Here are some of my key skills</h3>
             </div>
-            <div>
-                <Carousel
-                    interval={5000}
-                    showThumbs={false}
-                    transitionTime={2}
-                    showArrows={true}
-                    autoPlay={true}
-                    infiniteLoop={true}
-                    selectedItem={imageData[currentIndex]}
-                    onChange={handleChange}
-                >
-                    {renderSlides}
-                </Carousel>
-            </div>
+            <Zoom>
             <div className="skills">
                 <ul>
                     <li>
@@ -351,6 +111,7 @@ export default function Skill() {
                     </li>
                 </ul>
             </div>
+            </Zoom>
             <Zoom>
                 <div className="contact-me">
                     <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} /></Link>
