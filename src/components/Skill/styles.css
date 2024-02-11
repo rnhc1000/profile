@@ -51,6 +51,7 @@
     cursor: pointer;
     transform: translateX(8px);
     font-weight: 800;
+    font-size: 1.75rem;
     transition: transform 0.5s ease-in-out;
     color: rgba(218,148,27,1);
 }
@@ -58,7 +59,8 @@
 .skills:hover {
     cursor: pointer;
     transform: translateX(8px);
-    font-weight: 800;
+    font-weight: 400;
+    font-size: 1.5rem;
     transition: transform 0.5s ease-in-out;
     color: rgba(218,148,27,1);
 }
@@ -124,25 +126,25 @@
     max-width: 640px;
   } */
 
-
+/* 
 .carousel .slide img {
     margin-top: 2rem;
 
     width: 90% !important;
     height: 75% !important;
-}
+} */
 
 /* .carousel-slider {
     margin-top: 2rem;
     width: 100%;
     max-width: 960px;
 } */
-.slider-container {
+/* .slider-container {
     width: 50% !important;
     height: 50%!important;
-}
+} */
 
-.carousel:hover .slide .legend {
+/* .carousel:hover .slide .legend {
     opacity: .1;
     color: orange; 
-}
+} */
