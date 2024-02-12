@@ -13,9 +13,9 @@ const responsive = {
     slidesToSlide: 1 // optional, default to 1.
   },
   mobile: {
-    breakpoint: { max: 767, min: 464 },
-    items: 1,
-    slidesToSlide: 1 // optional, default to 1.
+    breakpoint: { max: 767, min: 320 },
+    items: 2,
+    slidesToSlide: 2 // optional, default to 1.
   }
 };
 const sliderImageUrl = [
@@ -117,7 +117,7 @@ const sliderImageUrl = [
     },
     {
         url:
-            "src/assets/react.jpg"
+            "src/assets/reactCertificate.jpg"
     },
 
     {
@@ -188,6 +188,8 @@ const Slider = () => {
           autoPlay={true}
           swipeable={true}
           draggable={true}
+          customTransition="all 1"
+          transitionDuration={1000}
           showDots={true}
           infinite={true}
           partialVisible={false}
