@@ -115,6 +115,10 @@ const sliderImageUrl = [
         url:
             "src/assets/algaJS.png"
     },
+    {
+        url:
+            "src/assets/react.jpg"
+    },
 
     {
         url:
