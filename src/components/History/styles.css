@@ -35,6 +35,9 @@
   color: var(--main-white);
 
 }
+.history-quote {
+  color: var(--text-linen);
+}
 
 .history-important span {
   color: rgba(218,148,27,1);
