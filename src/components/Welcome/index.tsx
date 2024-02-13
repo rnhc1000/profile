@@ -10,7 +10,7 @@ import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
 import "prismjs/themes/prism-tomorrow.css";
 import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 
 
@@ -22,10 +22,10 @@ export default function Welcome() {
   return (
     <section id="welcome-section">
       <div className="welcome-container">
-
-        <pre>
-          <code className="language-javascript">
-            {`
+        <Zoom>
+          <pre>
+            <code className="language-javascript">
+              {`
     import java.util.profile.ricardo;
     public class Greetings implements 
                     Hello, EveryBody {
@@ -47,11 +47,11 @@ export default function Welcome() {
       }
     }   
 `}
-          </code>
-        </pre>
-
+            </code>
+          </pre>
+        </Zoom>
         <Zoom>
-          <ReactTyped style={{color: 'white'}}className="welcome-important" startWhenVisible strings={["Hello, Everybody!"]} typeSpeed={100} backSpeed={50}/>
+          <ReactTyped style={{ color: 'white' }} className="welcome-important" startWhenVisible strings={["Hello, Everybody!"]} typeSpeed={100} backSpeed={50} />
           <br></br>
 
           <blockquote className="welcome-quote">
