@@ -18,8 +18,9 @@ import history from '../../assets/txt.svg';
 export default function Project() {
 
     return (
-        
-            <section id="project-section" className="projects-section-header">
+
+        <section id="project-section">
+            <div className="projects-container">
                 <h4>Here are a few of my latest projects!</h4>
                 <p>Give them a try.... Just click on each image below...</p>
                 <p>As some of them are corporate apps, call me if you want to know details...</p>
@@ -114,8 +115,7 @@ export default function Project() {
                         <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} /></Link>
                     </div>
                 </Zoom>
-            </section>
-
-        
+            </div>
+        </section >
     );
 }

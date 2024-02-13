@@ -48,12 +48,6 @@
         font-size: 4rem;
     }
 }
-/* p::first-letter {
-    font-weight: 400;
-    color: var(--orange);
-    font-size: 2rem;
-
-  } */
 
 .contacts-links {
     display: flex;
