@@ -2,21 +2,21 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
 const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 1,                                                                                                               
-    slidesToSlide: 1 // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 768 },
-    items: 1,
-    slidesToSlide: 1 // optional, default to 1.
-  },
-  mobile: {
-    breakpoint: { max: 767, min: 320 },
-    items: 2,
-    slidesToSlide: 2 // optional, default to 1.
-  }
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 1,
+        slidesToSlide: 1// optional, default to 1.
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 768 },
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+    },
+    mobile: {
+        breakpoint: { max: 767, min: 320 },
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+    }
 };
 const sliderImageUrl = [
     {
@@ -182,28 +182,33 @@ const sliderImageUrl = [
 
 const Slider = () => {
     return (
-      <div className="parent">
-        <Carousel
-          responsive={responsive}
-          autoPlay={true}
-          swipeable={true}
-          draggable={true}
-          customTransition="all 1"
-          transitionDuration={1000}
-          showDots={true}
-          infinite={true}
-          partialVisible={false}
-          dotListClass="custom-dot-list-style"
-        >
-          {sliderImageUrl.map((imageUrl, index) => {
-            return (
-              <div className="slider" key={index}>
-                <img src={imageUrl.url} alt="movie" />
-              </div>
-            );
-          })}
-        </Carousel>
-      </div>
+        <>
+            <div className="carousel-header">
+                <h4>Here are some of my key skills</h4>
+            </div>
+            <div className="parent">
+                <Carousel
+                    responsive={responsive}
+                    autoPlay={true}
+                    swipeable={true}
+                    draggable={true}
+                    customTransition="all 1"
+                    transitionDuration={1000}
+                    showDots={true}
+                    infinite={true}
+                    partialVisible={false}
+                    dotListClass="custom-dot-list-style"
+                >
+                    {sliderImageUrl.map((imageUrl, index) => {
+                        return (
+                            <div className="slider" key={index}>
+                                <img src={imageUrl.url} style={{ marginLeft: "auto", marginRight: "auto", padding: "0 2rem 0 2rem", display: "flex", justifyContent: "center"}}alt="movie" />
+                            </div>
+                        );
+                    })}
+                </Carousel>
+            </div>
+        </>
     );
-  };
-  export default Slider;
+};
+export default Slider;
