@@ -19,8 +19,8 @@ export default function Contact() {
                         Make a break, text me, send me an email or even call me ...
                     </p>
                     <br></br>
-                    <p className = "questions">Q: I still want to know more details such as current 
-                    tech stack, CI/CD, AWS skills and more importantly what you been doing most of time ultimately...
+                    <p className = "questions">Q: Do you still want to know more details such as current 
+                    tech stack, CI/CD, AWS skills and more importantly what I have been doing most of time ultimately?
                     </p>
                     <br></br>
                     <p className="questions"> 

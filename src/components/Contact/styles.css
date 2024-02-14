@@ -28,6 +28,13 @@
 
 .questions {
     color: var(--text-linen);
+
+}
+
+.question {
+    color: orangered;
+    font-size: 2rem;
+
 }
 
 .questions::first-letter {
