@@ -45,6 +45,12 @@ export default function WakaTime() {
                     </div>
                     <br></br>
                     <p className="waka-section-qanda">
+                        <ReactTyped strings={["My current stats at GitHub.."]} typeSpeed={100} />
+                    </p>
+                    <figure>
+                        <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=dark"></embed>
+                    </figure>
+                    <p className="waka-section-qanda">
                         <ReactTyped strings={["Or doing some challenges at leetcode! Click below to learn more!"]} typeSpeed={100} />
                     </p>
                     <br></br>
@@ -57,10 +63,10 @@ export default function WakaTime() {
                         <img className="contacts-waka" alt="leetcode" src={leetcode} />
                     </Link>
 
+
                     <br></br>
                     <p className="waka-section-qanda">
-                    <ReactTyped strings={["Data collected in real-time by https://wakatime.com..."]} typeSpeed={100} />
-                    
+                        <ReactTyped strings={["Data collected in real-time by https://wakatime.com..."]} typeSpeed={100} />
                     </p>
                     <div className="contacts-links">
                         <Link
