@@ -28,12 +28,12 @@
 }
 
 
-body, html {
+body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
   box-sizing: border-box; 
-  background: linear-gradient(115deg, rgba(0,0,0,0.55), rgba(0, 0, 0, 0.75)), url('assets/lightbulb-1875247_1920.jpg');
+  background: linear-gradient(115deg, rgba(0,0,0,0.55), rgba(0, 0, 0, 0.75)), url('assets/light-bulbs-5488573_1280.webp');
   background-size: cover;
   scroll-behavior: smooth;
   font-family: Roboto, sans-serif;

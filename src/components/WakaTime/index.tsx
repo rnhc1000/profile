@@ -44,12 +44,20 @@ export default function WakaTime() {
                         <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={bashLogo} /></Link>
                     </div>
                     <br></br>
+                    <Link
+                        to="https://github.com/rnhc1000"
+                        target="_blank"
+                    >
                     <p className="waka-section-qanda">
-                        <ReactTyped strings={["My current stats at GitHub.."]} typeSpeed={100} />
+                        <ReactTyped strings={["My current stats at ... "]} typeSpeed={100} /><i className="fab fa-github"></i>  
                     </p>
-                    <figure>
-                        <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=dark"></embed>
+                    </Link>
+                    <br></br>
+                  
+                    <figure className="github-img">
+                        <embed src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnhc1000&layout=compact&theme=dark"></embed>
                     </figure>
+                    <br></br>
                     <p className="waka-section-qanda">
                         <ReactTyped strings={["Or doing some challenges at leetcode! Click below to learn more!"]} typeSpeed={100} />
                     </p>
