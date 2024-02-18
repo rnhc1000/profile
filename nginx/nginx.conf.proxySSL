@@ -68,37 +68,37 @@ http {
        }
 
 server {
-		listen                  201.182.4.22:80;
-		listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:80;
-                server_name             www.ferreiras.dev.br;
-                return                  301 https://www.ferreiras.dev.br$request_uri;
-        }
+
+        listen                  201.182.4.22:80;
+        listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:80;
+        server_name             www.ferreiras.dev.br;
+        return                  301 https://www.ferreiras.dev.br$request_uri;
+}
 
 server {
-		listen                  201.182.4.22:80;
-		listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:80;
-                server_name             ferreiras.dev.br;
-                return                  301 https://ferreiras.dev.br$request_uri;
-        }
+        listen                  201.182.4.22:80;
+        listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:80;
+        server_name             ferreiras.dev.br;
+        return                  301 https://ferreiras.dev.br$request_uri;
+}
 
 server {
-		listen                  201.182.4.22:80;
-		listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:80;
-                server_name             notas.ferreiras.dev.br;
-                return                  301 https://notas.ferreiras.dev.br$request_uri;
-        }
-
+	listen                  201.182.4.22:80;
+	listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:80;
+        server_name             notas.ferreiras.dev.br;
+        return                  301 https://notas.ferreiras.dev.br$request_uri;
+}
 
 server {
         server_name  www.ferreiras.dev.br;
-        expires     1h;
+        expires                 1h;
         listen                  201.182.4.22:443 ssl http2;
 	listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:443 ssl http2;
-        limit_req   zone=gulag  burst=100 nodelay;
-        access_log      /var/log/nginx/ssl-accessFerreiras.log;
-        error_log       /var/log/nginx/ssl-errorFerreiras.log;
-        ssl_certificate      /etc/letsencrypt/live/ferreiras.dev.br/fullchain.pem;
-        ssl_certificate_key  /etc/letsencrypt/live/ferreiras.dev.br/privkey.pem;
+        limit_req               zone=gulag  burst=100 nodelay;
+        access_log              /var/log/nginx/ssl-accessFerreiras.log;
+        error_log               /var/log/nginx/ssl-errorFerreiras.log;
+        ssl_certificate         /etc/letsencrypt/live/ferreiras.dev.br/fullchain.pem;
+        ssl_certificate_key     /etc/letsencrypt/live/ferreiras.dev.br/privkey.pem;
         ssl_protocols TLSv1.3 TLSv1.2;
         ssl_prefer_server_ciphers on;
         ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; 
@@ -129,38 +129,40 @@ server {
         proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         keepalive_timeout    90;
         if ($request_method !~ ^(GET|HEAD|POST)$ ) {
-              return 403;
+                return 403;
         }
         location / {
-                     proxy_intercept_errors          off;
-                     proxy_set_header Host $host;
-                     proxy_set_header X-Forwarded-Host $host;
-                     proxy_set_header X-Forwarded-Server $host;
-                     proxy_set_header X-Forwarded-Host $host:$server_port;
-        	     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-                     proxy_set_header X-Real-IP $remote_addr;
-                     proxy_set_header X-Forwarded-Proto $scheme;
-		     proxy_headers_hash_max_size 512;
-		     proxy_headers_hash_bucket_size 128;
-                     proxy_http_version 1.1;
-                     proxy_set_header Connection "";
-                     proxy_cache off;
-                     proxy_cache_bypass $http_cache_control;
-                     proxy_pass http://172.27.237.1:1957;
+
+                proxy_intercept_errors          off;
+                proxy_set_header Host $host;
+                proxy_set_header X-Forwarded-Host $host;
+                proxy_set_header X-Forwarded-Server $host;
+                proxy_set_header X-Forwarded-Host $host:$server_port;
+        	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-Proto $scheme;
+		proxy_headers_hash_max_size 512;
+		proxy_headers_hash_bucket_size 128;
+                proxy_http_version 1.1;
+                proxy_set_header Connection "";
+                proxy_cache off;
+                proxy_cache_bypass $http_cache_control;
+                proxy_pass http://172.27.237.1:1957;
  	}
 
    }
 
 server {
+
         server_name  ferreiras.dev.br;
-        expires     1h;
+        expires                 1h;
         listen                  201.182.4.22:443 ssl  http2;
 	listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:443 ssl  http2;
-        limit_req   zone=gulag  burst=100 nodelay;
-        access_log      /var/log/nginx/ssl-accessFerreiras.log;
-        error_log       /var/log/nginx/ssl-errorFerreiras.log;
-        ssl_certificate      /etc/letsencrypt/live/ferreiras.dev.br/fullchain.pem;
-        ssl_certificate_key  /etc/letsencrypt/live/ferreiras.dev.br/privkey.pem;
+        limit_req               zone=gulag  burst=100 nodelay;
+        access_log              /var/log/nginx/ssl-accessFerreiras.log;
+        error_log               /var/log/nginx/ssl-errorFerreiras.log;
+        ssl_certificate         /etc/letsencrypt/live/ferreiras.dev.br/fullchain.pem;
+        ssl_certificate_key     /etc/letsencrypt/live/ferreiras.dev.br/privkey.pem;
         ssl_protocols TLSv1.3 TLSv1.2;
         ssl_prefer_server_ciphers on;
         ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; 
@@ -192,67 +194,73 @@ server {
         proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         keepalive_timeout    90;
         if ($request_method !~ ^(GET|HEAD|POST)$ ) {
-              return 403;
+                return 403;
         }
         location / {
-                     proxy_intercept_errors          off;
-                     proxy_set_header Host $host;
-                     proxy_set_header X-Forwarded-Host $host;
-                     proxy_set_header X-Forwarded-Server $host;
-                     proxy_set_header X-Forwarded-Host $host:$server_port;
-        	        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-                     proxy_set_header X-Real-IP $remote_addr;
-                     proxy_set_header X-Forwarded-Proto $scheme;
-		     proxy_headers_hash_max_size 512;
-		     proxy_headers_hash_bucket_size 128;
-                     proxy_http_version 1.1;
-                     proxy_set_header Connection "";
-                     proxy_cache off;
-                     proxy_cache_bypass $http_cache_control;
-                     proxy_pass http://172.27.237.1:1957;
+                proxy_intercept_errors          off;
+                proxy_set_header Host $host;
+                proxy_set_header X-Forwarded-Host $host;
+                proxy_set_header X-Forwarded-Server $host;
+                proxy_set_header X-Forwarded-Host $host:$server_port;
+        	int proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-Proto $scheme;
+		proxy_headers_hash_max_size 512;
+		proxy_headers_hash_bucket_size 128;
+                proxy_http_version 1.1;
+                proxy_set_header Connection "";
+                proxy_cache off;
+                proxy_cache_bypass $http_cache_control;
+                proxy_pass http://172.27.237.1:1957;
  	}
 
 	location /contacts {
-            rewrite ^/contacts/?(.*) /$1 break;
-            proxy_pass http://172.27.237.1:1957;
-            proxy_redirect     off;
-            proxy_set_header   Host $host;
+                rewrite ^/contacts/?(.*) /$1 break;
+                proxy_pass http://172.27.237.1:1957;
+                proxy_redirect     off;
+                proxy_set_header   Host $host;
         }
 
 	location /projects {
-            rewrite ^/projects/?(.*) /$1 break;
-            proxy_pass http://172.27.237.1:1957;
-            proxy_redirect     off;
-            proxy_set_header   Host $host;
+                rewrite ^/projects/?(.*) /$1 break;
+                proxy_pass http://172.27.237.1:1957;
+                proxy_redirect     off;
+                proxy_set_header   Host $host;
         }
 
 	location /skills {
-            rewrite ^/skills/?(.*) /$1 break;
-            proxy_pass http://172.27.237.1:1957;
-            proxy_redirect     off;
-            proxy_set_header   Host $host;
+                rewrite ^/skills/?(.*) /$1 break;
+                proxy_pass http://172.27.237.1:1957;
+                proxy_redirect     off;
+                proxy_set_header   Host $host;
         }
 
 	location /history {
-            rewrite ^/history/?(.*) /$1 break;
-            proxy_pass http://172.27.237.1:1957;
-            proxy_redirect     off;
-            proxy_set_header   Host $host;
+                rewrite ^/history/?(.*) /$1 break;
+                proxy_pass http://172.27.237.1:1957;
+                proxy_redirect     off;
+                proxy_set_header   Host $host;
         }
 
+        	location /Wakatime {
+                rewrite ^/Wakatime/?(.*) /$1 break;
+                proxy_pass http://172.27.237.1:1957;
+                proxy_redirect     off;
+                proxy_set_header   Host $host;
+        }
 
    }
 
 server {
         server_name  notas.ferreiras.dev.br;
-        expires     1h;
+        expires                 1h;
         listen                  201.182.4.22:443 ssl  http2;
 	listen                  [2804:4260:ffff:fff0:0:faca:fada:22]:443 ssl  http2;
-        limit_req   zone=gulag  burst=100 nodelay;
-        access_log      /var/log/nginx/ssl-accessNotasFerreiras.log;
-        error_log       /var/log/nginx/ssl-errorNotasFerreiras.log;
-        ssl_certificate      /etc/letsencrypt/live/notas.ferreiras.dev.br/fullchain.pem;
-        ssl_certificate_key  /etc/letsencrypt/live/notas.ferreiras.dev.br/privkey.pem;
+        limit_req               zone=gulag  burst=100 nodelay;
+        access_log              /var/log/nginx/ssl-accessNotasFerreiras.log;
+        error_log               /var/log/nginx/ssl-errorNotasFerreiras.log;
+        ssl_certificate         /etc/letsencrypt/live/notas.ferreiras.dev.br/fullchain.pem;
+        ssl_certificate_key     /etc/letsencrypt/live/notas.ferreiras.dev.br/privkey.pem;
         ssl_protocols TLSv1.3 TLSv1.2;
         ssl_prefer_server_ciphers on;
         ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
@@ -285,27 +293,25 @@ server {
         proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         keepalive_timeout    90;
         if ($request_method !~ ^(GET|HEAD|POST)$ ) {
-              return 403;
+                return 403;
         }
 
         location / {
-                     proxy_intercept_errors          off;
-                     proxy_set_header Host $host;
-                     proxy_set_header X-Forwarded-Host $host;
-                     proxy_set_header X-Forwarded-Server $host;
-                     proxy_set_header X-Forwarded-Host $host:$server_port;
-                     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-                     proxy_set_header X-Real-IP $remote_addr;
-                     proxy_set_header X-Forwarded-Proto $scheme;
-                     proxy_headers_hash_max_size 512;
-                     proxy_headers_hash_bucket_size 128;
-                     proxy_http_version 1.1;
-                     proxy_set_header Connection "";
-                     proxy_cache off;
-                     proxy_cache_bypass $http_cache_control;
-                     proxy_pass http://172.27.237.1:1958;
+                proxy_intercept_errors          off;
+                proxy_set_header Host $host;
+                proxy_set_header X-Forwarded-Host $host;
+                proxy_set_header X-Forwarded-Server $host;
+                proxy_set_header X-Forwarded-Host $host:$server_port;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                proxy_headers_hash_max_size 512;
+                proxy_headers_hash_bucket_size 128;
+                proxy_http_version 1.1;
+                proxy_set_header Connection "";
+                proxy_cache off;
+                proxy_cache_bypass $http_cache_control;
+                proxy_pass http://172.27.237.1:1958;
         }
-
    }
-
 } # --- Fim do Arquivo de Configuracao NGINX.CONF
