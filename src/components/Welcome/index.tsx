@@ -26,24 +26,33 @@ export default function Welcome() {
           <pre>
             <code className="language-javascript">
               {`
-    import java.util.profile.ricardo;
-    public class Greetings implements 
-                    Hello, EveryBody {
-      @Override
-      public String hello() {
-        return "Hello, ";
+      package br.dev.ferreiras.threads;
+    
+      public class ThreadGreetings {
+      public static void executeAll() {
+        Thread tOne = new Thread(new Runnable() {
+          @Override
+          public void run() {
+            System.out.print("Hello, ");
+          }
+        });
+        Thread tTwo = new Thread(new Runnable() {
+          @Override
+          public void run() {
+            System.out.print("Everybody!");
+          }
+        });
+    
+        List<Runnable> threads = new ArrayList<>();
+        threads.add(threadOne);
+        threads.add(threadTwo);
+    
+        for (Runnable task : threads) {
+          ((Thread) task).start();
+        }
       }
-      @Override
-      public String everybody() {
-        return "Everybody!";
-      }
-
       public static void main(String... args) {
-        Greetings greetings = new Greetings();
-          System.out.println(
-            greetings.hello() + 
-              greetings.everybody()
-          );
+        executeAll();
       }
     }   
 `}
