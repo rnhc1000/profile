@@ -27,10 +27,10 @@ export default function Welcome() {
             <code className="language-javascript">
               {`
       package br.dev.ferreiras.threads;
-    
+       
       public class ThreadGreetings {
-      public static void executeAll() {
-        Thread tOne = new Thread(new Runnable() {
+        public static void executeAll() {
+         Thread tOne = new Thread(new Runnable() {
           @Override
           public void run() {
             System.out.print("Hello, ");
@@ -51,6 +51,7 @@ export default function Welcome() {
           ((Thread) task).start();
         }
       }
+
       public static void main(String... args) {
         executeAll();
       }
