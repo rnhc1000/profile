@@ -27,16 +27,16 @@ export default function Welcome() {
             <code className="language-javascript">
               {`
       package br.dev.ferreiras.threads;
-    
+
       public class ThreadGreetings {
-      public static void executeAll() {
-        Thread tOne = new Thread(new Runnable() {
+        public static void executeAll() {
+         Thread thrdOne = new Thread(new Runnable() {
           @Override
           public void run() {
             System.out.print("Hello, ");
           }
         });
-        Thread tTwo = new Thread(new Runnable() {
+        Thread thrdTwo = new Thread(new Runnable() {
           @Override
           public void run() {
             System.out.print("Everybody!");
@@ -44,13 +44,14 @@ export default function Welcome() {
         });
     
         List<Runnable> threads = new ArrayList<>();
-        threads.add(threadOne);
-        threads.add(threadTwo);
+        threads.add(thrdOne);
+        threads.add(thrdTwo);
     
         for (Runnable task : threads) {
           ((Thread) task).start();
         }
       }
+
       public static void main(String... args) {
         executeAll();
       }
