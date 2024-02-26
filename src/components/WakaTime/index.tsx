@@ -11,6 +11,7 @@ import gitLogo from "../../assets/icons/git-scm-icon.svg";
 import bashLogo from "../../assets/icons/icons8-javascript.svg";
 import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
 import leetcode from "../../assets/icons/leetcode-svgrepo-com.svg";
+import awsLogo from "../../assets/logo-amazon.svg";
 
 import Zoom from "react-reveal/Zoom";
 import { ReactTyped } from "react-typed";
@@ -42,6 +43,8 @@ export default function WakaTime() {
                         <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="IntelliJ" src={intellijLogo} /></Link>
                         <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Git" src={gitLogo} /></Link>
                         <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={bashLogo} /></Link>
+                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={awsLogo} /></Link>
+
                     </div>
                     <br></br>
                     <Link
