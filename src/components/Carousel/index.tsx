@@ -57,6 +57,10 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/aws-practicioner.jpg"
+    },                                                                                                                                                                                                                                                                                          
+    {
+        url:                                                                                                                                                                                                                                                                                            
             "src/assets/dsaLeetCode.jpg"
     },
     {

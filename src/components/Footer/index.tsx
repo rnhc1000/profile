@@ -19,9 +19,9 @@ export default function Footer() {
         <footer>
             <div className="footer-container">
             <CountUp separator="" delay={2} end={2024} />
-                 &copy; All Rights Reserved 
+                 &copy;Ricardo Ferreira - All rights reserved
                     <span id="footnote" className="waviy">
-                    <Typewriter text="Designed and coded by Ricardo Ferreira!" delay={200} infinite /></span>
+                    <Typewriter text="Powered by AWS EC2" delay={200} infinite /></span>
             </div>
             <Zoom>
                 <div className="footer-icons">
