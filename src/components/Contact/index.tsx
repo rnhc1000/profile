@@ -44,7 +44,7 @@ export default function Contact() {
                     <i className="fab fa-instagram"></i>
                 </Link>
                 <Link
-                    to="https://www.linkedin.com/in/ricardo-ferreira-91b84a26"
+                    to="https://www.linkedin.com/in/ricardoaferreirasilva/"
                     target="_blank"
                     className="contacts-details"
                 >
@@ -59,14 +59,14 @@ export default function Contact() {
                     <i className="fa fa-at"></i>
                 </Link>
                 <Link
-                    to="tel:+55 71 9 9300-5555"
+                    to="https://wa.me/5571993005555"
                     target="_blank"
                     className="contacts-details"
                 >
                     <i className="fab fa-whatsapp"></i>
                 </Link>
                 <Link
-                    to="tel:+55 71 9 9300-5555"
+                    to="https://t.me/RicardoFerreira57"
                     target="_blank"
                     className="contacts-details"
                 >
