@@ -2,10 +2,10 @@ import './styles.css';
 
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
-import homeLogo from '../../assets/house-check.svg';
-import skillLogo from '../../assets/mortarboard.svg';
-import contactLogo from '../../assets/whatsapp.svg';
-import codeLogo from '../../assets/tools.svg';
+import homeLogo from '../../assets/svg/house-check.svg';
+import skillLogo from '../../assets/svg/mortarboard.svg';
+import contactLogo from '../../assets/svg/whatsapp.svg';
+import codeLogo from '../../assets/svg/tools.svg';
 
 
 export default function History() {

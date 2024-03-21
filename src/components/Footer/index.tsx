@@ -25,26 +25,26 @@ export default function Footer() {
             </div>
             <Zoom>
                 <div className="footer-icons">
-                    <Link to="https://react.dev" target="_blank">
-                        <img src={logoReact} />
+                    <Link to="https://react.dev" target="_blank" aria-label="Visit react.dev">
+                        <img src={logoReact} alt="ReactJS" />
                     </Link>
-                    <Link to="https://typescriptlang.org" target="_blank">
-                        <img src={logoTS} />
+                    <Link to="https://typescriptlang.org" target="_blank" aria-label="Visit typescriptlang.org">
+                        <img src={logoTS} alt="Typescript" />
                     </Link>
-                    <Link to="https://www.ecma-international.org" target="_blank">
-                        <img src={logoJS} />
+                    <Link to="https://www.ecma-international.org" target="_blank" aria-label="Visit ecma-international.org">
+                        <img src={logoJS} alt="Javascript" />
                     </Link>
-                    <Link to="https://git-scm.com/" target="_blank">
-                        <img src={logoGit} />
+                    <Link to="https://git-scm.com/" target="_blank" aria-label="Visit git-scm.com">
+                        <img src={logoGit} alt="Git" />
                     </Link>
-                    <Link to="https://www.w3.org/" target="_blank">
-                        <img src={logoCSS} />
+                    <Link to="https://www.w3.org/" target="_blank" aria-label="Visit w3.org">
+                        <img src={logoCSS} alt="CSS"/>
                     </Link>
-                    <Link to="https://html.spec.whatwg.org/" target="_blank">
-                        <img src={logoHTML} />
+                    <Link to="https://html.spec.whatwg.org/" target="_blank" aria-label="Visit html.spec.whatwg.org">
+                        <img src={logoHTML} alt="HTML" />
                     </Link>
-                    <Link to="https://www.linux.org/" target="_blank">
-                        <img src={logoLinux} />
+                    <Link to="https://www.linux.org/" target="_blank" aria-label="Visit linux.org">
+                        <img src={logoLinux} alt="Linux" />
                     </Link>
                 </div>
             </Zoom>

@@ -1,17 +1,17 @@
 import './styles.css';
 import { Link } from "react-router-dom";
-import springLogo from "../../assets/Spring_Boot.svg";
-import reactLogo from "../../assets/react.svg";
-import mongoLogo from "../../assets/mongo.svg";
-import mysqlLogo from "../../assets/mysql-official.svg";
-import jenkinsLogo from "../../assets/Jenkins_logo.svg";
-import wakaLogo from "../../assets/java-icon.svg";
+import springLogo from "../../assets/svg/Spring_Boot.svg";
+import reactLogo from "../../assets/svg/react.svg";
+import mongoLogo from "../../assets/svg/mongo.svg";
+import mysqlLogo from "../../assets/svg/mysql-official.svg";
+import jenkinsLogo from "../../assets/svg/Jenkins_logo.svg";
+import wakaLogo from "../../assets/svg/java-icon.svg";
 import intellijLogo from "../../assets/icons/IntelliJ_IDEA_Icon.svg";
 import gitLogo from "../../assets/icons/git-scm-icon.svg";
 import bashLogo from "../../assets/icons/icons8-javascript.svg";
 import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
 import leetcode from "../../assets/icons/leetcode-svgrepo-com.svg";
-import awsLogo from "../../assets/logo-amazon.svg";
+import awsLogo from "../../assets/svg/logo-amazon.svg";
 
 import Zoom from "react-reveal/Zoom";
 import { ReactTyped } from "react-typed";
