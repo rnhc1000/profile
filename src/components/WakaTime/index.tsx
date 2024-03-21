@@ -48,6 +48,7 @@ export default function WakaTime() {
                     </div>
                     <br></br>
                     <Link
+                        rel="dns-prefetch"
                         to="https://github.com/rnhc1000"
                         target="_blank"
                     >
@@ -67,6 +68,7 @@ export default function WakaTime() {
                     <br></br>
 
                     <Link
+                        rel="dns-prefetch"
                         to="https://leetcode.com/rferreira_757/"
                         target="_blank"
                         className="contacts-details"
@@ -81,6 +83,7 @@ export default function WakaTime() {
                     </p>
                     <div className="contacts-links">
                         <Link
+                            rel="dns-prefetch"
                             to="https://wakatime.com"
                             target="_blank"
                             className="contacts-details"

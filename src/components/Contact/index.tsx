@@ -30,6 +30,7 @@ export default function Contact() {
             </div>
             <div className="contacts-links">
                 <Link
+                    rel="dns-prefetch"
                     to="https://twitter.com/Ricardo18101957"
                     target="_blank"
                     className="contacts-details"
@@ -37,6 +38,7 @@ export default function Contact() {
                     <i className="fa-brands fa-x-twitter"></i>
                 </Link>
                 <Link
+                    rel="dns-prefetch"
                     to="https://www.instagram.com/rnhc1000/"
                     target="_blank"
                     className="contacts-details"
@@ -44,6 +46,7 @@ export default function Contact() {
                     <i className="fab fa-instagram"></i>
                 </Link>
                 <Link
+                    rel="dns-prefetch"
                     to="https://www.linkedin.com/in/ricardoaferreirasilva/"
                     target="_blank"
                     className="contacts-details"
@@ -52,6 +55,7 @@ export default function Contact() {
                 </Link>
 
                 <Link
+                    rel="dns-prefetch"
                     to="mailto:ricardo@ferreiras.dev.br"
                     target="_blank"
                     className="contacts-details"
@@ -59,6 +63,7 @@ export default function Contact() {
                     <i className="fa fa-at"></i>
                 </Link>
                 <Link
+                    rel="dns-prefetch"
                     to="https://wa.me/5571993005555"
                     target="_blank"
                     className="contacts-details"
@@ -66,6 +71,7 @@ export default function Contact() {
                     <i className="fab fa-whatsapp"></i>
                 </Link>
                 <Link
+                    rel="dns-prefetch"
                     to="https://t.me/RicardoFerreira57"
                     target="_blank"
                     className="contacts-details"
@@ -73,6 +79,7 @@ export default function Contact() {
                     <i className="fab fa-telegram"></i>
                 </Link>
                 <Link
+                    rel="dns-prefetch"
                     to="https://github.com/rnhc1000"
                     target="_blank"
                     className="contacts-details"
@@ -80,6 +87,7 @@ export default function Contact() {
                     <i className="fab fa-github"></i>
                 </Link>
                 <Link
+                    rel="dns-prefetch"
                     to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf"
                     target="_blank"
                     className="contacts-details"

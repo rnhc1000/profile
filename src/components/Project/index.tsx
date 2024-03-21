@@ -41,7 +41,7 @@ export default function Project() {
                             />
                         </Zoom>
                         <Zoom>
-                            <Link to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={dashBoard} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
@@ -51,7 +51,7 @@ export default function Project() {
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link to="https://easypag.simatef.com.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://easypag.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={easyPag}
                                     alt="project"></img>
                                 <p className="project-title">
@@ -60,7 +60,7 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-tile">
                                 <img className="project-image" src={devOps} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
@@ -70,7 +70,7 @@ export default function Project() {
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link to="https://github.com/rnhc1000" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000" target="_blank" className="project project-tile">
                                 <img className="project-image" src={springBoot} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
@@ -78,7 +78,7 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={mapa} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
@@ -88,7 +88,7 @@ export default function Project() {
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link to="https://zabbixx.simatef.com.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://zabbixx.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={zabbix} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
@@ -96,7 +96,7 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link to="https://notas.ferreiras.dev.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://notas.ferreiras.dev.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={viaCep} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
