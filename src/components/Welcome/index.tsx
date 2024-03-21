@@ -1,17 +1,21 @@
 import './styles.css';
 
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { ReactTyped } from "react-typed";
+
 import Zoom from 'react-reveal/Zoom';
-import skillLogo from '../../assets/svg/mortarboard.svg';
-import contactLogo from '../../assets/svg/whatsapp.svg';
-import codeLogo from '../../assets/svg/tools.svg';
-import history from '../../assets/svg/txt.svg';
+
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
 import "prismjs/themes/prism-tomorrow.css";
 import 'prismjs/plugins/line-numbers/prism-line-numbers.js'
-import { useEffect } from 'react';
-import { ReactTyped } from "react-typed";
+
+import skillLogo from '../../assets/svg/mortarboard.svg';
+import contactLogo from '../../assets/svg/whatsapp.svg';
+import codeLogo from '../../assets/svg/tools.svg';
+import history from '../../assets/svg/txt.svg';
+
 
 
 export default function Welcome() {
@@ -54,7 +58,7 @@ export default function Welcome() {
           <br></br>
 
           <blockquote className="welcome-quote">
-            I am called <span>Ricardo Ferreira</span> and as a <Link to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Sr Software Engineer</Link>,
+            I am called <span>Ricardo Ferreira</span> and as a <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Sr Software Engineer</Link>,
             🛠️ loves to design, writes clean code and deploy web-based business applications.
             I have been very succesful being the architect and head developer of solutions and applications that
             have met and even exceeded businesses and customers requirements in all companies I have been working for,
