@@ -21,165 +21,165 @@ const responsive = {
 const sliderImageUrl = [
     {
         url:
-            "src/assets/eCertificateArchitect.jpg"
+            "src/assets/webp/eCertificateArchitect.jpg.webp"
     },
     {
         url:
-            "src/assets/unyLeyaFullStack.jpg"
+            "src/assets/webp/unyLeyaFullStack.jpg.webp"
     },
     {
         url:
-            "src/assets/scrum.jpg"
+            "src/assets/webp/scrum.jpg.webp"
     },
     {
         url:
-            "src/assets/git.jpg"
+            "src/assets/webp/git.jpg.webp"
     },
     {
         url:
-            "src/assets/javaAdvanced.jpg"
+            "src/assets/webp/javaAdvanced.jpg.webp"
     },
     {
         url:
-            "src/assets/advancedJava.jpg"
+            "src/assets/webp/advancedJava.jpg.webp"
     },
     {
         url:
-            "src/assets/javaIntermediate.jpg"
+            "src/assets/webp/javaIntermediate.jpg.webp"
     },
     {
         url:
-            "src/assets/javaOO.png"
+            "src/assets/webp/javaOO.png.webp"
     },
     {
         url:
-            "src/assets/oop.1.jpg"
+            "src/assets/webp/oop.1.jpg.webp"
     },
     {
         url:
-            "src/assets/aws-practicioner.jpg"
+            "src/assets/webp/aws-practicioner.jpg.webp"
     },                                                                                                                                                                                                                                                                                          
     {
         url:                                                                                                                                                                                                                                                                                            
-            "src/assets/dsaLeetCode.jpg"
+            "src/assets/webp/dsaLeetCode.jpg.webp"
     },
     {
         url:
-            "src/assets/algoritmosLP.jpg"
+            "src/assets/webp/algoritmosLP.jpg.webp"
     },
     {
         url:
-            "src/assets/dsa.jpg"
+            "src/assets/webp/dsa.jpg.webp"
     },
     {
         url:
-            "src/assets/dataStructures.jpg"
+            "src/assets/webp/dataStructures.jpg.webp"
     },
     {
         url:
-            "src/assets/regex.jpg"
+            "src/assets/webp/regex.jpg.webp"
     },
     {
         url:
-            "src/assets/phpOOP.png"
+            "src/assets/webp/phpOOP.png.webp"
     },
     {
-        url: "src/assets/laravelUdemy.jpg"
-    },
-    {
-        url:
-            "src/assets/mvc.jpg"
+        url: "src/assets/webp/laravelUdemy.jpg.webp"
     },
     {
         url:
-            "src/assets/mongoDB.jpg"
+            "src/assets/webp/mvc.jpg.webp"
     },
     {
         url:
-            "src/assets/jenkins.jpg"
+            "src/assets/webp/mongoDB.jpg.webp"
     },
     {
         url:
-            "src/assets/springBoot.jpg"
+            "src/assets/webp/jenkins.jpg.webp"
     },
     {
         url:
-            "src/assets/freeJavaScript.jpg"
+            "src/assets/webp/springBoot.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/freeJavaScript.jpg.webp"
     },
 
     {
         url:
-            "src/assets/asyncJS.jpg"
+            "src/assets/webp/asyncJS.jpg.webp"
     },
     {
         url:
-            "src/assets/typeScript.jpg"
+            "src/assets/webp/typeScript.jpg.webp"
     },
     {
         url:
-            "src/assets/algaJS.png"
+            "src/assets/webp/algaJS.png.webp"
     },
     {
         url:
-            "src/assets/reactCertificate.jpg"
+            "src/assets/webp/reactCertificate.jpg.webp"
     },
 
     {
         url:
-            "src/assets/uml.jpg"
+            "src/assets/webp/uml.jpg.webp"
     },
     {
         url:
-            "src/assets/webResponsive.jpg"
+            "src/assets/webp/webResponsive.jpg.webp"
     },
     {
         url:
-            "src/assets/css.jpg"
+            "src/assets/webp/css.jpg.webp"
     },
     {
 
         url:
-            "src/assets/algaHtml.png"
+            "src/assets/webp/algaHtml.png.webp"
     },
     {
         url:
-            "src/assets/html.jpg"
+            "src/assets/webp/html.jpg.webp"
     },
     {
         url:
-            "src/assets/dbExpertsPostgreS.png"
+            "src/assets/webp/dbExpertsPostgreS.png.webp"
     },
     {
         url:
-            "src/assets/docker.jpg"
+            "src/assets/webp/docker.jpg.webp"
     },
     {
         url:
-            "src/assets/kubernets.jpg"
+            "src/assets/webp/kubernets.jpg.webp"
     },
     {
         url:
-            "src/assets/ipv6Br.png"
+            "src/assets/webp/ipv6Br.png.webp"
     },
     {
         url:
-            "src/assets/ccna.jpg"
+            "src/assets/webp/ccna.jpg.webp"
     },
     {
         url:
-            "src/assets/ccnp.jpg"
+            "src/assets/webp/ccnp.jpg.webp"
     },
     {
         url:
-            "src/assets/ccda.jpg"
+            "src/assets/webp/ccda.jpg.webp"
     },
     {
         url:
-            "src/assets/ccdp.jpg"
+            "src/assets/webp/ccdp.jpg.webp"
     },
     {
         url:
-            "src/assets/trello.jpg"
+            "src/assets/webp/trello.jpg.webp"
     },
 
 ];

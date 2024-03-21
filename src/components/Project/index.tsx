@@ -1,18 +1,18 @@
 import './styles.css';
-import dashBoard from '../../assets/dashboard.png';
 import { Link } from 'react-router-dom';
-import easyPag from '../../assets/easypayBackEnd.png';
-import devOps from '../../assets/devOps.png';
-import springBoot from '../../assets/code.png';
-import mapa from '../../assets/mapa.png';
-import zabbix from '../../assets/zbx.png';
-import viaCep from '../../assets/viaCEP.png';
 import Zoom from 'react-reveal/Zoom';
 import Iframe from 'react-iframe';
-import homeLogo from '../../assets/house-check.svg';
-import skillsLogo from '../../assets/mortarboard.svg';
-import contactLogo from '../../assets/whatsapp.svg';
-import history from '../../assets/txt.svg';
+import dashBoard from '../../assets/webp/dashboard.png.webp';
+import easyPag from '../../assets/webp/easypayBackEnd.png.webp';
+import devOps from '../../assets/webp/devOps.png.webp';
+import springBoot from '../../assets/webp/code.png.webp';
+import mapa from '../../assets/webp/mapa.png.webp';
+import zabbix from '../../assets/webp/zbx.png.webp';
+import viaCep from '../../assets/webp/viaCEP.png.webp';
+import homeLogo from '../../assets/svg/house-check.svg';
+import skillsLogo from '../../assets/svg/mortarboard.svg';
+import contactLogo from '../../assets/svg/whatsapp.svg';
+import history from '../../assets/svg/txt.svg';
 
 
 export default function Project() {

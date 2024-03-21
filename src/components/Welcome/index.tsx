@@ -2,10 +2,10 @@ import './styles.css';
 
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
-import skillLogo from '../../assets/mortarboard.svg';
-import contactLogo from '../../assets/whatsapp.svg';
-import codeLogo from '../../assets/tools.svg';
-import history from '../../assets/txt.svg';
+import skillLogo from '../../assets/svg/mortarboard.svg';
+import contactLogo from '../../assets/svg/whatsapp.svg';
+import codeLogo from '../../assets/svg/tools.svg';
+import history from '../../assets/svg/txt.svg';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
 import "prismjs/themes/prism-tomorrow.css";

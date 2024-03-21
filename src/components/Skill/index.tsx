@@ -1,10 +1,10 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
-import homeLogo from '../../assets/house-check.svg';
-import contactLogo from '../../assets/whatsapp.svg';
-import history from '../../assets/txt.svg';
-import codeLogo from '../../assets/tools.svg';
+import homeLogo from '../../assets/svg/house-check.svg';
+import contactLogo from '../../assets/svg/whatsapp.svg';
+import history from '../../assets/svg/txt.svg';
+import codeLogo from '../../assets/svg/tools.svg';
 
 export default function Skill() {
 
@@ -108,9 +108,9 @@ export default function Skill() {
                 <Zoom>
                     <div className="contact-me">
                         <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} /></Link>
-                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} /></Link>
-                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" src={codeLogo} /></Link>
-                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} /></Link>
+                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" alt="History"src={history} /></Link>
+                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" alt="Projects" src={codeLogo} /></Link>
+                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" alt="Contact" src={contactLogo} /></Link>
                     </div>
                 </Zoom>
             </div>

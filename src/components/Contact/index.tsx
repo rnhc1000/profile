@@ -1,5 +1,5 @@
 import "./styles.css";
-import profilePhoto from "../../assets/rnhc.jpg";
+import profilePhoto from "../../assets/webp/rnhc.jpg.webp";
 import { Link } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 
