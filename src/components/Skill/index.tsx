@@ -107,7 +107,7 @@ export default function Skill() {
                 </Zoom>
                 <Zoom>
                     <div className="contact-me">
-                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} /></Link>
+                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" alt="Home" src={homeLogo} /></Link>
                         <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" alt="History"src={history} /></Link>
                         <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" alt="Projects" src={codeLogo} /></Link>
                         <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" alt="Contact" src={contactLogo} /></Link>

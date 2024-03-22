@@ -29,12 +29,9 @@ const sliderImageUrl = [
     },
     {
         url:
-            "src/assets/webp/scrum.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/git.jpg.webp"
-    },
+            "src/assets/webp/javaMultithreaded.jpg.webp"
+    },  
+
     {
         url:
             "src/assets/webp/javaAdvanced.jpg.webp"
@@ -57,8 +54,12 @@ const sliderImageUrl = [
     },
     {
         url:
-            "src/assets/webp/aws-practicioner.jpg.webp"
-    },                                                                                                                                                                                                                                                                                          
+            "src/assets/webp/scrum.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/git.jpg.webp"
+    },                                                                                                                                                                                                                                                                                    
     {
         url:                                                                                                                                                                                                                                                                                            
             "src/assets/webp/dsaLeetCode.jpg.webp"
@@ -75,6 +76,10 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/dataStructures.jpg.webp"
     },
+    {
+        url:
+            "src/assets/webp/aws-practicioner.jpg.webp"
+    }, 
     {
         url:
             "src/assets/webp/regex.jpg.webp"
