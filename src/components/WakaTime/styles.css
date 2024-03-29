@@ -50,8 +50,39 @@
 .contacts-waka {
     position: relative;
     margin: 0 0.5rem;
-    width:56px;
-    height: 56px; 
+    width:128px;
+    height: 128px; 
+}
+
+.quest-waka {
+    position: relative;
+    margin: 0 1rem;
+    width: 128px;
+    height: 128px; 
+}
+
+.cert-waka {
+    position: relative;
+    margin: 0 1rem;
+    width: 256px;
+    height: 128px; 
+
+}
+
+.essential-waka {
+    position: relative;
+    margin: 0 1rem;
+    width: 128px;
+    height: 128px; 
+
+}
+
+.oca-waka {
+    position: relative;
+    margin: 0 1rem;
+    width: 256px;
+    height: 128px; 
+
 }
 
 figure.wakatime-img  {

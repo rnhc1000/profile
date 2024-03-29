@@ -62,9 +62,10 @@ export default function Welcome() {
             🛠️ loves to design, writes clean code and deploy web-based business applications.
             I have been very succesful being the architect and head developer of solutions and applications that
             have met and even exceeded businesses and customers requirements in all companies I have been working for,
-            specially in the digital payments industry, having deployed over the years, applications that have helped retail
-            stores increase their profitablity and keeping up with a fast changing payment requirements.
-            For a comprehensive description of my journey and roadmap up to today,
+            specially in the digital payments industry. <br /><br />
+            I have deployed applications that have helped thousands of retail
+            stores increase their profitablity and productivity, dealing with modern languages, frameworks, cloud computing, security and compliance to  
+            keep up with a fast changing payment industry requirements. <br /><br /> For a comprehensive description of my journey and roadmap up to today,
             take a look at my history, clicking on the links below to find out more about my career.
           </blockquote>
           <br></br>

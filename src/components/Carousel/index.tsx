@@ -51,6 +51,14 @@ const sliderImageUrl = [
     {
         url:
             "src/assets/webp/oop.1.jpg.webp"
+    },  
+    {
+        url:
+            "src/assets/webp/cloudFoundations.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/cloudEssentials.jpg.webp"
     },
     {
         url:
