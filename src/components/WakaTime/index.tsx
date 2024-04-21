@@ -48,7 +48,7 @@ export default function WakaTime() {
                     <br></br>
                   
                     <figure className="github-img">
-                        <embed src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnhc1000&layout=compact&theme=dark"></embed>
+                        <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=dark)](https://git.io/streak-stats"></embed>
                     </figure>
                     <br></br>
                     <p className="waka-section-qanda">
