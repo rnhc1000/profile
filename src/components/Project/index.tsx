@@ -31,22 +31,29 @@ export default function Project() {
                                 width="480px"
                                 height="240px"
                                 id=""
-                                className="project-title"
+                                className="project-title"     
                             />
+                            </Zoom>
+                            
+                            <Zoom>
+                            
                             <Iframe url="https://www.youtube.com/embed/CIT60s-Adrs"
                                 width="480px"
                                 height="240px"
                                 id=""
                                 className="project-title"
+                                
                             />
-                        </Zoom>
+                            
+                            </Zoom>
+                        
                         <Zoom>
                             <Link rel="dns-prefetch" to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={dashBoard} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
                                     Financial OPs
-                                    <span className="code">/&gt;</span>
+                                    <span className="code">&gt;</span>
                                 </p>
                             </Link>
                         </Zoom>
@@ -60,14 +67,15 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link rel="dns-prefetch" to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-tile">
-                                <img className="project-image" src={devOps} alt="project"></img>
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/viaCEP.git" target="_blank" className="project project-tile">
+                                <img className="project-image" src={viaCep} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
-                                    devOps
+                                    ZIP code - BR
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
+
                         </Zoom>
                         <Zoom>
                             <Link rel="dns-prefetch" to="https://github.com/rnhc1000" target="_blank" className="project project-tile">
@@ -96,23 +104,24 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link rel="dns-prefetch" to="https://notas.ferreiras.dev.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={viaCep} alt="project"></img>
+                            <Link rel="dns-prefetch" to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-tile">
+                                <img className="project-image" src={devOps} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">&lt;</span>
-                                    ZIP code - BR
+                                    devOps
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
+
                         </Zoom>
                     </div>
                 </div>
                 <Zoom>
                     <div className="contact-me">
-                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} /></Link>
-                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} /></Link>
-                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillsLogo} /></Link>
-                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} /></Link>
+                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" alt="Home" src={homeLogo} /></Link>
+                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" alt="History" src={history} /></Link>
+                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" alt="Skills" src={skillsLogo} /></Link>
+                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" alt="Contact" src={contactLogo} /></Link>
                     </div>
                 </Zoom>
             </div>
