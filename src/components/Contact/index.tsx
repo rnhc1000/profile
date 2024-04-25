@@ -11,12 +11,13 @@ export default function Contact() {
         <section id="contact-section" className="contacts-section">
             <div className="contacts-section-header">
                 <Zoom>
-                    <p className="contacts-section-qanda"><img className="contacts-img" alt="Photo Profile" src={profilePhoto}/>
+                    <img className="contacts-img" alt="Profile" src={profilePhoto}/>
+                    <p className="contacts-section-qanda"> 
                         Keep in touch to learn details about projects, coding challenges, tech stack...
                     </p>
                     <br></br>
                     <p className = "contacts-section-qanda">
-                        Make a break, text me, send me an email or even call me ...
+                        Make a break, text me, send me an email or download my resume, <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> clicking here</Link>...
                     </p>
                     <br></br>
                     <p className = "questions">Q: Do you still want to know more details such as current 
