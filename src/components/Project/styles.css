@@ -88,6 +88,11 @@
     height: 240px;
 }
 
+.projects-grid-leetcode {
+    width: 20rem;
+    height: 20rem;
+}
+
 .scroll-container {
     position: absolute;
     top: 0;
