@@ -1,6 +1,5 @@
 ## Professional Web Page - @Ricardo Ferreira
-Here I attempt to show my trajetory as a Software Engineer facing a lot of different projects most of them turned out to be very succesful products and helped companies I worked for, to increase their profitability and productivity.
-Here are some of the technologies I have dealt with
+This is a real attempt to show my career development as a software engineer, facing a lot of different projects, most of which turned out to be very successful products and helped companies I worked for increase their profitability and productivity. Here are some of the technologies I have dealt with
 - ReactJS, HTML, CSS & JavaScript
 - Java & Spring Boot & Maven
 - PHP, MySQL & Apache/Nginx

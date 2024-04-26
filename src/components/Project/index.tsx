@@ -37,15 +37,12 @@ export default function Project() {
                             </Zoom>
                             
                             <Zoom>
-                            
                             <Iframe url="https://www.youtube.com/embed/CIT60s-Adrs"
                                 width="480px"
                                 height="240px"
                                 id=""
-                                className="project-title"
-                                
+                                className="project-title"   
                             />
-                            
                             </Zoom>
                         
                         <Zoom>
@@ -76,10 +73,8 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-
                         </Zoom>
-                        <Zoom>
-                            
+                        <Zoom>       
                             <Link rel="dns-prefetch" to="https://github.com/rnhc1000/challenge75.git" target="_blank" className="project project-title">
                                 <img className= "projects-grid-leetcode" src={springBoot} alt="project"></img>
                                 <p className="project-title">
