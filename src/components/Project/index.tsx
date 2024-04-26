@@ -6,6 +6,7 @@ import dashBoard from '../../assets/webp/dashboard.png.webp';
 import easyPag from '../../assets/webp/easypayBackEnd.png.webp';
 import devOps from '../../assets/webp/devOps.png.webp';
 import springBoot from '../../assets/webp/code.png.webp';
+// import leetcode from '../../assets/webp/leetcodeProject.png.webp';
 import mapa from '../../assets/webp/mapa.png.webp';
 import zabbix from '../../assets/webp/zbx.png.webp';
 import viaCep from '../../assets/webp/viaCEP.png.webp';
@@ -51,64 +52,66 @@ export default function Project() {
                             <Link rel="dns-prefetch" to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={dashBoard} alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    Financial OPs
-                                    <span className="code">&gt;</span>
+                                <span className="code">
+                                    &lt;Transctions Portal</span>
+                                    <span className="code">/&gt;</span>
                                 </p>
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link rel="dns-prefetch" to="https://easypag.simatef.com.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://easypag.simatef.com.br" target="_blank" className="project project-title">
                                 <img className="project-image" src={easyPag}
                                     alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    &copy;easyPAY frontEnd
+                                <span className="code">
+                                    &lt;easyPAY</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/viaCEP.git" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/viaCEP.git" target="_blank" className="project project-title">
                                 <img className="project-image" src={viaCep} alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    ZIP code - BR
+                                <span className="code">
+                                    &lt;Zip Code</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
 
                         </Zoom>
                         <Zoom>
-                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000" target="_blank" className="project project-tile">
-                                <img className="project-image" src={springBoot} alt="project"></img>
+                            
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/challenge75.git" target="_blank" className="project project-title">
+                                <img className= "projects-grid-leetcode" src={springBoot} alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    code
+                                <span className="code">
+                                    &lt;LeetCode</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link rel="dns-prefetch" to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-tile">
+                            
+                            <Link rel="dns-prefetch" to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-title">
                                 <img className="project-image" src={mapa} alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    GeoIP - Merchants
+                                <span className="code">
+                                    &lt;GeoIP-Merchants</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link rel="dns-prefetch" to="https://zabbixx.simatef.com.br" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://zabbixx.simatef.com.br" target="_blank" className="project project-title">
                                 <img className="project-image" src={zabbix} alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    devOPs
+                                <span className="code">
+                                    &lt;devOps</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                            <Link rel="dns-prefetch" to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-title">
                                 <img className="project-image" src={devOps} alt="project"></img>
                                 <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    devOps
+                                    <span className="code">
+                                    &lt;devOps</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
