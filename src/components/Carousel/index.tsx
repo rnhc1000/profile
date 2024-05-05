@@ -46,6 +46,10 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/webp/udemySystemDesign.jpg.webp"
+    },
+    {
+        url:
             "src/assets/webp/javaOO.png.webp"
     },
     {
@@ -60,6 +64,10 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/cloudEssentials.jpg.webp"
     },
+    {
+        url:
+            "src/assets/webp/aws-practicioner.jpg.webp"
+    }, 
     {
         url:
             "src/assets/webp/scrum.jpg.webp"
@@ -84,10 +92,6 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/dataStructures.jpg.webp"
     },
-    {
-        url:
-            "src/assets/webp/aws-practicioner.jpg.webp"
-    }, 
     {
         url:
             "src/assets/webp/regex.jpg.webp"
