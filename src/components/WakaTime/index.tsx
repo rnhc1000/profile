@@ -63,6 +63,7 @@ export default function WakaTime() {
                         className="contacts-details"
                     >
                         <img className="contacts-waka" alt="leetcode" src={leetcode} />
+                        <p className="waka-section-qanda">https://leetcode.com/rferreira_757</p>
                     </Link>
 
 
