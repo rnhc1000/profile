@@ -94,7 +94,7 @@ figure.wakatime-img  {
 .waka-section-qanda {
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--orangered);
+    color: var(--text-linen);
 }
 
 @media (max-width: 640px) {

@@ -5,7 +5,7 @@ import essentials from "../../assets/webp/essential.png.webp";
 import quest from "../../assets/webp/quest.png.webp";
 import oca from "../../assets/webp/oca.png.webp";
 import ofa from "../../assets/webp/ofa.png.webp";
-import leetcode from "../../assets/icons/leetcode-svgrepo-com.svg";
+import leetcode from "../../assets/webp//leetCode_logo.webp";
 
 
 import Zoom from "react-reveal/Zoom";
@@ -47,8 +47,9 @@ export default function WakaTime() {
                     </Link>
                     <br></br>
                   
+                  
                     <figure>
-                        <embed src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnhc1000&layout=compact&theme=dark)](https://github.com/rnhc1000/github-readme-stats"></embed>
+                        <embed src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnhc1000&layout=compact&theme=dark"></embed>
                     </figure>
                     <br></br>
                     <p className="waka-section-qanda">
