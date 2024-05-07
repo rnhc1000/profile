@@ -86,8 +86,10 @@ export default function WakaTime() {
                 <figure className="wakatime-img">
                     <embed src="https://wakatime.com/share/@rferreira_757/cfb117ee-0978-450f-b112-ad8398eb358a.svg"></embed>
                 </figure>
+                
             </div>
-        </section>
 
+        </section>
+        
     );
 }
