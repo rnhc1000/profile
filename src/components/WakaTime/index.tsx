@@ -47,10 +47,10 @@ export default function WakaTime() {
                     </Link>
                     <br></br>
                   
-                  
                     <figure>
-                        <embed src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnhc1000&layout=compact&theme=dark"></embed>
+                        <embed src="https://github-readme-stats.vercel.app/api?username=rnhc1000&show_icons=true&theme=dark"></embed>
                     </figure>
+
                     <br></br>
                     <p className="waka-section-qanda">
                         <ReactTyped strings={["Or doing some challenges at leetcode! Click below to learn more!"]} typeSpeed={100} />

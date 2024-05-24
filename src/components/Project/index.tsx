@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
 import Iframe from 'react-iframe';
 import dashBoard from '../../assets/webp/dashboard.png.webp';
-import easyPag from '../../assets/webp/easypayBackEnd.png.webp';
+import easyPag from '../../assets/webp/easypay.png.webp';
 import devOps from '../../assets/webp/devOps.png.webp';
 import mapa from '../../assets/webp/mapa.png.webp';
 import viaCep from '../../assets/webp/viaCEP.png.webp';
@@ -13,6 +13,9 @@ import contactLogo from '../../assets/svg/whatsapp.svg';
 import history from '../../assets/svg/txt.svg';
 import anatel from '../../assets/webp/anablock-page.png.webp';
 import leetcode from '../../assets/webp/leetcode.png.webp';
+import todolist from '../../assets/webp/todo.webp';
+
+
 
 
 export default function Project() {
@@ -26,44 +29,8 @@ export default function Project() {
                 <p>As some of them are corporate apps, call me if you want to know details...</p>
                 <div className="projects-session">
                     <div className="projects-grid">
-                        <Zoom>
-                            <Iframe url="https://www.youtube.com/embed/zA-wZsEwoJ8"
-                                width="480px"
-                                height="240px"
-                                id=""
-                                className="project-title"
-                            />
-                        </Zoom>
 
                         <Zoom>
-                            <Iframe url="https://www.youtube.com/embed/CIT60s-Adrs"
-                                width="480px"
-                                height="240px"
-                                id=""
-                                className="project-title"
-                            />
-                        </Zoom>
-
-                        <Zoom>
-                            <Link rel="dns-prefetch" to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={dashBoard} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">
-                                        &lt;Transctions Portal</span>
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                        </Zoom>
-                        <Zoom>
-                            <Link rel="dns-prefetch" to="https://easypag.simatef.com.br" target="_blank" className="project project-title">
-                                <img className="project-image" src={easyPag}
-                                    alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">
-                                        &lt;easyPAY</span>
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
                             <Link rel="dns-prefetch" to="https://github.com/rnhc1000/viaCEP.git" target="_blank" className="project project-title">
                                 <img className="project-image" src={viaCep} alt="project"></img>
                                 <p className="project-title">
@@ -72,16 +39,18 @@ export default function Project() {
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-                        </Zoom>
-                        <Zoom>
-                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/challenge75.git" target="_blank" className="project project-title">
-                                <img className="projects-grid-leetcode" src={leetcode} alt="project"></img>
+
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/task-list.git" target="_blank" className="project project-title">
+                                <img className="project-image" src={todolist} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">
-                                        &lt;LeetCode</span>
+                                        &lt;Todo-List</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
+                        </Zoom>
+                        <Zoom>
+
                             <Link rel="dns-prefetch" to="https://github.com/rnhc1000/dnsBlockURL.git" target="_blank" className="project project-title">
                                 <img className="project-image" src={anatel} alt="project"></img>
                                 <p className="project-title">
@@ -91,18 +60,16 @@ export default function Project() {
                                 </p>
                             </Link>
 
-                        </Zoom>
-                        <Zoom>
-
-                            <Link rel="dns-prefetch" to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-title">
-                                <img className="project-image" src={mapa} alt="project"></img>
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/challenge75.git" target="_blank" className="project project-title">
+                                <img className="project-image" src={leetcode} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">
-                                        &lt;GeoIP-Merchants</span>
+                                        &lt;LeetCode</span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>
-
+                        </Zoom>
+                        <Zoom>
                             <Link rel="dns-prefetch" to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-title">
                                 <img className="project-image" src={devOps} alt="project"></img>
                                 <p className="project-title">
@@ -112,6 +79,54 @@ export default function Project() {
                                 </p>
                             </Link>
 
+                            <Link rel="dns-prefetch" to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-title">
+                                <img className="project-image" src={mapa} alt="project"></img>
+                                <p className="project-title">
+                                    <span className="code">
+                                        &lt;GeoIP-Merchants</span>
+                                    <span className="code">/&gt;</span>
+                                </p>
+                            </Link>
+                        </Zoom>
+
+                        <Zoom>
+                            <Link rel="dns-prefetch" to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
+                                <img className="project-image" src={dashBoard} alt="project"></img>
+
+                                <p className="project-title">
+                                    <span className="code">
+                                        &lt;Financial Transactions Portal</span>
+                                    <span className="code">/&gt;</span>
+                                </p>
+                            </Link>
+
+                            <Link rel="dns-prefetch" to="https://easypag.simatef.com.br" target="_blank" className="project project-title">
+                                <img className="project-image" src={easyPag}
+                                    alt="project"></img>
+                                <p className="project-title">
+                                    <span className="code">
+                                        &lt;easyPAY Portal</span>
+                                    <span className="code">/&gt;</span>
+                                </p>
+                            </Link>
+                        </Zoom>
+                        <Zoom>
+
+                            <Iframe url="https://www.youtube.com/embed/zA-wZsEwoJ8"
+                                width="480px"
+                                height="240px"
+                                id=""
+                                loading="eager"
+                                className="project-title"
+                            />
+
+                            <Iframe url="https://www.youtube.com/embed/CIT60s-Adrs"
+                                width="480px"
+                                height="240px"
+                                id=""
+                                loading="eager"
+                                className="project-title"
+                            />
                         </Zoom>
                     </div>
                 </div>
