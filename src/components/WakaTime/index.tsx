@@ -1,17 +1,12 @@
 import './styles.css';
 import { Link } from "react-router-dom";
-import springLogo from "../../assets/svg/Spring_Boot.svg";
-import reactLogo from "../../assets/svg/react.svg";
-import mongoLogo from "../../assets/svg/mongo.svg";
-import mysqlLogo from "../../assets/svg/mysql-official.svg";
-import jenkinsLogo from "../../assets/svg/Jenkins_logo.svg";
-import wakaLogo from "../../assets/svg/java-icon.svg";
-import intellijLogo from "../../assets/icons/IntelliJ_IDEA_Icon.svg";
-import gitLogo from "../../assets/icons/git-scm-icon.svg";
-import bashLogo from "../../assets/icons/icons8-javascript.svg";
-import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
-import leetcode from "../../assets/icons/leetcode-svgrepo-com.svg";
-import awsLogo from "../../assets/svg/logo-amazon.svg";
+import cloud101 from "../../assets/webp/cloud101.png.webp";
+import essentials from "../../assets/webp/essential.png.webp";
+import quest from "../../assets/webp/quest.png.webp";
+import oca from "../../assets/webp/oca.png.webp";
+import ofa from "../../assets/webp/ofa.png.webp";
+import leetcode from "../../assets/webp//leetCode_logo.webp";
+
 
 import Zoom from "react-reveal/Zoom";
 import { ReactTyped } from "react-typed";
@@ -33,17 +28,11 @@ export default function WakaTime() {
 
                     <div>
                         <br></br>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Wakatime" src={wakaLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Spring" src={dockerLogo} width="48px" height="48px" /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Spring" src={springLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="React" src={reactLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Mongo" src={mongoLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="MySQL" src={mysqlLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Jenkins" src={jenkinsLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="IntelliJ" src={intellijLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Git" src={gitLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={bashLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={awsLogo} /></Link>
+                        <Link to='/Wakatime'><img className="essential-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="aws-essentials" alt="Spring" src={essentials} /></Link>
+                        <Link to='/Wakatime'><img className="cert-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="aws-cloud" alt="aws" src={cloud101} /></Link>
+                        <Link to='/Wakatime'><img className="quest-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="aws-practicioner" alt="Spring" src={quest} /></Link>
+                        <Link to='/Wakatime'><img className="oca-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="oci-architect" alt="React" src={oca} /></Link>
+                        <Link to='/Wakatime'><img className="oca-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="oci-foundations" alt="Mongo" src={ofa} /></Link>
 
                     </div>
                     <br></br>
@@ -58,9 +47,10 @@ export default function WakaTime() {
                     </Link>
                     <br></br>
                   
-                    <figure className="github-img">
-                        <embed src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnhc1000&layout=compact&theme=dark"></embed>
+                    <figure>
+                        <embed src="https://github-readme-stats.vercel.app/api?username=rnhc1000&show_icons=true&theme=dark"></embed>
                     </figure>
+
                     <br></br>
                     <p className="waka-section-qanda">
                         <ReactTyped strings={["Or doing some challenges at leetcode! Click below to learn more!"]} typeSpeed={100} />
@@ -74,6 +64,7 @@ export default function WakaTime() {
                         className="contacts-details"
                     >
                         <img className="contacts-waka" alt="leetcode" src={leetcode} />
+                        <p className="waka-section-qanda">https://leetcode.com/rferreira_757</p>
                     </Link>
 
 
@@ -95,8 +86,10 @@ export default function WakaTime() {
                 <figure className="wakatime-img">
                     <embed src="https://wakatime.com/share/@rferreira_757/cfb117ee-0978-450f-b112-ad8398eb358a.svg"></embed>
                 </figure>
+                
             </div>
-        </section>
 
+        </section>
+        
     );
 }

@@ -1,4 +1,4 @@
-import Wakatime from "../../components/WakaTime/index-skills.tsx";
+import Wakatime from "../../components/WakaTime/index.tsx";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 

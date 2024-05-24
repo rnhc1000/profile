@@ -78,9 +78,18 @@
     height: 100%;
 }
 
+.project-image {
+    border: orange solid 1px;
+}
+
 .project-title {
     font-size: 1.25rem;
     padding: 1rem 0.5rem;
+}
+
+.skills-icons img{
+    width: 24px;
+    height: 24px;
 }
 
 .projects-grid img {
@@ -91,6 +100,13 @@
 .projects-grid-leetcode {
     width: 20rem;
     height: 20rem;
+}
+
+.contacts-waka {
+    position: relative;
+    margin: 0 0.5rem;
+    width:64px;
+    height: 64px; 
 }
 
 .scroll-container {
