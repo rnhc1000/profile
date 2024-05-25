@@ -59,121 +59,45 @@ These web pages were coded using ReactJS exploring hooks such as useState, useLo
 - Live Site URL: [https://www.ferreiras.dev.br] 
 ## _Built with_
 
- ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) | ![](https://ferreiras.dev.br/assets/images/icons/react.svg) | ![](https://ferreiras.dev.br/assets/images/icons/vite.svg) | ![](https://ferreiras.dev.br/assets/images/icons/yarn-title.svg) | ![](https://ferreiras.dev.br/assets/images/icons/ts-logo.svg) | ![](https://ferreiras.dev.br/assets/images/icons/icons8-javascript.svg) | ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg) | ![](https://ferreiras.dev.br/assets/images/icons/axios-logo.svg)| ![](https://ferreiras.dev.br/assets/images/icons/react-router-stacked-color-inverted.svg) | ![](https://ferreiras.dev.br/assets/images/icons/oauth_logo_final.svg)
+[![My Skills](https://skillicons.dev/icons?i=git,react,vite,yarn,typescript,html,css,javascript,vscode,redhat,aws)](https://skillicons.dev)
+
+
 
  ## _What I practiced_
 ```jsx
-export default function Project() {
+import React from "react";
+import Contacts from "./routes/Contacts"
+import Home from "./routes/Home"
+import Projects from "./routes/Projects";
+import Skills from "./routes/Skills";
+import Background from "./routes/Background";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './utils/ScrollToTop';
+import Wakatime from "./routes/Wakatime";
 
-    return (
-        <>
-            <section id="project-section" className="projects-section-header">
-                <p>Here are a few of my latest projects!</p>
-                <p>Give them a try.... Just click on each image below...</p>
-                <h4>As some of them are corporate apps, call me if you want to know details...</h4>
-                <div className="projects-session">
-                    <div className="projects-grid">
-                        <Zoom>
-                            <Iframe url="https://www.youtube.com/embed/zA-wZsEwoJ8"
-                                width="480px"
-                                height="240px"
-                                id=""
-                                className="project-title"
-                            />
-                            <Iframe url="https://www.youtube.com/embed/CIT60s-Adrs"
-                                width="480px"
-                                height="240px"
-                                id=""
-                                className="project-title"
-                            />
-                        </Zoom>
-                        <Zoom>
-                            <Link to="https://dashboard.simatef.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={dashBoard} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    Financial OPs
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                            <Link to="https://easypay.simatef.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={easyPay}
-                                    alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    &copy;easyPAY backEnd
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                        </Zoom>
-                        <Zoom>
-                            <Link to="https://easypag.simatef.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={easyPag}
-                                    alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    &copy;easyPAY frontEnd
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                            <Link to="https://alerta.simatef.com.br/nagios" target="_blank" className="project project-tile">
-                                <img className="project-image" src={devOps} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    devOps
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                        </Zoom>
-                        <Zoom>
-                            <Link to="https://github.com/rnhc1000" target="_blank" className="project project-tile">
-                                <img className="project-image" src={springBoot} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    code
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                            <Link to="https://mapadeclientes.simatef.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={mapa} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    GeoIP - Merchants
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                        </Zoom>
-                        <Zoom>
-                            <Link to="https://zabbix.enormity.com.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={zabbix} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    devOPs
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                            <Link to="https://notas.ferreiras.dev.br" target="_blank" className="project project-tile">
-                                <img className="project-image" src={viaCep} alt="project"></img>
-                                <p className="project-title">
-                                    <span className="code">&lt;</span>
-                                    ZIP code - BR
-                                    <span className="code">/&gt;</span>
-                                </p>
-                            </Link>
-                        </Zoom>
-                    </div>
-                </div>
-                <Zoom>
-                    <div className="contact-me">
-                        <Link to="/"> <img src={homeLogo}></img></Link>
-                        <Link to="/skills">   <img src={skillsLogo}></img></Link>
-                        <Link to="/contacts"> <img src={contactLogo}></img></Link>
-                    </div>
-                </Zoom>
-            </section>
+export default function App() {
 
-        </>
-    );
+  const MemoizedProjects = React.memo(Projects);
+  const MemoizedSkills = React.memo(Skills);
+  const MemoizedHome = React.memo(Home);
+  const MemoizedContacts = React.memo(Contacts);
+  const MemoizedHistory = React.memo(Background);
+  const MemoizedWakatime = React.memo(Wakatime);
+
+  return (
+    <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<MemoizedHome />}> </Route>
+          <Route index element={<MemoizedHome />}></Route>
+          <Route path="contacts" element={<MemoizedContacts />}></Route>
+          <Route path="skills" element={<MemoizedSkills />}></Route>
+          <Route path="projects" element={<MemoizedProjects />}></Route>
+          <Route path="history" element={<MemoizedHistory />}></Route>
+          <Route path="wakatime" element={<MemoizedWakatime />}></Route>
+        </Routes>  
+
+      </BrowserRouter>
+  )
 }
 ``` 
 
