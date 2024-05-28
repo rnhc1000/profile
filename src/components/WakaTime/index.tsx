@@ -46,9 +46,9 @@ export default function WakaTime() {
                     </p>
                     </Link>
                     <br></br>
-                  
+                   
                     <figure>
-                        <embed src="https://github-readme-stats.vercel.app/api?username=rnhc1000&show_icons=true&theme=dark"></embed>
+                      <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=gruvbox&border=EB9119"></embed>
                     </figure>
 
                     <br></br>
