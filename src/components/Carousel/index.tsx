@@ -46,16 +46,16 @@ const sliderImageUrl = [
     },
     {
         url:
-            "src/assets/webp/udemySystemDesign.jpg.webp"
-    },
-    {
-        url:
             "src/assets/webp/javaOO.png.webp"
     },
     {
         url:
             "src/assets/webp/oop.1.jpg.webp"
-    },  
+    }, 
+    {
+        url:
+            "src/assets/webp/udemySystemDesign.jpg.webp"
+    },
     {
         url:
             "src/assets/webp/cloudFoundations.jpg.webp"
@@ -70,12 +70,58 @@ const sliderImageUrl = [
     }, 
     {
         url:
-            "src/assets/webp/scrum.jpg.webp"
+            "src/assets/webp/git.jpg.webp"
+    },                                                                                                                                                                                                                                                                                    
+    {
+        url:
+            "src/assets/webp/springBoot.jpg.webp"
     },
     {
         url:
-            "src/assets/webp/git.jpg.webp"
-    },                                                                                                                                                                                                                                                                                    
+            "src/assets/webp/freeJavaScript.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/firebase.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/asyncJS.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/typeScript.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/algaJS.png.webp"
+    },
+    {
+        url:
+            "src/assets/webp/reactCertificate.jpg.webp"
+    },
+
+    {
+        url:
+            "src/assets/webp/uml.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/webResponsive.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/css.jpg.webp"
+    },
+    {
+
+        url:
+            "src/assets/webp/algaHtml.png.webp"
+    },
+    {
+        url:
+            "src/assets/webp/html.jpg.webp"
+    },
     {
         url:                                                                                                                                                                                                                                                                                            
             "src/assets/webp/dsaLeetCode.jpg.webp"
@@ -117,53 +163,6 @@ const sliderImageUrl = [
     },
     {
         url:
-            "src/assets/webp/springBoot.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/freeJavaScript.jpg.webp"
-    },
-
-    {
-        url:
-            "src/assets/webp/asyncJS.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/typeScript.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/algaJS.png.webp"
-    },
-    {
-        url:
-            "src/assets/webp/reactCertificate.jpg.webp"
-    },
-
-    {
-        url:
-            "src/assets/webp/uml.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/webResponsive.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/css.jpg.webp"
-    },
-    {
-
-        url:
-            "src/assets/webp/algaHtml.png.webp"
-    },
-    {
-        url:
-            "src/assets/webp/html.jpg.webp"
-    },
-    {
-        url:
             "src/assets/webp/dbExpertsPostgreS.png.webp"
     },
     {
@@ -197,6 +196,10 @@ const sliderImageUrl = [
     {
         url:
             "src/assets/webp/trello.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/scrum.jpg.webp"
     },
 
 ];

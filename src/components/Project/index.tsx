@@ -14,6 +14,7 @@ import history from '../../assets/svg/txt.svg';
 import anatel from '../../assets/webp/anablock-page.png.webp';
 import leetcode from '../../assets/webp/leetcode.png.webp';
 import todolist from '../../assets/webp/todo.webp';
+import draperpcosta from '../../assets/webp/draPerpCostaReadme.png.webp';
 
 
 
@@ -106,6 +107,16 @@ export default function Project() {
                                 <p className="project-title">
                                     <span className="code">
                                         &lt;easyPAY Portal</span>
+                                    <span className="code">/&gt;</span>
+                                </p>
+                            </Link>
+                        </Zoom>
+                        <Zoom>
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/draperpcosta" target="_blank" className="project project-tile">
+                                <img className="project-image" src={draperpcosta} alt="project"></img>
+                                <p className="project-title">
+                                    <span className="code">
+                                        &lt;Customer Portal </span>
                                     <span className="code">/&gt;</span>
                                 </p>
                             </Link>

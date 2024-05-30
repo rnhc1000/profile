@@ -45,8 +45,7 @@ export default function WakaTime() {
                         <ReactTyped strings={["My current stats at ... "]} typeSpeed={100} /><i className="fab fa-github"></i>  
                     </p>
                     </Link>
-                    <br></br>
-                   
+                    <br></br>  
                     <figure>
                       <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=gruvbox&border=EB9119"></embed>
                     </figure>
