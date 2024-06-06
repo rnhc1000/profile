@@ -41,7 +41,7 @@ export default function Project() {
                                 </p>
                             </Link>
 
-                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/task-list.git" target="_blank" className="project project-title">
+                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/daily-tasks" target="_blank" className="project project-title">
                                 <img className="project-image" src={todolist} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">
