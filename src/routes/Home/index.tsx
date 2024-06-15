@@ -1,5 +1,5 @@
-import Footer from "../../components/Footer"
 import Header from "../../components/Header"
+import Signature from "../../components/Signature"
 import Welcome from "../../components/Welcome"
 
 
@@ -9,7 +9,7 @@ export default function Home() {
         <>
         <Header />
         <Welcome />
-        <Footer />
+        <Signature />
         </>
     )
 }

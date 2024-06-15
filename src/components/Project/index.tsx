@@ -7,10 +7,6 @@ import easyPag from '../../assets/webp/easypay.png.webp';
 import devOps from '../../assets/webp/devOps.png.webp';
 import mapa from '../../assets/webp/mapa.png.webp';
 import viaCep from '../../assets/webp/viaCEP.png.webp';
-import homeLogo from '../../assets/svg/house-check.svg';
-import skillsLogo from '../../assets/svg/mortarboard.svg';
-import contactLogo from '../../assets/svg/whatsapp.svg';
-import history from '../../assets/svg/txt.svg';
 import anatel from '../../assets/webp/anablock-page.png.webp';
 import leetcode from '../../assets/webp/leetcode.png.webp';
 import todolist from '../../assets/webp/todo.webp';
@@ -25,7 +21,7 @@ export default function Project() {
 
         <section id="project-section">
             <div className="projects-container">
-                <h4>Here are a few of my latest projects!</h4>
+                <h1>Here are a few of my latest projects!</h1>
                 <p>Give them a try.... Just click on each image below...</p>
                 <p>As some of them are corporate apps, call me if you want to know details...</p>
                 <div className="projects-session">
@@ -141,14 +137,7 @@ export default function Project() {
                         </Zoom>
                     </div>
                 </div>
-                <Zoom>
-                    <div className="contact-me">
-                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" alt="Home" src={homeLogo} /></Link>
-                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" alt="History" src={history} /></Link>
-                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" alt="Skills" src={skillsLogo} /></Link>
-                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" alt="Contact" src={contactLogo} /></Link>
-                    </div>
-                </Zoom>
+
             </div>
         </section >
     );

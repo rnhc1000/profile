@@ -11,41 +11,37 @@ export default function Contact() {
         <section id="contact-section" className="contacts-section">
             <div className="contacts-section-header">
                 <Zoom>
-                    <img className="contacts-img" alt="Profile" src={profilePhoto}/>
-                    <p className="contacts-section-qanda"> 
+                    <img className="contacts-img" alt="Profile" src={profilePhoto} />
+                    <h1>
                         Keep in touch to learn details about projects, coding challenges, tech stack...
-                    </p>
+                    </h1>
                     <br></br>
-                    <p className = "contacts-section-qanda">
+                    <h2 className="contacts-section-qanda">
                         Make a break, text me, send me an email or download my resume, <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> clicking here</Link>...
-                    </p>
+                    </h2>
                     <br></br>
-                    <p className = "questions">Q: Do you still want to know more details such as current 
-                    tech stack, CI/CD, AWS skills and more importantly what I have been doing most of time ultimately?
-                    </p>
+                    <h3 className="questions">Q: Do you still want to know more details such as coding challenges, Java, Spring Boot, Angular, current
+                        technologies as, CI/CD, AWS skills, Jenkins, Kafka and others? 
+                    </h3>
                     <br></br>
-                    <p className="questions"> 
+                    <h3 className="questions">
                         A: OK! Sounds good for me. To find out, click here...<Link to='/Wakatime' className="sizeSmiley">✋🏾</Link>
-                    </p>
-                </Zoom>       
+                    </h3>
+                </Zoom>
             </div>
+            <div className="contacts-section-header">
+                <Zoom>
+                    <h2 className="contacts-section-qanda">
+                        Here you have all my contacts!!!.
+                    </h2>
+                    <h2 className="contacts-section-qanda">
+                        Let's get connected...
+                    </h2>
+                </Zoom>
+            </div>
+
             <div className="contacts-links">
-                <Link
-                    rel="dns-prefetch"
-                    to="https://twitter.com/Ricardo18101957"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fa-brands fa-x-twitter"></i>
-                </Link>
-                <Link
-                    rel="dns-prefetch"
-                    to="https://www.instagram.com/rnhc1000/"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fab fa-instagram"></i>
-                </Link>
+
                 <Link
                     rel="dns-prefetch"
                     to="https://www.linkedin.com/in/ricardoaferreirasilva/"
@@ -96,6 +92,7 @@ export default function Contact() {
                     <i className="fa fa-address-card"></i>
                 </Link>
             </div>
+
         </section>
     );
 }

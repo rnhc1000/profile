@@ -30,8 +30,11 @@ const sliderImageUrl = [
     {
         url:
             "src/assets/webp/javaMultithreaded.jpg.webp"
-    },  
-
+    },
+    {
+        url:                                                                                                                                                                                                                                                                                            
+            "src/assets/webp/dsaLeetCode.jpg.webp"
+    }, 
     {
         url:
             "src/assets/webp/javaAdvanced.jpg.webp"
@@ -50,11 +53,28 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/webp/springBoot.jpg.webp"
+    },
+    {
+        url:
             "src/assets/webp/oop.1.jpg.webp"
     }, 
     {
         url:
             "src/assets/webp/udemySystemDesign.jpg.webp"
+    },
+
+    {
+        url:
+            "src/assets/webp/algoritmosLP.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/dsa.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/dataStructures.jpg.webp"
     },
     {
         url:
@@ -72,18 +92,12 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/git.jpg.webp"
     },                                                                                                                                                                                                                                                                                    
-    {
-        url:
-            "src/assets/webp/springBoot.jpg.webp"
-    },
+
     {
         url:
             "src/assets/webp/freeJavaScript.jpg.webp"
     },
-    {
-        url:
-            "src/assets/webp/firebase.jpg.webp"
-    },
+
     {
         url:
             "src/assets/webp/asyncJS.jpg.webp"
@@ -100,7 +114,26 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/reactCertificate.jpg.webp"
     },
-
+    {
+        url:
+            "src/assets/webp/mongoDB.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/firebase.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/dbExpertsPostgreS.png.webp"
+    },
+    {
+        url:
+            "src/assets/webp/docker.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/kubernets.jpg.webp"
+    },
     {
         url:
             "src/assets/webp/uml.jpg.webp"
@@ -122,22 +155,7 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/html.jpg.webp"
     },
-    {
-        url:                                                                                                                                                                                                                                                                                            
-            "src/assets/webp/dsaLeetCode.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/algoritmosLP.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/dsa.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/dataStructures.jpg.webp"
-    },
+
     {
         url:
             "src/assets/webp/regex.jpg.webp"
@@ -153,25 +171,10 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/mvc.jpg.webp"
     },
-    {
-        url:
-            "src/assets/webp/mongoDB.jpg.webp"
-    },
+
     {
         url:
             "src/assets/webp/jenkins.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/dbExpertsPostgreS.png.webp"
-    },
-    {
-        url:
-            "src/assets/webp/docker.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/kubernets.jpg.webp"
     },
     {
         url:
@@ -217,7 +220,7 @@ const Slider = () => {
                     swipeable={true}
                     draggable={true}
                     customTransition="all 1"
-                    transitionDuration={1000}
+                    transitionDuration={2000}
                     showDots={true}
                     infinite={true}
                     partialVisible={false}
