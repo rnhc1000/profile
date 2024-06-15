@@ -2,13 +2,12 @@
     color: rgba(218,148,27,1);
 }
 
-.history-container {
+.skills-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
     max-width: 960px;
     margin: 2rem auto;
     font-size: 1.5rem;

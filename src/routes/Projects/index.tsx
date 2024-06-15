@@ -1,6 +1,6 @@
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Project from "../../components/Project";
+import Signature from "../../components/Signature";
 
 export default function Projects() {
 
@@ -8,7 +8,7 @@ export default function Projects() {
         <>
             <Header />
             <Project />
-            <Footer />
+            <Signature />
         </>
     );
 }

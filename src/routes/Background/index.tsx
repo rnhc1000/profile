@@ -1,7 +1,7 @@
 
-import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import History from '../../components/History';
+import Signature from '../../components/Signature';
 
 export default function Background() {
 
@@ -9,7 +9,7 @@ export default function Background() {
         <>
         <Header />
         <History />
-        <Footer />
+        <Signature />
         </>
     );
 

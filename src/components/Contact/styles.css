@@ -7,28 +7,43 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 1240px;
+    max-width: 100%;
     padding: 1rem;
     margin: 1rem auto;
-    font-weight:400;
+    font-weight:300;
     color: var(--text-linen);
+    font-size: 3rem;
 }
 
 .contacts-section-header {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
     color: var(--text-linen);
 }
 
 .contacts-section-qanda {
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 3.0rem;
+    font-weight: 300;
+    margin: 1rem auto;
     color: var(--text-linen);
 }
 
+.contacts-section-header h1{
+    font-size: 3rem;
+    font-weight: 300;
+
+}
+
+.contacts-section-header h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
 .questions {
     color: var(--text-linen);
-
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .question {
@@ -38,7 +53,7 @@
 }
 
 .questions::first-letter {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     color: orangered;
 }
@@ -46,14 +61,18 @@
 .contacts-waka {
     height: 48px;
     width: 48px;
-    color: var(--main-orange);
+    color: var(--text-linen);
 }
 
+.fa {
 
-@media (max-width: 28.75em) {
-    .contacts-section-header h2 {
-        font-size: 4rem;
-    }
+    color: var(--text-linen);
+
+
+}
+.fab {
+    color: var(--text-linen);
+
 }
 
 .contacts-links {
@@ -65,13 +84,14 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     padding: 0 0 1rem 0;
+    color: var(--text-linen);
 }
 
 .contacts-details {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 1.25rem;
     transition: transform 0.3s ease-in-out;
-    color: #FFF;
+    color: var(--text-linen);
 }
 
 .contacts-details:hover {
@@ -82,40 +102,33 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
 }
 
 .contacts-img {
     border-radius: 45%;
     position: relative;
     margin-right: 20px;
-    width:374px;
-    height: 280px;
     float: left;
+    width: 240px;
+    height: 200px;
 }
 
 
 
-@media (max-width: 640px) {
-    .contacts-img {
-        font-size: 1rem;
-        width:288px;
-        height: 204px;
-        margin: 40px;
-        border-radius: 25%
-    }
-  }
-
-  .sizeSmiley {
-    font-size: 1rem;
-}
 
 @media (max-width: 640px) {
     .contacts-section {
-        margin: 0 auto;
+        margin: 8rem auto;
         width: 100%;
         max-width: 480px;
         text-align: center;
         font-size: 0.85rem;
         font-weight: 200;
+
+        
+    }
+    .sizeSmiley {
+        font-size: 1rem;
     }
   }

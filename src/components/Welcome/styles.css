@@ -8,7 +8,7 @@
     height: 100%;
     max-width: 960px;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     font-style: normal;
     color: var(--text-linen);   
@@ -31,7 +31,7 @@
 }
 
 .welcome-quote {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 300;
   font-style: normal;
   color: var(--orange);
@@ -140,19 +140,20 @@ dt {
       margin: 0 1rem 0 1rem;
       width: 100%;
       text-align: center;
-      font-size: 1rem;
+      font-size: 1.5rem;
   }
+
   .language-javascript {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .welcome {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: italic;
   }
 
   .welcome-code {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--orange);
     font-style:italic;
   }
@@ -169,10 +170,10 @@ dt {
       width: 100%;
       max-width: 480px;
       text-align: center;
-      font-size: 0.85rem;
+      font-size: 1.15rem;
   }
   .language-javascript {
-    font-size: 0.85rem;
+    font-size: 1.25rem;
   }
 
   .welcome {

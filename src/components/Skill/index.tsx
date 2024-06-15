@@ -1,10 +1,7 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
-import homeLogo from '../../assets/svg/house-check.svg';
-import contactLogo from '../../assets/svg/whatsapp.svg';
-import history from '../../assets/svg/txt.svg';
-import codeLogo from '../../assets/svg/tools.svg';
+
 
 export default function Skill() {
 
@@ -105,14 +102,7 @@ export default function Skill() {
                         </ul>
                     </div>
                 </Zoom>
-                <Zoom>
-                    <div className="contact-me">
-                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" alt="Home" src={homeLogo} /></Link>
-                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" alt="History"src={history} /></Link>
-                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" alt="Projects" src={codeLogo} /></Link>
-                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" alt="Contact" src={contactLogo} /></Link>
-                    </div>
-                </Zoom>
+
             </div>
         </section>
     );

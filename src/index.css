@@ -7,6 +7,7 @@
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
+  font-size: 62.5%;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -30,7 +31,7 @@
 
 body {
   margin: 0 auto;
-  min-width: 320px;
+  max-width: 100%;
   min-height: 100vh;
   box-sizing: border-box; 
   background: linear-gradient(115deg, rgba(0,0,0,0.55), rgba(0, 0, 0, 0.75)), url('assets/webp/lightbulb-1875247_1920.jpg.webp');
