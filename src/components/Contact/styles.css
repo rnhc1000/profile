@@ -40,6 +40,13 @@
     font-weight: 300;
 
 }
+
+.contact-skills  {
+    border-radius: .1em;
+	border: .1em solid hsl(34, 85%, 47%); /* #282A2B */
+	box-shadow: 1px 1px .5em rgb(20, 20, 20) inset;
+    margin: 4rem auto;
+}
 .questions {
     color: var(--text-linen);
     font-size: 2rem;

@@ -19,12 +19,12 @@ export default function WakaTime() {
             <div className="wakatimes-section-header">
                 <Zoom>
 
-                    <p className="waka-section-qanda">
+                    <h1 className="waka-section-qanda">
                         <ReactTyped strings={["This is how I have been spending most of time..."]} typeSpeed={100} />
-                    </p>
-                    <p className="waka-section-qanda">
+                    </h1>
+                    <h2 className="waka-section-qanda">
                         <ReactTyped strings={["Coding, debuging and deploying with the tools below."]} typeSpeed={100} />
-                    </p>
+                    </h2>
 
                     <div>
                         <br></br>
@@ -35,22 +35,7 @@ export default function WakaTime() {
                         <Link to='/Wakatime'><img className="oca-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="oci-foundations" alt="Mongo" src={ofa} /></Link>
 
                     </div>
-                    <br></br>
-                    <Link
-                        rel="dns-prefetch"
-                        to="https://github.com/rnhc1000"
-                        target="_blank"
-                    >
-                    <p className="waka-section-qanda">
-                        <ReactTyped strings={["My current stats at ... "]} typeSpeed={100} /><i className="fab fa-github"></i>  
-                    </p>
-                    </Link>
-                    <br></br>  
-                    <figure>
-                      <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=gruvbox&border=EB9119"></embed>
-                    </figure>
 
-                    <br></br>
                     <p className="waka-section-qanda">
                         <ReactTyped strings={["Or doing some challenges at leetcode! Click below to learn more!"]} typeSpeed={100} />
                     </p>
@@ -63,7 +48,7 @@ export default function WakaTime() {
                         className="contacts-details"
                     >
                         <img className="contacts-waka" alt="leetcode" src={leetcode} />
-                        <p className="waka-section-qanda">https://leetcode.com/rferreira_757</p>
+                        <p className="waka-section-qanda">leetcode.com/rferreira_757</p>
                     </Link>
 
 
@@ -85,6 +70,7 @@ export default function WakaTime() {
                 <figure className="wakatime-img">
                     <embed src="https://wakatime.com/share/@rferreira_757/cfb117ee-0978-450f-b112-ad8398eb358a.svg"></embed>
                 </figure>
+                
                 
             </div>
 

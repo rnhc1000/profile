@@ -211,7 +211,7 @@ const Slider = () => {
     return (
         <>
             <div className="carousel-header">
-                <h4>Here are some of my key skills</h4>
+                <h1>Here are some of my key skills</h1>
             </div>
             <div className="parent">
                 <Carousel
