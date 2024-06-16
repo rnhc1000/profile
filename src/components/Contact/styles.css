@@ -11,7 +11,7 @@
     max-width: 100%;
     padding: 1rem;
     margin: 1rem auto;
-    font-weight:300;
+    font-weight: 300;
     color: var(--text-linen);
     font-size: 3rem;
 }
@@ -29,24 +29,26 @@
     color: var(--text-linen);
 }
 
-.contacts-section-header h1{
+.contacts-section-header h1 {
     font-size: 3rem;
     font-weight: 300;
 
 }
 
-.contacts-section-header h2{
+.contacts-section-header h2 {
     font-size: 2.5rem;
     font-weight: 300;
 
 }
 
-.contact-skills  {
+.contact-skills {
     border-radius: .1em;
-	border: .1em solid hsl(34, 85%, 47%); /* #282A2B */
-	box-shadow: 1px 1px .5em rgb(20, 20, 20) inset;
+    border: .1em solid hsl(34, 85%, 47%);
+    /* #282A2B */
+    box-shadow: 1px 1px .5em rgb(20, 20, 20) inset;
     margin: 4rem auto;
 }
+
 .questions {
     color: var(--text-linen);
     font-size: 2rem;
@@ -69,6 +71,8 @@
     height: 48px;
     width: 48px;
     color: var(--text-linen);
+    filter: drop-shadow(0 0 2rem rgb(192, 114, 26));
+
 }
 
 .fa {
@@ -77,6 +81,7 @@
 
 
 }
+
 .fab {
     color: var(--text-linen);
 
@@ -133,9 +138,10 @@
         font-size: 0.85rem;
         font-weight: 200;
 
-        
+
     }
+
     .sizeSmiley {
         font-size: 1rem;
     }
-  }
+}

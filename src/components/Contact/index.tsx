@@ -41,25 +41,25 @@ export default function Contact() {
                     </h3>
                     <div>
                         <br></br>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Wakatime" src={wakaLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Spring" src={dockerLogo} width="48px" height="48px" /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Spring" src={springLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="React" src={reactLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Mongo" src={mongoLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="React" src={angularLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="MySQL" src={mysqlLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Jenkins" src={jenkinsLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="IntelliJ" src={intellijLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Git" src={gitLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={bashLogo} /></Link>
-                        <Link to='/Wakatime'><img className="contacts-waka" data-toggle="tooltip" data-placement="top" data-animation="" title="WakaTime" alt="Bash" src={awsLogo} /></Link>
+                        <img className="contacts-waka" alt="Wakatime" src={wakaLogo} />
+                        <img className="contacts-waka" alt="Spring" src={dockerLogo} width="48px" height="48px" />
+                        <img className="contacts-waka" alt="Spring" src={springLogo} />
+                        <img className="contacts-waka" alt="React" src={reactLogo} />
+                        <img className="contacts-waka" alt="Mongo" src={mongoLogo} />
+                        <img className="contacts-waka" alt="React" src={angularLogo} />
+                        <img className="contacts-waka" alt="MySQL" src={mysqlLogo} />
+                        <img className="contacts-waka" alt="Jenkins" src={jenkinsLogo} />
+                        <img className="contacts-waka" alt="IntelliJ" src={intellijLogo} />
+                        <img className="contacts-waka" alt="Git" src={gitLogo} />
+                        <img className="contacts-waka" alt="Bash" src={bashLogo} />
+                        <img className="contacts-waka" alt="Bash" src={awsLogo} />
                     </div>
                     <br></br>
-                    <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more infot about these skills?
+                    <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more info about these skills?
                     </h3>
                     <br></br>
                     <h3 className="questions">
-                        A: To find out, click here...<Link to='/Wakatime' className="sizeSmiley">✋🏾</Link>
+                        A: Just click here...<Link to='/Wakatime' className="sizeSmiley">✋🏾</Link>
                     </h3>
                     <br></br>
                 </Zoom>
@@ -111,14 +111,6 @@ export default function Contact() {
                     className="contacts-details"
                 >
                     <i className="fab fa-telegram"></i>
-                </Link>
-                <Link
-                    rel="dns-prefetch"
-                    to="https://github.com/rnhc1000"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fab fa-github"></i>
                 </Link>
                 <Link
                     rel="dns-prefetch"
