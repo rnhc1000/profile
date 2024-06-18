@@ -88,19 +88,21 @@
 figure.wakatime-img  {
     border-radius: .1em;
 	border: .1em solid hsl(34, 85%, 47%); /* #282A2B */
-	box-shadow: 1px 1px .5em rgb(20, 20, 20) inset
+	box-shadow: 1px 1px .5em rgb(20, 20, 20) inset;
+    margin-bottom: 4rem;
 }
 
 .waka-section-qanda {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: var(--text-linen);
 }
 
 @media (max-width: 640px) {
-    .wakatime-img {
+    figure.wakatime-img {
         font-size: 1rem;
         border-radius: .5em;
+        max-width: 100%;
     }
     .contacts-waka {
         position: relative;
@@ -114,7 +116,7 @@ figure.wakatime-img  {
         font-weight: 200;
         margin: 0 auto;
         width: 100%;
-        max-width: 480px;
+        
     }
     
 
