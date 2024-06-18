@@ -100,7 +100,7 @@ export default function Signature() {
 ``` 
 
 ## _Continued development_
-- Use SMACSS methodologyt
+- Use SMACSS methodology
 ### _Useful resources_
 - [https://reactjs.org] React lets you build user interfaces out of individual pieces called components!.
 - [https://yarnpkg.org/] Open-source package manager used to manage dependencies in  JavaScript.
