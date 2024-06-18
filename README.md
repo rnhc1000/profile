@@ -18,7 +18,7 @@ This is a real attempt to show my career development as a software engineer, fac
 - [_Screenshot_](#screenshot)
 - [_Links_](#links)
 - [_Built with_](#built-with)
-- [_What I practiced_](#what-i-practiced)
+- [_How I did it_](#how-i-did-it)
 - [_Continued development_](#continued-development)
   - [_Useful resources_](#useful-resources)
 - [_Author_](#author)
@@ -63,46 +63,44 @@ These web pages were coded using ReactJS exploring hooks such as useState, useLo
 
 
 
- ## _What I practiced_
+ ## _How I did it_
 ```jsx
-import React from "react";
-import Contacts from "./routes/Contacts"
-import Home from "./routes/Home"
-import Projects from "./routes/Projects";
-import Skills from "./routes/Skills";
-import Background from "./routes/Background";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ScrollToTop from './utils/ScrollToTop';
-import Wakatime from "./routes/Wakatime";
+import  './styles.css';
+import CountUp from 'react-countup';
+import { Link } from 'react-router-dom';
+import Zoom from 'react-reveal/Zoom';
 
-export default function App() {
+import skillLogo from '../../assets/svg/mortarboard.svg';
+import contactLogo from '../../assets/svg/whatsapp.svg';
+import codeLogo from '../../assets/svg/tools.svg';
+import history from '../../assets/svg/txt.svg';
 
-  const MemoizedProjects = React.memo(Projects);
-  const MemoizedSkills = React.memo(Skills);
-  const MemoizedHome = React.memo(Home);
-  const MemoizedContacts = React.memo(Contacts);
-  const MemoizedHistory = React.memo(Background);
-  const MemoizedWakatime = React.memo(Wakatime);
+export default function Signature() {
+    return (
+        <section>
+            <Zoom>
+                <div id="signature">
+                    <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} alt="History" /></Link>
+                    <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillLogo} alt="Skills" /></Link>
+                    <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" src={codeLogo} alt="Projects" /></Link>
+                    <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} alt="Contact" /></Link>
+                </div>
+                <div>
+                    <p id="sign-rights">
+                        <CountUp separator="" delay={2} end={2024} />
+                    </p>
+                    <p id="sign-rights">&copy;Ricardo Ferreira - All rights reserved</p>
+                </div>
+            </Zoom>
+        </section>
 
-  return (
-    <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<MemoizedHome />}> </Route>
-          <Route index element={<MemoizedHome />}></Route>
-          <Route path="contacts" element={<MemoizedContacts />}></Route>
-          <Route path="skills" element={<MemoizedSkills />}></Route>
-          <Route path="projects" element={<MemoizedProjects />}></Route>
-          <Route path="history" element={<MemoizedHistory />}></Route>
-          <Route path="wakatime" element={<MemoizedWakatime />}></Route>
-        </Routes>  
+    )
 
-      </BrowserRouter>
-  )
 }
 ``` 
 
 ## _Continued development_
-- Next step: Show diplomas, certificates and achievements using an animaited carrousel.
+- Use SMACSS methodologyt
 ### _Useful resources_
 - [https://reactjs.org] React lets you build user interfaces out of individual pieces called components!.
 - [https://yarnpkg.org/] Open-source package manager used to manage dependencies in  JavaScript.
