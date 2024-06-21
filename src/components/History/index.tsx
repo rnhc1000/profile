@@ -15,7 +15,7 @@ export default function History() {
 
                             <dd>
                                 <br />
-                                <dt>Getting started!</dt>
+                                <h2>Getting started!</h2>
                                 <blockquote className="history-quote">
                                     Playing into this market for almost 25 years 🕵️ I have been exposed to a myriad of technologies and for some of them, 
                                     being a very early adopter.
@@ -59,7 +59,6 @@ export default function History() {
                         </Zoom>
                     </p>
                 </dl>
-                <Zoom>
                     <ul className="history-bullets">
                         <li>&#128204; Design, Development and Deployment of web-based digital payment applications,</li>
                         <li>&#128204;Development and Deployment of API Rest applications, </li>
@@ -70,7 +69,6 @@ export default function History() {
                         <li>&#128204;Extensive knowledge of Linux, Bash, Script-based Automation, Reverse Proxy and DNS</li>
                         <li>&#128204;Cloud Certified Architect with extensive knowledge of services architecture and systems integration</li>
                     </ul>
-                </Zoom>                                                                                                                                                                                                        
                 <Zoom>                                                                                                                                                                    
                     <p className="history-important">
                         If you want to go down to the nitty-gritty of my

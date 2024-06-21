@@ -13,7 +13,7 @@ header nav#navbar {
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(80, 71, 55, 0.5);
+  background-color: rgba(37, 37, 37, 0.15);
   margin: 0 auto;
 }
 
@@ -52,16 +52,21 @@ header nav#navbar ul.nav-list li{
 header nav#navbar ul.nav-list li:hover {
   font-size: 1.75rem;
   color: rgb(235, 122, 16);
+  filter: drop-shadow(0 0 2em #f3c442aa);
+
 }
 
 
 header nav#navbar .nav-brand  img {
   width: 64px;
   height: 64px;
+  filter: drop-shadow(0 0  1rem rgba(243, 196, 66, 0.5));
+
 }
+
 header nav#navbar .nav-brand  img:hover {
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
 }
 
 
@@ -83,8 +88,8 @@ header nav#navbar .nav-brand  img:hover {
   }
 
   header nav#navbar .nav-brand  img {
-    width: 48px;
-    height: 48px;
+    width: 24px;
+    height: 24px;
   }
 
   header nav#navbar .nav-brand img:hover {

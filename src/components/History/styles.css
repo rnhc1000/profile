@@ -15,11 +15,18 @@
 }
 .history-container  h1{
   color: rgba(218,148,27,1);
-  font-weight: 500;
+  font-weight: 300;
   margin: 1rem auto;
   font-size: 3rem;
   font-style: italic;
   text-align: center;
+}
+
+.history-container  h2{
+
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1rem auto;
 }
 
 .history {
@@ -27,16 +34,18 @@
     font-weight: 200;
     font-style: normal;
     color: var(--text-linen);
-    
 }
 
 .history-important {
    margin: 1rem auto;
   color: var(--main-white);
+  font-size: 2rem;
 
 }
+
 .history-quote {
   color: var(--text-linen);
+  font-size: 1.75rem;
 }
 
 .history-important span {
@@ -47,11 +56,15 @@
     color: var(--main-white)
   }
   
+  .history-bullets {
+    font-size: 1.75rem;
+  }
+  
 .history-bullets:hover {
   cursor: pointer;
   transform: translateY(5px);
   font-weight: 300;
-  font-size: 1.75rem;
+  font-size: 2rem;
   transition: transform 5s ease-in-out;
   color: rgba(218,148,27,1);
 }
@@ -117,7 +130,6 @@
 
 .dt {
     font-style: italic;
-
 }
 
 .blockquote {
