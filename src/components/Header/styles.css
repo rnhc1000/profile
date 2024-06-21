@@ -13,7 +13,7 @@ header nav#navbar {
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(80, 71, 55, 0.5);
+  background-color: rgba(47, 47, 47, 0.5);
   margin: 0 auto;
 }
 
@@ -56,12 +56,13 @@ header nav#navbar ul.nav-list li:hover {
 
 
 header nav#navbar .nav-brand  img {
+  width: 48px;
+  height: 48px;
+}
+
+header nav#navbar .nav-brand  img:hover {
   width: 64px;
   height: 64px;
-}
-header nav#navbar .nav-brand  img:hover {
-  width: 128px;
-  height: 128px;
 }
 
 
@@ -83,8 +84,8 @@ header nav#navbar .nav-brand  img:hover {
   }
 
   header nav#navbar .nav-brand  img {
-    width: 48px;
-    height: 48px;
+    width: 24px;
+    height: 24px;
   }
 
   header nav#navbar .nav-brand img:hover {

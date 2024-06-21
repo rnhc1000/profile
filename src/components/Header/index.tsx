@@ -4,7 +4,7 @@ import skillLogo from '../../assets/svg/mortarboard.svg';
 import contactLogo from '../../assets/svg/whatsapp.svg';
 import codeLogo from '../../assets/svg/tools.svg';
 import history from '../../assets/svg/txt.svg';
-import logo from '../../assets/svg/java.svg';
+import logo from '../../assets/webp/avatar.png.webp';
 
 import { Link } from 'react-router-dom';
 
