@@ -19,11 +19,11 @@ class Designs extends React.Component {
   render() {
     return (
       <section id="articles">
-        <h1>Here are a few of my latest projects!</h1>
+        <h1 className="articles-title">Here are a few of my latest projects!</h1>
         <Zoom>
           <div>
             <Design
-              provider="Digital Transfer Funds as a Service"
+              provider="Digital Payments Platform as a Service"
               description="simaTef&copy; is a SaaS platform for receiving
 digital payments using credit, debit cards and instanteous payments(PIX), available in thousands of retail stores over the country.
 Fully dockerized and cloud-based, this SaaS platform uses the most advanced and robust cryptographed communications
@@ -74,7 +74,7 @@ services platform."
         <Zoom>
           <div>
             <Design
-              provider="Digital Payments Platform as a Service"
+              provider="Payments Applications - simatefPAY&copy;"
               description="simatefPAY&copy; is a payment app that provides a payment 
           link(URL), to make payments easier for retail stores that do home delivery and 
           telephone sales. It has all the necessary resources to accept the most 

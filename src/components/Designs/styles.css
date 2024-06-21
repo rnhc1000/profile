@@ -7,19 +7,6 @@ section#articles {
     gap: 4rem
   }
 
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 5px;
-    background-color: rgba(1, 18, 22, 0.418);
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease-in-out;
-}
-
 
 #articles .linkTo {
   color: inherit;
@@ -32,7 +19,7 @@ section#articles {
 }
 
 
-#articles h1{
+#articles .articles-title{
   color: rgba(218,148,27,1);
   font-weight: 300;
   margin: 1rem auto;
