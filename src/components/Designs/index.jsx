@@ -24,15 +24,16 @@ class Designs extends React.Component {
           <div>
             <Design
               provider="Digital Payments Platform as a Service"
-              description="simaTef&copy; is a SaaS platform for receiving
-digital payments using credit, debit cards and instanteous payments(PIX), available in thousands of retail stores over the country.
-Fully dockerized and cloud-based, this SaaS platform uses the most advanced and robust cryptographed communications
-to allow a secure and smooth operation in fully accordance to the financial industry requirements. Using Oracle 11C as an OLTP database as the core of the application and 
-Java 17+ both on server and client, this very robust application has helped retail stores to 
-access the most modern digital payments tools such as instantaneous payments (PIX) and other digital wallets products.
-With several features that allows an easy and quick integration with other applicatiosn through APIs
-to ease their adoption by several ERP applications used by the retail stores, offering a secure, fast and easy 
-services platform."
+              description="simaTef© is a SaaS platform for receiving digital payments using credit 
+              and debit cards and instantaneous payments (Pix©), available to thousands of retail 
+              stores over the country. Fully dockerized and cloud-based, this SaaS platform uses 
+              the most advanced and robust cryptographed communications to allow a secure and smooth 
+              operation in fully accordance to the financial industry security requirements. 
+              Oracle 11C as an OLTP database as core of the platform and Java 17+ both on transaction 
+              server and client application, helped to build a very robust payment services provider 
+              that has provided retail stores access to the most modern digital payments tools such 
+              as digital wallets products and traditional credit and debit cards payments thriving 
+              their productivity and profitability."
               thumbnail={captura}
             />
             <Link
@@ -103,7 +104,7 @@ services platform."
             <Design
               provider="Financial and Banking Auditing Application"
               description="It is a bank and financial reconciliation system that automatically reconciles 
-              sales done ​​with cards ou instantaneous payments (PIX), with information provided 
+              sales done ​​with cards ou instantaneous payments (Pix&copy;), with information provided 
               by the acquiring networks, by the banks used by the retail store, and
               by the ERP software, ensuring and validating whether the sales credits were duly credited 
               by the acquiring networks to the retail store bank account and whether the contracted rates 

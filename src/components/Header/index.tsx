@@ -14,7 +14,7 @@ export default function Header() {
         <header>
             <nav id="navbar" className="nav-main">
                 <div className="nav-brand">
-                    <img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={logo} alt="Logo" />  
+                    <img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={logo} alt="avatar by Meta&copy;" />  
                 </div>
 
                 <ul className="nav-list">
