@@ -10,11 +10,13 @@ import mongoLogo from "../../assets/svg/mongo.svg";
 import mysqlLogo from "../../assets/svg/mysql-official.svg";
 import jenkinsLogo from "../../assets/svg/Jenkins_logo.svg";
 import wakaLogo from "../../assets/svg/java-icon.svg";
+import rabbitLogo from "../../assets/svg/rabbitmq-logo-svgrepo-com.svg";
 import intellijLogo from "../../assets/icons/IntelliJ_IDEA_Icon.svg";
 import gitLogo from "../../assets/icons/git-scm-icon.svg";
-import bashLogo from "../../assets/icons/icons8-javascript.svg";
+import bashLogo from "../../assets/icons/ts-logo.svg";
 import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
 import awsLogo from "../../assets/svg/Amazon_Web_Services_Logo.svg";
+import vscodeLogo from "../../assets/icons/icons8-visual-studio-code.svg";
 
 
 
@@ -42,17 +44,21 @@ export default function Contact() {
                     <div>
                         <br></br>
                         <img className="contacts-waka" alt="Wakatime" src={wakaLogo} />
-                        <img className="contacts-waka" alt="Spring" src={dockerLogo} width="48px" height="48px" />
                         <img className="contacts-waka" alt="Spring" src={springLogo} />
+                        <img className="contacts-waka" alt="Spring" src={rabbitLogo} />
                         <img className="contacts-waka" alt="React" src={reactLogo} />
-                        <img className="contacts-waka" alt="Mongo" src={mongoLogo} />
                         <img className="contacts-waka" alt="React" src={angularLogo} />
-                        <img className="contacts-waka" alt="MySQL" src={mysqlLogo} />
-                        <img className="contacts-waka" alt="Jenkins" src={jenkinsLogo} />
-                        <img className="contacts-waka" alt="IntelliJ" src={intellijLogo} />
-                        <img className="contacts-waka" alt="Git" src={gitLogo} />
                         <img className="contacts-waka" alt="Bash" src={bashLogo} />
+                        <img className="contacts-waka" alt="MySQL" src={mysqlLogo} />
+                        <img className="contacts-waka" alt="Mongo" src={mongoLogo} />
+                        <img className="contacts-waka" alt="Jenkins" src={jenkinsLogo} />
+                        <img className="contacts-waka" alt="Spring" src={dockerLogo} width="48px" height="48px" />
                         <img className="contacts-waka" alt="Bash" src={awsLogo} />
+                        <img className="contacts-waka" alt="Git" src={gitLogo} />
+                        <img className="contacts-waka" alt="IntelliJ" src={intellijLogo} />
+                        <img className="contacts-waka" alt="IntelliJ" src={vscodeLogo} />
+
+
                     </div>
                     <br></br>
                     <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more info about these skills?

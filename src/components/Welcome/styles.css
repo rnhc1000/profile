@@ -49,8 +49,8 @@
 
 .welcome-important {
   color: var(--orange);
-  font-weight: 300;
-  font-size: 2.5rem;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 .welcome-important span {
@@ -202,4 +202,12 @@ dt {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.contact-details {
+
+  font-style: italic;
+  text-decoration: none;
+  color: var(--orangered);
+
 }
