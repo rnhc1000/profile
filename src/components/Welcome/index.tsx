@@ -50,11 +50,13 @@ export default function Welcome() {
           </pre>
         </Zoom>
         <Zoom>
-          <ReactTyped style={{ color: 'white' }} className="welcome-important" startWhenVisible strings={["Hello, Everybody!"]} typeSpeed={100} backSpeed={50} />
+          <ReactTyped className="welcome-important" startWhenVisible strings={["Hello, Everybody!"]} typeSpeed={100} backSpeed={50} />
           <br></br>
 
           <blockquote className="welcome-quote">
-          I am called <span>Ricardo Ferreira</span> and as a <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Sr Software Engineer</Link>, I love designing and writing clean code and deploying web-based business applications. 
+          Hey! Thanks for touching down. I am <span className="contact-details">Ricardo Ferreira</span> and as a 
+          <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Sr Software Engineer</Link>, I love 
+          designing, and writing and deploying clean code web-based enterprise applications. 
           I have been very successful as an architect and lead developer of solutions and applications that have fully met the requirements and needs of 
           companies and customers, especially in the digital payments industry.
           <br /><br />
