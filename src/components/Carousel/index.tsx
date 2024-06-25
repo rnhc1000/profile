@@ -67,6 +67,10 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/rabbitMQ.jpg.webp"
     },
+    {
+        url:
+            "src/assets/webp/udemyRabbitMQ.jpg.webp"
+    },
 
     {
         url:
@@ -139,7 +143,7 @@ const sliderImageUrl = [
             "src/assets/webp/kubernets.jpg.webp"
     },
     {
-        url:
+        url:    
             "src/assets/webp/uml.jpg.webp"
     },
     {
@@ -147,7 +151,7 @@ const sliderImageUrl = [
             "src/assets/webp/webResponsive.jpg.webp"
     },
     {
-        url:
+        url:    
             "src/assets/webp/css.jpg.webp"
     },
     {
