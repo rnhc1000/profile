@@ -63,6 +63,10 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/udemySystemDesign.jpg.webp"
     },
+    {
+        url:
+            "src/assets/webp/rabbitMQ.jpg.webp"
+    },
 
     {
         url:
