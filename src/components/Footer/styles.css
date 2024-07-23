@@ -1,31 +1,9 @@
 footer {
   border-top: 1px solid rgba(218, 148, 27, 1);
-  box-shadow: 2px 4px 6px rgba(194, 77, 9, 0.5);
-}
-
-footer nav#feet-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
   height: 4rem;
-  width: 100%;
-  padding: 1rem 0;
-  background-color: rgba(80, 71, 55, 0.5);
+
 }
 
-footer nav#feet-footer .footer-head {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.0rem;
-  font-weight: 300;
-  font-style: normal;
-  color: rgba(218, 148, 27, 1);
-  text-align: center;
-}
 
 footer nav#feet-footer .footer-icons {
   display: flex;
@@ -33,20 +11,23 @@ footer nav#feet-footer .footer-icons {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  gap: 10rem;
-  margin: 0 2rem;
+  gap: 4rem;
+  margin: 0 10rem;
 
 }
-footer nav#feet-footer .footer-icons img{
 
-width: 3rem;
-height: 3rem;
+footer nav#feet-footer .footer-icons img {
+
+  width: 2rem;
+  height: 2rem;
 }
 
 footer nav#feet-footer .footer-icons:hover {
   cursor: pointer;
   color: rgba(218, 148, 27, 1);
   filter: drop-shadow(0 0 2em #fbd261aa);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 footer nav#feet-footer .footer-items ul img {
@@ -66,6 +47,7 @@ footer nav#feet-footer .footer-head p {
 footer nav#feet-footer .time {
   color: var(--white);
 }
+
 footer nav#feet-footer .footer-head .time {
   color: var(--orangered);
 }
@@ -75,7 +57,14 @@ footer nav#feet-footer .footer-head .waviy {
 }
 
 
-/* @keyframes logo-spin {
+.contacts-details {
+  font-size: 3rem;
+  margin-top: 1.25rem;
+  transition: transform 0.3s ease-in-out;
+  color: var(--text-linen);
+}
+
+@keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -88,7 +77,7 @@ footer nav#feet-footer .footer-head .waviy {
    .footer-icons {
     animation: logo-spin infinite 20s linear;
   }
-} */
+}
 
 @media (max-width: 640px) {
 
@@ -96,9 +85,12 @@ footer nav#feet-footer .footer-head .waviy {
     width: 24px;
     height: 24px;
   }
+
+
   footer nav#feet-footer .footer-icons {
 
-    flex-wrap: nowrap ;
+    flex-wrap: nowrap;
+    margin: auto;
   }
 
 }

@@ -3,7 +3,8 @@ import homeLogo from '../../assets/svg/house-check.svg';
 import skillLogo from '../../assets/svg/mortarboard.svg';
 import contactLogo from '../../assets/svg/whatsapp.svg';
 import codeLogo from '../../assets/svg/tools.svg';
-import history from '../../assets/svg/txt.svg';
+import history from '../../assets/svg/book.svg';
+import gitLogo from '../../assets/svg/code-slash.svg'
 import logo from '../../assets/webp/avatar.png.webp';
 
 import { Link } from 'react-router-dom';
@@ -36,6 +37,10 @@ export default function Header() {
 
                     <li>
                         <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Contacts" title="Contact" src={contactLogo} /></Link>
+                    </li>
+
+                    <li>
+                        <Link to='/wakatime'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Code" title="Code" src={gitLogo} /></Link>
                     </li>
                 </ul>
 
