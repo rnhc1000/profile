@@ -1,7 +1,5 @@
 import './styles.css';
-import logoReact from '../../assets/icons/react.svg';
-import logoCSS from '../../assets/icons/docker-svgrepo-com.svg';
-import logoTS from '../../assets/icons/ts-logo.svg';
+
 
 
 import Zoom from 'react-reveal/Zoom';
@@ -16,25 +14,58 @@ export default function Footer() {
 
             <nav id="feet-footer">
 
-                <div className="footer-head">
+                <div>
                     <Zoom>
                         <ul className="footer-icons">
 
                             <li>
-                                <Link rel="dns-prefetch" to="https://react.dev" target="_blank" aria-label="Visit react.dev">
-                                    <img src={logoReact} alt="ReactJS" />
+                                <Link
+                                    rel="dns-prefetch"
+                                    to="https://www.linkedin.com/in/ricardoaferreirasilva/"
+                                    target="_blank"
+                                    className="contacts-details"
+                                >
+                                    <i className="fab fa-linkedin-in"></i>
+                                </Link>
+
+                            </li>
+                            <Link
+                                rel="dns-prefetch"
+                                to="mailto:ricardo@ferreiras.dev.br"
+                                target="_blank"
+                                className="contacts-details"
+                            >
+                                <i className="fa fa-at"></i>
+                            </Link>
+                            <li>
+
+                                <Link
+                                    rel="dns-prefetch"
+                                    to="https://wa.me/5571993005555"
+                                    target="_blank"
+                                    className="contacts-details"
+                                >
+                                    <i className="fab fa-whatsapp"></i>
                                 </Link>
                             </li>
-
                             <li>
-                                <Link rel="dns-prefetch" to="https://typescriptlang.org" target="_blank" aria-label="Visit typescriptlang.org">
-                                    <img src={logoTS} alt="Typescript" />
+                                <Link
+                                    rel="dns-prefetch"
+                                    to="https://t.me/RicardoFerreira57"
+                                    target="_blank"
+                                    className="contacts-details"
+                                >
+                                    <i className="fab fa-telegram"></i>
                                 </Link>
                             </li>
-
                             <li>
-                                <Link rel="dns-prefetch" to="https://www.w3.org/" target="_blank" aria-label="Visit w3.org">
-                                    <img src={logoCSS} alt="CSS" />
+                                <Link
+                                    rel="dns-prefetch"
+                                    to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf"
+                                    target="_blank"
+                                    className="contacts-details"
+                                >
+                                    <i className="fa fa-address-card"></i>
                                 </Link>
                             </li>
 
@@ -44,6 +75,5 @@ export default function Footer() {
             </nav>
 
         </footer>
-    );
-
+    )
 }

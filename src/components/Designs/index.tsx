@@ -41,7 +41,7 @@ class Designs extends React.Component {
               to="https://sotech.com.br/solucoes/vendas-com-cartao-tef"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>payments.simatef.com.br</p>
             </Link>
@@ -65,7 +65,7 @@ class Designs extends React.Component {
               to="https://dashboard.simatef.com.br"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>FinOps.simatef.com.br</p>
             </Link>
@@ -92,7 +92,7 @@ class Designs extends React.Component {
               to="https://easypag.simatef.com.br"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>simatefPAY&copy;</p>
             </Link>
@@ -120,7 +120,7 @@ class Designs extends React.Component {
               to="https://sotech.com.br/solucoes/conciliacao-bpo"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>conciliador.simatef.com.br</p>
             </Link>
@@ -148,7 +148,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/daily-tasks.git"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/daily-tasks.git</p>
             </Link>
@@ -175,7 +175,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/dnsBlockURL.git"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/dnsBlockURL.git</p>
             </Link>
@@ -201,7 +201,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/viaCEP.git"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/viaCEP.git</p>
             </Link>
@@ -225,7 +225,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/challenge75.git"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/challenge75.git</p>
             </Link>
@@ -253,7 +253,7 @@ class Designs extends React.Component {
               to="https://grafana.fibercon.com.br:3000/login"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>Grafana+Elasticsearch+Zabbix</p>
             </Link>
@@ -276,7 +276,7 @@ class Designs extends React.Component {
               to="https://sotech.com.br"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>https://sotech.com.br</p>
             </Link>
@@ -302,7 +302,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/draperpcosta.git"
               target="_blank"
               className="linkTo"
-              textDecoration="inherit"
+              // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/draperpcosta.git</p>
             </Link>

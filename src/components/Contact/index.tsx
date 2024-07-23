@@ -17,6 +17,7 @@ import bashLogo from "../../assets/icons/ts-logo.svg";
 import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
 import awsLogo from "../../assets/svg/Amazon_Web_Services_Logo.svg";
 import vscodeLogo from "../../assets/icons/icons8-visual-studio-code.svg";
+import resumeLogo from "../../assets/svg/cv.svg";
 
 
 
@@ -24,7 +25,9 @@ export default function Contact() {
 
     return (
         <section id="contact-section" className="contacts-section">
+
             <div className="contacts-section-header">
+
                 <Zoom>
                     <img className="contacts-img" alt="Profile" src={profilePhoto} />
                     <h1>
@@ -32,7 +35,9 @@ export default function Contact() {
                     </h1>
                     <br></br>
                     <h2 className="contacts-section-qanda">
-                        Make a break, text me, send me an email or download my resume, <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> clicking here</Link>...
+                        Make a break, text me, send me an email or download my resume. &nbsp;<span className="sizeSmiley">&#128073;&#127998;&nbsp;</span>
+                        
+                        <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"><img  alt="Resume" src={resumeLogo} /> </Link>
                     </h2>
                     <br></br>
                     <h3 className="questions">Q: What about your current hands-on skills and tech stack?
@@ -57,8 +62,6 @@ export default function Contact() {
                         <img className="contacts-waka" alt="Git" src={gitLogo} />
                         <img className="contacts-waka" alt="IntelliJ" src={intellijLogo} />
                         <img className="contacts-waka" alt="IntelliJ" src={vscodeLogo} />
-
-
                     </div>
                     <br></br>
                     <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more info about these skills?
@@ -70,9 +73,10 @@ export default function Contact() {
                     <br></br>
                 </Zoom>
 
-
             </div>
+
             <div className="contacts-section-header">
+
                 <Zoom>
                     <h2 className="contacts-section-qanda">
                         Here you have all my contacts!!!.
@@ -81,51 +85,7 @@ export default function Contact() {
                         Let's get connected...
                     </h2>
                 </Zoom>
-            </div>
 
-            <div className="contacts-links">
-
-                <Link
-                    rel="dns-prefetch"
-                    to="https://www.linkedin.com/in/ricardoaferreirasilva/"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fab fa-linkedin-in"></i>
-                </Link>
-
-                <Link
-                    rel="dns-prefetch"
-                    to="mailto:ricardo@ferreiras.dev.br"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fa fa-at"></i>
-                </Link>
-                <Link
-                    rel="dns-prefetch"
-                    to="https://wa.me/5571993005555"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fab fa-whatsapp"></i>
-                </Link>
-                <Link
-                    rel="dns-prefetch"
-                    to="https://t.me/RicardoFerreira57"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fab fa-telegram"></i>
-                </Link>
-                <Link
-                    rel="dns-prefetch"
-                    to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf"
-                    target="_blank"
-                    className="contacts-details"
-                >
-                    <i className="fa fa-address-card"></i>
-                </Link>
             </div>
 
         </section>
