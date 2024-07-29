@@ -89,6 +89,10 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/webp/dynamicProgramming.jpg.webp"
+    },
+    {
+        url:
             "src/assets/webp/cloudFoundations.jpg.webp"
     },
     {
