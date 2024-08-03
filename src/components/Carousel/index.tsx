@@ -49,6 +49,10 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/webp/javaInterview.jpg.webp"
+    },
+    {
+        url:
             "src/assets/webp/javaOO.png.webp"
     },
     {
