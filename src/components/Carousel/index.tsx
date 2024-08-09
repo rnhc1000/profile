@@ -32,6 +32,10 @@ const sliderImageUrl = [
             "src/assets/webp/javaMultithreaded.jpg.webp"
     },
     {
+        url:
+            "src/assets/webp/udemyParallelJava.jpg.webp"
+    },
+    {
         url:                                                                                                                                                                                                                                                                                            
             "src/assets/webp/dsaLeetCode.jpg.webp"
     }, 
