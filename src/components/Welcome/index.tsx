@@ -26,31 +26,46 @@ export default function Welcome() {
           <pre>
             <code className="language-javascript">
               {`
-      package br.dev.ferreiras.threads;
+ package br.dev.ferreiras.threads;
 
-      public class GreetingsThread {
-        static class Greetings implements Runnable{
-          public void start() {
-            Thread t = new Thread(this,"threadName");
-            t.start();
-          }
-          @Override
-          public void run() {
-            System.out.print("Hello, ");
-            try {
-              Thread.sleep(1000);
-              System.out.print("Everybody!");
-            } catch (InterruptedException e) {
-              throw new RuntimeException();
-            }
-          }
-        } 
+ public static void execute() 
+    throws InterruptedException {
+    
+    Thread threadOne = new Thread(() -> {
+
+      Thread.currentThread()
+        .setName("thread-hello");
+      Thread.currentThread()
+        .setPriority(Thread.MAX_PRIORITY);
+      System.out.print("Hello, ");
+
+    });
+
+    Thread threadTwo = new Thread(() -> {
+
+      Thread.currentThread()
+        .setName("thread-everybody");
+      Thread.currentThread()
+        .setPriority(Thread.NORM_PRIORITY);
+      System.out.print("Everybody!!!");
+
+    });
+
+    threadOne.start();
+    threadOne.join();
+    threadTwo.start();
+
+  }
+  void main() throws InterruptedException {
+    execute();
+  }
+}
 `}
             </code>
           </pre>
         </Zoom>
         <Zoom>
-          <ReactTyped className="welcome-important" startWhenVisible strings={["Hello, Everybody!"]} typeSpeed={100} backSpeed={50} />
+          <ReactTyped className="welcome-important" startWhenVisible strings={["Hello, Everybody!!!"]} typeSpeed={100} backSpeed={50} />
           <br></br>
 
           <blockquote className="welcome-quote">
