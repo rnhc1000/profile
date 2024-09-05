@@ -1,7 +1,5 @@
 import './styles.css';
 
-
-
 import Zoom from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
 
