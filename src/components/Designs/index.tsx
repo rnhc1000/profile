@@ -11,6 +11,7 @@ import viaCep from "../../assets/webp/viaCEP.png.webp";
 import anatel from "../../assets/webp/anablock-page.png.webp";
 import leetcode from "../../assets/webp/leetcode.png.webp";
 import todolist from "../../assets/webp/todo.webp";
+import calculator from "../../assets/webp/calculatorWebUI.png.webp";
 import draperpcosta from "../../assets/webp/draPerpCostaReadme.png.webp";
 import Zoom from "react-reveal/Zoom";
 import { Link } from "react-router-dom";
@@ -23,15 +24,15 @@ class Designs extends React.Component {
         <Zoom>
           <div>
             <Design
-              provider="Digital Payments Platform as a Service"
-              description="simaTef© is a SaaS platform for receiving digital payments using credit 
-              and debit cards and instantaneous payments (Pix©), available to thousands of retail 
-              stores over the country. Fully dockerized and cloud-based, this SaaS platform uses 
-              the most advanced and robust cryptographed communications to allow a secure and smooth 
+              provider="Digital Payment - Software as a Service"
+              description="simaTef© is a SaaS platform for collecting digital payments using credit, 
+              debit cards and instantaneous payments (Pix©), available to thousands of retail 
+              stores scattered the country. Fully dockerized and cloud-based, this SaaS platform uses 
+              the most advanced and robust secure communications channel to allow a safe 
               operation in fully accordance to the financial industry security requirements. 
-              Oracle 11C as an OLTP database as core of the platform and Java 17+ both on transaction 
-              server and client application, helped to build a very robust payment services provider 
-              that has provided retail stores access to the most modern digital payments tools such 
+              Running Oracle as an OLTP database as core of the platform and Java 17+ both on transaction 
+              server and client application, positioned the vompany as a innovative payment services provider 
+              that has offered to retail stores, access to the most modern digital payments tools such 
               as digital wallets products and traditional credit and debit cards payments thriving 
               their productivity and profitability."
               thumbnail={captura}
@@ -41,7 +42,7 @@ class Designs extends React.Component {
               to="https://sotech.com.br/solucoes/vendas-com-cartao-tef"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>payments.simatef.com.br</p>
             </Link>
@@ -54,7 +55,7 @@ class Designs extends React.Component {
               provider="FinOps Platform"
               description="Set of applications that allow Observability and Service Engineering teams to track
           every microservice operational status of the Transfer Funds Platform as a Service. Developed using 
-          Laravel, Bootstrap, Oracle Database 11, SSL/TLS NGINX Reverse Proxy Server, Redis and NoSQL databases, based on
+          Laravel framework, Oracle&copy;, SSL NGINX Reverse Proxy, Redis and NoSQL databases, based on
           microservices software engineering approach these applications collect metadata in realtime from each OLTP database 
           and Java services backend where the financial transactions data are persisted and forward them to the Service Desk teams that provide 
           technical support 24 x 7 for the platform."
@@ -65,7 +66,7 @@ class Designs extends React.Component {
               to="https://dashboard.simatef.com.br"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>FinOps.simatef.com.br</p>
             </Link>
@@ -79,12 +80,12 @@ class Designs extends React.Component {
               description="simatefPAY&copy; is a payment app that provides a payment 
           link(URL), to make payments easier for retail stores that do home delivery and 
           telephone sales. It has all the necessary resources to accept the most 
-          diverse cards on the market, allowing your retail store to quickly collect sales payments. 
+          important cards on the market, allowing retail stores scattered over the country to quickly collect sales payments. 
           You create a link with all necessary information to collect the payment and send it to the customer
           via SMS, social media app or email. The app connects retail store customers to acquirers through a 
-          robust encrypted private network, offering them security levels in compliance 
-          with the most demanding requirements of the financial industry. simatefPAY&copy; has been driven 
-          by Java 17, Spring Boot, Spring Security, Oracle 11, MongoDB, Bootstrap, ReactJS and PHP8+.  "
+          robust and secure communications channel, offering them security levels in compliance 
+          with the most demanding requirements of the financial industry. simatefPAY&copy; has been powered 
+          by Java 17, Spring Boot, Spring Security, Spring JPA, rabbitMQ, MongoDB, ReactJS and PHP8+.  "
               thumbnail={easyPag}
             />
             <Link
@@ -92,7 +93,7 @@ class Designs extends React.Component {
               to="https://easypag.simatef.com.br"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>simatefPAY&copy;</p>
             </Link>
@@ -120,9 +121,50 @@ class Designs extends React.Component {
               to="https://sotech.com.br/solucoes/conciliacao-bpo"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>conciliador.simatef.com.br</p>
+            </Link>
+          </div>
+        </Zoom>
+
+        <Zoom>
+          <div>
+            <Design
+              provider="Calculator WEB API"
+              description="The goal is to evaluate how I faced the challenge of building a 
+              RESTful API to be consumed by a ReactJS-based app available below. 
+              The API must ofer endpoints to offer basic math operations and providing a random string generator. 
+              There are some specific requirements to be met, such as authentication and authorization, data persistence, 
+              paginated data recovery, consume endpoints of another API, &minus; https://random.org &minus, authenticated 
+              access to endpoints and some others.The app has been coded using Java 21, Spring Boot 3.3.2, Gradle, Javadoc, Spring Security, Spring JPA, 
+              Spring Webflux, Flyway, Jackson, Lombok, OpenAPI, MySQL, Docker and hosted in an AWS EC2 instance with 
+              secure access provided by a NGINX SSL proxy reverse. Give it a shot at &#128071;
+"
+              thumbnail={calculator}
+            />
+            
+
+            <Link
+              rel="dns-prefetch"
+              to="https://calculatorweb.ferreiras.dev.br"
+              target="_blank"
+              className="linkTo"
+            // textDecoration="inherit"
+            >
+              
+              <p>username: example@example.com</p>
+              <p>password: example.com</p>
+              <p>https://calculatorweb.ferreiras.dev.br</p>
+            </Link>
+            <Link
+              rel="dns-prefetch"
+              to="https://github.com/rnhc1000/calculatorWeb"
+              target="_blank"
+              className="linkTo"
+            // textDecoration="inherit"
+            >
+              <p>API WebCalculator</p>
             </Link>
           </div>
         </Zoom>
@@ -148,7 +190,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/daily-tasks.git"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/daily-tasks.git</p>
             </Link>
@@ -175,7 +217,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/dnsBlockURL.git"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/dnsBlockURL.git</p>
             </Link>
@@ -201,7 +243,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/viaCEP.git"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/viaCEP.git</p>
             </Link>
@@ -225,7 +267,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/challenge75.git"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/challenge75.git</p>
             </Link>
@@ -253,7 +295,7 @@ class Designs extends React.Component {
               to="https://grafana.fibercon.com.br:3000/login"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>Grafana+Elasticsearch+Zabbix</p>
             </Link>
@@ -276,14 +318,14 @@ class Designs extends React.Component {
               to="https://sotech.com.br"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>https://sotech.com.br</p>
             </Link>
           </div>
-          </Zoom>
+        </Zoom>
 
-          <Zoom>
+        <Zoom>
           <div>
             <Design
               provider="Health Educational Portal"
@@ -302,7 +344,7 @@ class Designs extends React.Component {
               to="https://github.com/rnhc1000/draperpcosta.git"
               target="_blank"
               className="linkTo"
-              // textDecoration="inherit"
+            // textDecoration="inherit"
             >
               <p>https://github.com/rnhc1000/draperpcosta.git</p>
             </Link>
