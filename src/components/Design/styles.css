@@ -1,16 +1,29 @@
 
 #articles {
     display: flex;
+    margin: 0 auto;
     align-items: center;
-    gap: 1rem;
- 
+    gap: 1.5rem;
+    flex-direction: row;
+}
+
+#articles .article-infos blockquote {
+    display:flex;
+    justify-content: center;
+align-items: center;;
+    font-weight: 300;
+    font-size: 1.75rem;
+    color: var(--text-linen);
+    text-align: left;
 }
 
 #articles .article-infos h2{
     color: rgba(218,148,27,1);
     font-weight: 300;
+    margin-top: 1rem;
     margin: 1rem auto;
     font-size: 2.5rem;
+    
 }
 
 #articles .article-infos h3 {
@@ -34,8 +47,9 @@
 }
 
 
-
 #articles img {
+    display:flex;
+    margin-top: auto;
     width: 480px;
     height:240px;
     
