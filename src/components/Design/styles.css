@@ -55,6 +55,14 @@ align-items: center;;
     
 }
 
+#articles img:hover {
+    display:flex;
+    margin-top: auto;
+    width: 520px;
+    height:280px;
+    transition: .5s ease-in-out;
+}
+
 .overlay {
     position: absolute;
     bottom: 0;

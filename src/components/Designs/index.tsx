@@ -11,7 +11,7 @@ import viaCep from "../../assets/webp/viaCEP.png.webp";
 import anatel from "../../assets/webp/anablock-page.png.webp";
 import leetcode from "../../assets/webp/leetcode.png.webp";
 import todolist from "../../assets/webp/todo.webp";
-import calculator from "../../assets/webp/calculatorWebUI.png.webp";
+import calculator from "../../assets/webp/webCalculatorUI.png.webp";
 import draperpcosta from "../../assets/webp/draPerpCostaReadme.png.webp";
 import Zoom from "react-reveal/Zoom";
 import { Link } from "react-router-dom";
@@ -104,7 +104,7 @@ class Designs extends React.Component {
           <div>
             <Design
               provider="Financial and Banking Auditing Application"
-              description="It is a bank and financial reconciliation system that automatically reconciles 
+              description="It is a financial reconciliation application that automatically reconciles 
               sales done ​​with cards ou instantaneous payments (Pix&copy;), with information provided 
               by the acquiring networks, by the banks used by the retail store, and
               by the ERP software, ensuring and validating whether the sales credits were duly credited 
@@ -132,18 +132,19 @@ class Designs extends React.Component {
           <div>
             <Design
               provider="Calculator WEB API"
-              description="The goal is to evaluate how I faced the challenge of building a 
+              description="The goal of this project is to evaluate how I faced the challenge of building a 
               RESTful API to be consumed by a ReactJS-based app available below. 
-              The API must ofer endpoints to offer basic math operations and providing a random string generator. 
-              There are some specific requirements to be met, such as authentication and authorization, data persistence, 
-              paginated data recovery, consume endpoints of another API, &minus; https://random.org &minus, authenticated 
+              The API must expose endpoints offering basic math operations and a random string generator. 
+              There are specific requirements to be met, such as AAA, data persistence, 
+              paginated data recovery, consume endpoints of another API, &minus; https://random.org &minus; authenticated 
               access to endpoints and some others.The app has been coded using Java 21, Spring Boot 3.3.2, Gradle, Javadoc, Spring Security, Spring JPA, 
-              Spring Webflux, Flyway, Jackson, Lombok, OpenAPI, MySQL, Docker and hosted in an AWS EC2 instance with 
+              Spring Webflux, Flyway, Jackson, Lombok, OpenAPI, MySQL, Docker, ReactJS, React Router, Axios, React hooks, TypeScript and it is hosted in an AWS EC2 instance with 
               secure access provided by a NGINX SSL proxy reverse. Give it a shot at &#128071;
 "
               thumbnail={calculator}
             />
-            
+            <blockquote>username: example@example.com</blockquote>
+            <blockquote>password: example.com</blockquote>
 
             <Link
               rel="dns-prefetch"
@@ -153,8 +154,7 @@ class Designs extends React.Component {
             // textDecoration="inherit"
             >
               
-              <p>username: example@example.com</p>
-              <p>password: example.com</p>
+              
               <p>https://calculatorweb.ferreiras.dev.br</p>
             </Link>
             <Link
@@ -205,7 +205,7 @@ class Designs extends React.Component {
           that have BIND as their Domain Name Servers engines (DNS) to be fully compliant with the legal system of the country.
           In order to meet brazilian authorities requirements to block suspect URLs being used by the general public,
           this is an application that automates the creation of DNS Zones using BIND 9 and superior according to 
-          Anatel ( Federal Regulatory Agency ) guidance and data available at a public API.  
+          Anatel ( Federal Regulatory Agency ) guidance and data public available at the official press.  
           It has been developed using Java 17, Spring Boot, Spring Security, Swagger, MySQL and Docker and can
           be consumed to generate DNS Bind Resource Recors through a ReactJS SPA.
           "
@@ -228,13 +228,13 @@ class Designs extends React.Component {
           <div>
             <Design
               provider="Zero Framework and  Best Practices"
-              description="This is an app that allows you to get a detailed address information given a valid 
-          ZIP code (valid only in Brazil), available at [https://apicep.ferreiras.dev.br]. 
-          The goal here is to dive into software engineering best practices, even in a small project as 
-          a single page app, where you can take advantage of a design pattern that includes services, 
-          models and controllers with a close eye to SOLID principles, specially the SRP and Dependency Injection, to fetch data from an API [https://viacep.com.br] and start dealing 
+              description="The goal here is to dive into software engineering best practices, even in a small project as 
+          a single page app, without recurring to any framework such as ReactJS, Angular ou Vue, where you can take advantage of a design pattern that includes services, 
+          models and controllers with a close eye to SOLID principles, specially the SRP and Dependency Injection, and start dealing 
           with states, objects, asynchronous events, catching exceptions, exploring the CSS and HTML5 intricacies
-          and prepare the app for JavaScript orchestrate the UI/UX without the usage of any framework."
+          and prepare the app for JavaScript orchestrate the UI/UX. It allows you to get a detailed address information given a valid 
+          ZIP code (valid only in Brazil), available at &#128071;
+          "
               thumbnail={viaCep}
             />
 
@@ -245,6 +245,7 @@ class Designs extends React.Component {
               className="linkTo"
             // textDecoration="inherit"
             >
+              <p>https://apicep.ferreiras.dev.br</p>
               <p>https://github.com/rnhc1000/viaCEP.git</p>
             </Link>
           </div>
