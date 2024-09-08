@@ -26,3 +26,10 @@ section#articles {
   font-size: 2.5rem;
   font-style: italic;
 }
+
+#articles blockquote {
+  font-size: 1.75rem;
+  color: var(--orangered);
+  display: flex;
+  justify-content: right;
+}

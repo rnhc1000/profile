@@ -5,6 +5,8 @@ import { useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 
 import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+import Rotate from 'react-reveal/Rotate';
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
@@ -20,7 +22,7 @@ export default function Welcome() {
   return (
     <section id="welcome-section">
       <div className="welcome-container">
-        <Zoom>
+        <Fade bottom>
           <pre>
             <code className="language-javascript">
               {`
@@ -61,7 +63,7 @@ export default function Welcome() {
 `}
             </code>
           </pre>
-        </Zoom>
+        </Fade>
         <Zoom>
           <ReactTyped className="welcome-important" startWhenVisible strings={["Hello, Everybody!!!"]} typeSpeed={100} backSpeed={50} />
           <br></br>
