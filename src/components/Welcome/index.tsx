@@ -27,7 +27,9 @@ export default function Welcome() {
               {`
  package br.dev.ferreiras.threads;
 
- public static void execute() 
+ public class HelloWorld {
+
+  public static void execute() 
     throws InterruptedException {
     
     Thread threadOne = new Thread(() -> {
@@ -55,10 +57,13 @@ export default function Welcome() {
     threadTwo.start();
 
   }
+
   void main() throws InterruptedException {
     execute();
   }
+ 
 }
+
 `}
             </code>
           </pre>
