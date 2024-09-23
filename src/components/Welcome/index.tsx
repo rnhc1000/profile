@@ -6,7 +6,6 @@ import { ReactTyped } from "react-typed";
 
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import Rotate from 'react-reveal/Rotate';
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
