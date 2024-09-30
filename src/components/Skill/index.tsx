@@ -1,7 +1,6 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
-import Zoom from 'react-reveal/Zoom';
-
+import { Zoom } from "react-awesome-reveal";
 
 export default function Skill() {
 

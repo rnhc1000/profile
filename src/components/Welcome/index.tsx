@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
+import { Zoom, Fade } from "react-awesome-reveal";
+
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';

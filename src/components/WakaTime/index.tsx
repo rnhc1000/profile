@@ -7,8 +7,8 @@ import oca from "../../assets/webp/oca.png.webp";
 import ofa from "../../assets/webp/ofa.png.webp";
 import leetcode from "../../assets/webp//leetCode_logo.webp";
 
+import { Zoom } from "react-awesome-reveal";
 
-import Zoom from "react-reveal/Zoom";
 import { ReactTyped } from "react-typed";
 
 export default function WakaTime() {

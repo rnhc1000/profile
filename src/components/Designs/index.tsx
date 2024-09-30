@@ -13,7 +13,7 @@ import leetcode from "../../assets/webp/leetcode.png.webp";
 import todolist from "../../assets/webp/todo.webp";
 import calculator from "../../assets/webp/webCalculatorUI.png.webp";
 import draperpcosta from "../../assets/webp/draPerpCostaReadme.png.webp";
-import Zoom from "react-reveal/Zoom";
+import { Zoom } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
 class Designs extends React.Component {
