@@ -1,6 +1,6 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from "react-awesome-reveal";
 import Iframe from 'react-iframe';
 import dashBoard from '../../assets/webp/dashboard.png.webp';
 import easyPag from '../../assets/webp/easypay.png.webp';
@@ -11,9 +11,6 @@ import anatel from '../../assets/webp/anablock-page.png.webp';
 import leetcode from '../../assets/webp/leetcode.png.webp';
 import todolist from '../../assets/webp/todo.webp';
 import draperpcosta from '../../assets/webp/draPerpCostaReadme.png.webp';
-
-
-
 
 export default function Project() {
 
