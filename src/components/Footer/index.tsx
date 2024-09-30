@@ -1,6 +1,6 @@
 import './styles.css';
 
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 
 

@@ -1,7 +1,7 @@
 import "./styles.css";
 import profilePhoto from "../../assets/webp/rnhc.jpg.webp";
 import { Link } from "react-router-dom";
-import Zoom from "react-reveal/Zoom";
+import { Zoom } from "react-awesome-reveal";
 
 import springLogo from "../../assets/svg/Spring_Boot.svg";
 import angularLogo from '../../assets/svg/angular-icon.svg';

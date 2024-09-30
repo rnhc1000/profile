@@ -1,0 +1,6 @@
+projectKey=Portfolio-Ricardo-Ferreira
+serverUrl=http://localhost:9001
+serverVersion=9.9.6.92038
+dashboardUrl=http://localhost:9001/dashboard?id=Portfolio-Ricardo-Ferreira
+ceTaskId=AZIqKCiCrmsn1gxw96ej
+ceTaskUrl=http://localhost:9001/api/ce/task?id=AZIqKCiCrmsn1gxw96ej

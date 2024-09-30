@@ -2,7 +2,7 @@
 import  './styles.css';
 import CountUp from 'react-countup';
 import { Link } from 'react-router-dom';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from "react-awesome-reveal";
 
 import skillLogo from '../../assets/svg/mortarboard.svg';
 import contactLogo from '../../assets/svg/whatsapp.svg';

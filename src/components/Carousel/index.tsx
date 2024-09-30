@@ -69,6 +69,18 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/webp/rabbitMQ.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/udemyRabbitMQ.jpg.webp"
+    },
+    {
+        url:
+            "src/assets/webp/udemyTestsSpringBoot.jpg.webp"
+    },
+    {
+        url:
             "src/assets/webp/oop.1.jpg.webp"
     }, 
     {
@@ -79,14 +91,7 @@ const sliderImageUrl = [
         url:
             "src/assets/webp/udemyClojure.jpg.webp"
     },
-    {
-        url:
-            "src/assets/webp/rabbitMQ.jpg.webp"
-    },
-    {
-        url:
-            "src/assets/webp/udemyRabbitMQ.jpg.webp"
-    },
+
     {
         url:
             "src/assets/webp/algoritmosLP.jpg.webp"

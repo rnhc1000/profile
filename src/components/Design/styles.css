@@ -10,7 +10,7 @@
 #articles .article-infos blockquote {
     display:flex;
     justify-content: center;
-align-items: center;;
+    align-items: center;
     font-weight: 300;
     font-size: 1.75rem;
     color: var(--text-linen);
@@ -20,7 +20,6 @@ align-items: center;;
 #articles .article-infos h2{
     color: rgba(218,148,27,1);
     font-weight: 300;
-    margin-top: 1rem;
     margin: 1rem auto;
     font-size: 2.5rem;
     
