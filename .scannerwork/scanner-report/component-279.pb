@@ -1,0 +1,1 @@
+— 2tsXlhrsrc/components/Skill/index.tsx

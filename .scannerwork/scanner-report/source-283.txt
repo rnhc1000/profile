@@ -1,0 +1,150 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 960px;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text-linen);
+    
+}
+.projects-container h1{
+    color: rgba(218,148,27,1);
+    font-weight: 300;
+    margin: 1rem auto;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.projects-container p{
+    color: var(--text-linen);
+    font-weight: 300;
+    margin: 1rem auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.projects-section-header {
+    text-align: center;
+    margin: 20px 20px 5px 20px;
+    color: rgba(218,148,27,1);
+}
+
+.projects-section-header p {
+    margin: 1.5rem auto;
+    color: rgba(218,148,27,1);
+    font-size: 1.4rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    margin: 5em auto 20px auto;
+}
+
+@media (max-width: 640px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        align-items: center;
+        max-width: 640px;
+    }
+} 
+
+.code {
+    color: var(--primary);
+    transition: color 0.5s ease-out;
+    font-size: 2rem;
+}
+
+.project:hover .code {
+    color: var(--orangered);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background-color: rgba(1, 18, 22, 0.418);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease-in-out;
+}
+
+.project:hover .overlay {
+    height: 100%;
+}
+
+.project-image {
+    border: orange solid 1px;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    padding: 1rem 0.5rem;
+}
+
+.skills-icons img{
+    width: 24px;
+    height: 24px;
+}
+
+.projects-grid img {
+    width: 480px;
+    height: 240px;
+}
+
+.projects-grid-leetcode {
+    width: 20rem;
+    height: 20rem;
+}
+
+.contacts-waka {
+    position: relative;
+    margin: 0 0.5rem;
+    width:64px;
+    height: 64px; 
+}
+
+.scroll-container {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;
+  }
+
+  .scroll-container:before {
+    content: '';
+    display: block;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .scroll-container a {
+    position: sticky;
+    top: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .contact-me {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }

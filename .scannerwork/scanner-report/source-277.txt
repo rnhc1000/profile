@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 
-import { Zoom, Fade } from 'react-awesome-reveal';
+import { Zoom, Fade } from "react-awesome-reveal";
+
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
@@ -20,7 +21,7 @@ export default function Welcome() {
   return (
     <section id="welcome-section">
       <div className="welcome-container">
-        <Fade>
+        <Fade bottom>
           <pre>
             <code className="language-javascript">
               {`
