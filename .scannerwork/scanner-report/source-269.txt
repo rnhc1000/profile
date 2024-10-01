@@ -1,0 +1,129 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+header {
+  border-bottom: 0.0675rem solid rgba(218, 148, 27, 1);
+  box-shadow: 0 4px 6px rgba(194, 77, 9, 0.5);
+}
+
+header nav#navbar {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(37, 37, 37, 0.15);
+  margin: 0 auto;
+}
+
+
+header nav#navbar .nav-main {
+  font-size: 1.0rem;
+  color: var(#FFF);
+}
+
+header nav#navbar .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav#navbar .nav-brand  h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+header nav#navbar ul.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 5rem;
+}
+
+header nav#navbar ul.nav-list li{
+  color: var(--white);
+  font-size: 1.5rem;
+  text-decoration: none;
+
+}
+
+header nav#navbar ul.nav-list li:hover {
+  font-size: 1.75rem;
+  color: rgb(235, 122, 16);
+  filter: drop-shadow(0 0 2em #f3c442aa);
+
+}
+
+
+header nav#navbar .nav-brand  img {
+  width: 64px;
+  height: 64px;
+  filter: drop-shadow(0 0  1rem rgba(243, 196, 66, 0.5));
+
+}
+
+header nav#navbar .nav-brand  img:hover {
+  width: 64px;
+  height: 64px;
+}
+
+
+@media screen and (max-width: 640px) {
+  header nav#navbar ul.nav-list li:not(:first-child) {
+    display: none;
+  }
+
+
+  header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  header nav#navbar .nav-brand  h1{
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
+  header nav#navbar .nav-brand  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  header nav#navbar .nav-brand img:hover {
+    width: 48px;
+    height: 48px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+  header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.10rem;
+  }
+  
+  header nav#navbar .nav-brand  h1{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  header nav#navbar .nav-brand  img {
+    width: 48px;
+    height: 48px;
+  }
+  header nav#navbar .nav-brand  img:hover {
+    width: 64px;
+    height: 64px;
+  }
+
+}
+
+
+

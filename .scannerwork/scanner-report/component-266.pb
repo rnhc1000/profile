@@ -1,0 +1,1 @@
+Š 2tsXMhrsrc/components/Footer/index.tsx

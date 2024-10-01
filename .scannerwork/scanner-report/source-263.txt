@@ -1,0 +1,35 @@
+section#articles {
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 4rem auto;
+    gap: 4rem
+  }
+
+
+#articles .linkTo {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#articles p:hover{
+    font-size: 1.85em;
+    color: var(--orangered);
+}
+
+
+#articles .articles-title{
+  color: rgba(218,148,27,1);
+  font-weight: 300;
+  margin: 1rem auto;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+#articles blockquote {
+  font-size: 1.75rem;
+  color: var(--orangered);
+  display: flex;
+  justify-content: right;
+}

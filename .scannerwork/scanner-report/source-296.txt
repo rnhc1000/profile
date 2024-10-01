@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/rnhc.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This web resource contains a compilation
+  of my professional journey from the very beginning as of today. Being an engineer who faced challenges
+  the idea is to have a repository of all achievements, experiences, training and other milestones. Enjoy it!">
+  <title>Ricardo Ferreira</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
