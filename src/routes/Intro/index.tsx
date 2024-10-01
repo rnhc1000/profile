@@ -5,9 +5,8 @@ export default function Intro() {
 
     return (
         <>
-                <Signature />
-
-        <Welcome />
+            <Signature />
+            <Welcome />
         </>
     );
 
