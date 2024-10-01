@@ -4,12 +4,8 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 
-<<<<<<< HEAD
-import { Zoom, Fade } from 'react-awesome-reveal';
-=======
 import { Zoom, Fade } from "react-awesome-reveal";
 
->>>>>>> 32d231ac35db4523c966b706564e32afc23486e3
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
@@ -26,8 +22,8 @@ export default function Welcome() {
     <section id="welcome-section">
       <div className="welcome-container">
         <Fade>
-          <pre>
-            <code className="language-javascript">
+          <pre className="language-javascript">
+            <code>
               {`
  package br.dev.ferreiras.threads;
 
@@ -69,6 +65,7 @@ export default function Welcome() {
 }
 
 `}
+
             </code>
           </pre>
         </Fade>

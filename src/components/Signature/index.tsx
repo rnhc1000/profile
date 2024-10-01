@@ -2,7 +2,7 @@
 import  './styles.css';
 import CountUp from 'react-countup';
 import { Link } from 'react-router-dom';
-import { Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import skillLogo from '../../assets/svg/mortarboard.svg';
 import contactLogo from '../../assets/svg/whatsapp.svg';
@@ -13,7 +13,7 @@ import gitLogo from '../../assets/svg/code-slash.svg';
 export default function Signature() {
     return (
         <section>
-            <Zoom>
+            <Fade>
                 <div id="signature">
                     <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} alt="History" /></Link>
                     <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillLogo} alt="Skills" /></Link>
@@ -23,11 +23,11 @@ export default function Signature() {
                 </div>
                 <div>
                     <p id="sign-rights">
-                        <CountUp separator="" delay={2} end={2024} />
+                        <CountUp separator="" start={1957} delay={1} end={2024} />
                     </p>
                     <p id="sign-rights">&copy;Ricardo Ferreira - All rights reserved</p>
                 </div>
-            </Zoom>
+            </Fade>
         </section>
 
     )

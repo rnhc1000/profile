@@ -1,19 +1,16 @@
 import './styles.css';
 
-import { Zoom } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
 
     return (
+            <footer>
 
-        <footer>
+                <nav id="feet-footer">
 
-            <nav id="feet-footer">
-
-                <div>
-                    <Zoom>
+                    <div>
                         <ul className="footer-icons">
 
                             <li>
@@ -68,10 +65,9 @@ export default function Footer() {
                             </li>
 
                         </ul>
-                    </Zoom>
-                </div>
-            </nav>
+                    </div>
+                </nav>
 
-        </footer>
-    )
+            </footer>
+            )
 }
