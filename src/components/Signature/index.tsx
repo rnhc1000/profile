@@ -23,7 +23,7 @@ export default function Signature() {
                 </div>
                 <div>
                     <p id="sign-rights">
-                        <CountUp separator="" start={1957} delay={1} end={2024} />
+                        <CountUp separator="" delay={0} start={1957} end={2024} />
                     </p>
                     <p id="sign-rights">&copy;Ricardo Ferreira - All rights reserved</p>
                 </div>
