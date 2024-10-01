@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 
+<<<<<<< HEAD
 import { Zoom, Fade } from 'react-awesome-reveal';
+=======
+import { Zoom, Fade } from "react-awesome-reveal";
+
+>>>>>>> 32d231ac35db4523c966b706564e32afc23486e3
 
 import Prism from 'prismjs';
 import 'prismjs/components/prism-clike';
