@@ -19,8 +19,6 @@ import awsLogo from "../../assets/svg/Amazon_Web_Services_Logo.svg";
 import vscodeLogo from "../../assets/icons/icons8-visual-studio-code.svg";
 import resumeLogo from "../../assets/svg/cv.svg";
 
-
-
 export default function Contact() {
 
     return (
