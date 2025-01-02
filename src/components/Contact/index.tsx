@@ -5,6 +5,7 @@ import { Zoom } from "react-awesome-reveal";
 
 import springLogo from "../../assets/svg/Spring_Boot.svg";
 import angularLogo from '../../assets/svg/angular-icon.svg';
+import kafkalogo from '../../assets/svg/apache_kafka-icon.svg';
 import reactLogo from "../../assets/svg/react.svg";
 import mongoLogo from "../../assets/svg/mongo.svg";
 import mysqlLogo from "../../assets/svg/mysql-official.svg";
@@ -41,6 +42,7 @@ export default function Contact() {
                     <h3 className="questions">Q: What about your current hands-on skills and tech stack?
                     </h3>
                     <br></br>
+
                     <h3 className="questions">
                         A: I am currently working on some projects developing with the tools below <span className="sizeSmiley"><span>&#128071;&#127998;</span></span>:
                     </h3>
@@ -48,18 +50,19 @@ export default function Contact() {
                         <br></br>
                         <img className="contacts-waka" alt="Wakatime" src={wakaLogo} />
                         <img className="contacts-waka" alt="Spring" src={springLogo} />
-                        <img className="contacts-waka" alt="Spring" src={rabbitLogo} />
+                        <img className="contacts-waka" alt="Kafka" src={kafkalogo} />
+                        <img className="contacts-waka" alt="Rabbit" src={rabbitLogo} />
                         <img className="contacts-waka" alt="React" src={reactLogo} />
-                        <img className="contacts-waka" alt="React" src={angularLogo} />
+                        <img className="contacts-waka" alt="Angular" src={angularLogo} />
                         <img className="contacts-waka" alt="Bash" src={bashLogo} />
                         <img className="contacts-waka" alt="MySQL" src={mysqlLogo} />
                         <img className="contacts-waka" alt="Mongo" src={mongoLogo} />
                         <img className="contacts-waka" alt="Jenkins" src={jenkinsLogo} />
                         <img className="contacts-waka" alt="Spring" src={dockerLogo} width="48px" height="48px" />
-                        <img className="contacts-waka" alt="Bash" src={awsLogo} />
+                        <img className="contacts-waka" alt="AWS" src={awsLogo} />
                         <img className="contacts-waka" alt="Git" src={gitLogo} />
                         <img className="contacts-waka" alt="IntelliJ" src={intellijLogo} />
-                        <img className="contacts-waka" alt="IntelliJ" src={vscodeLogo} />
+                        <img className="contacts-waka" alt="VSCode" src={vscodeLogo} />
                     </div>
                     <br></br>
                     <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more info about these skills?

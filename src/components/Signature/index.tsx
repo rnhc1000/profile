@@ -10,6 +10,12 @@ import codeLogo from '../../assets/svg/tools.svg';
 import history from '../../assets/svg/book.svg';
 import gitLogo from '../../assets/svg/code-slash.svg';
 
+const date =  new Date();
+const year = date.getFullYear();
+const dob:number = 1957;
+
+console.log(year);
+console.log(dob);
 export default function Signature() {
     return (
         <section>
@@ -23,7 +29,7 @@ export default function Signature() {
                 </div>
                 <div>
                     <p id="sign-rights">
-                        <CountUp separator="" delay={0} start={1957} end={2024} />
+                        <CountUp separator="" delay={0} start={dob} end={year} />
                     </p>
                     <p id="sign-rights">&copy;Ricardo Ferreira - All rights reserved</p>
                 </div>

@@ -69,6 +69,14 @@ const sliderImageUrl = [
     },
     {
         url:
+            "src/assets/webp/springExpert.webp"
+    },
+    {
+        url:
+            "src/assets/webp/apacheKafkaUdemy.jpg.webp"
+    },
+    {
+        url:
             "src/assets/webp/rabbitMQ.jpg.webp"
     },
     {
