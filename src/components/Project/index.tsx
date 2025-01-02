@@ -2,15 +2,15 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 import { Zoom } from "react-awesome-reveal";
 import Iframe from 'react-iframe';
-import dashBoard from '../../assets/webp/dashboard.png.webp';
-import easyPag from '../../assets/webp/easypay.png.webp';
-import devOps from '../../assets/webp/devOps.png.webp';
-import mapa from '../../assets/webp/mapa.png.webp';
-import viaCep from '../../assets/webp/viaCEP.png.webp';
-import anatel from '../../assets/webp/anablock-page.png.webp';
-import leetcode from '../../assets/webp/leetcode.png.webp';
-import todolist from '../../assets/webp/todo.webp';
-import draperpcosta from '../../assets/webp/draPerpCostaReadme.png.webp';
+import dashBoard from '../../assets/images//webp/dashboard.png.webp';
+import easyPag from '../../assets/images//webp/easypay.png.webp';
+import devOps from '../../assets/images//webp/devOps.png.webp';
+import mapa from '../../assets/images//webp/mapa.png.webp';
+import viaCep from '../../assets/images//webp/viaCEP.png.webp';
+import anatel from '../../assets/images//webp/anablock-page.png.webp';
+import leetcode from '../../assets/images//webp/leetcode.png.webp';
+import todolist from '../../assets/images//webp/todo.webp';
+import draperpcosta from '../../assets/images//webp/draPerpCostaReadme.png.webp';
 
 export default function Project() {
 

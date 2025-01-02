@@ -1,24 +1,24 @@
 import "./styles.css";
-import profilePhoto from "../../assets/webp/rnhc.jpg.webp";
+import profilePhoto from "../../assets/images/webp/rnhc.jpg.webp";
 import { Link } from "react-router-dom";
 import { Zoom } from "react-awesome-reveal";
 
-import springLogo from "../../assets/svg/Spring_Boot.svg";
-import angularLogo from '../../assets/svg/angular-icon.svg';
-import kafkalogo from '../../assets/svg/apache_kafka-icon.svg';
-import reactLogo from "../../assets/svg/react.svg";
-import mongoLogo from "../../assets/svg/mongo.svg";
-import mysqlLogo from "../../assets/svg/mysql-official.svg";
-import jenkinsLogo from "../../assets/svg/Jenkins_logo.svg";
-import wakaLogo from "../../assets/svg/java-icon.svg";
-import rabbitLogo from "../../assets/svg/rabbitmq-logo-svgrepo-com.svg";
-import intellijLogo from "../../assets/icons/IntelliJ_IDEA_Icon.svg";
-import gitLogo from "../../assets/icons/git-scm-icon.svg";
-import bashLogo from "../../assets/icons/ts-logo.svg";
-import dockerLogo from '../../assets/icons/docker-svgrepo-com.svg';
-import awsLogo from "../../assets/svg/Amazon_Web_Services_Logo.svg";
-import vscodeLogo from "../../assets/icons/icons8-visual-studio-code.svg";
-import resumeLogo from "../../assets/svg/cv.svg";
+import springLogo from "../../assets/images/svg/Spring_Boot.svg";
+import angularLogo from '../../assets/images/svg/angular-icon.svg';
+import kafkalogo from '../../assets/images/svg/apache_kafka-icon.svg';
+import reactLogo from "../../assets/images/svg/react.svg";
+import mongoLogo from "../../assets/images/svg/mongo.svg";
+import mysqlLogo from "../../assets/images/svg/mysql-official.svg";
+import jenkinsLogo from "../../assets/images/svg/Jenkins_logo.svg";
+import wakaLogo from "../../assets/images/svg/java-icon.svg";
+import rabbitLogo from "../../assets/images/svg/rabbitmq-logo-svgrepo-com.svg";
+import intellijLogo from "../../assets/images/icons/IntelliJ_IDEA_Icon.svg";
+import gitLogo from "../../assets/images/icons/git-scm-icon.svg";
+import bashLogo from "../../assets/images/icons/ts-logo.svg";
+import dockerLogo from '../../assets/images/icons/docker-svgrepo-com.svg';
+import awsLogo from "../../assets/images/svg/Amazon_Web_Services_Logo.svg";
+import vscodeLogo from "../../assets/images/icons/icons8-visual-studio-code.svg";
+import resumeLogo from "../../assets/images/svg/cv.svg";
 
 export default function Contact() {
 

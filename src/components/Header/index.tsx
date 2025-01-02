@@ -1,11 +1,11 @@
 import './styles.css';
-import homeLogo from '../../assets/svg/house-check.svg';
-import skillLogo from '../../assets/svg/mortarboard.svg';
-import contactLogo from '../../assets/svg/whatsapp.svg';
-import codeLogo from '../../assets/svg/tools.svg';
-import history from '../../assets/svg/book.svg';
-import gitLogo from '../../assets/svg/code-slash.svg'
-import logo from '../../assets/webp/avatar.png.webp';
+import homeLogo from '../../assets/images/svg/house-check.svg';
+import skillLogo from '../../assets/images/svg/mortarboard.svg';
+import contactLogo from '../../assets/images/svg/whatsapp.svg';
+import codeLogo from '../../assets/images/svg/tools.svg';
+import history from '../../assets/images/svg/book.svg';
+import gitLogo from '../../assets/images/svg/code-slash.svg'
+import logo from '../../assets/images/webp/avatar.png.webp';
 
 import { Link } from 'react-router-dom';
 
