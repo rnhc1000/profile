@@ -3,7 +3,7 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 import { ReactTyped } from "react-typed";
 import { Zoom } from "react-awesome-reveal";
-import logo from '../../assets/webp/avatar.png.webp';
+import logo from '../../assets/images/webp/avatar.png.webp';
 
 export default function Welcome() {
 

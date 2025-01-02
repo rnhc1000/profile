@@ -1,11 +1,12 @@
 import './styles.css';
 import { Link } from "react-router-dom";
-import cloud101 from "../../assets/webp/cloud101.png.webp";
-import essentials from "../../assets/webp/essential.png.webp";
-import quest from "../../assets/webp/quest.png.webp";
-import oca from "../../assets/webp/oca.png.webp";
-import ofa from "../../assets/webp/ofa.png.webp";
-import leetcode from "../../assets/webp//leetCode_logo.webp";
+
+import cloud101 from "../../assets/images/webp/cloud101.png.webp";
+import essentials from "../../assets/images/webp/essential.png.webp";
+import quest from "../../assets/images/webp/quest.png.webp";
+import oca from "../../assets/images/webp/oca.png.webp";
+import ofa from "../../assets/images/webp/ofa.png.webp";
+import leetcode from "../../assets/images/webp//leetCode_logo.webp";
 
 import { Zoom } from "react-awesome-reveal";
 
