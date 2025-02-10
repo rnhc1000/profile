@@ -27,13 +27,13 @@ class Designs extends React.Component {
               provider="Digital Payment - Software as a Service"
               description="simaTef© is a SaaS platform for collecting digital payments using credit, 
               debit cards and instantaneous payments (Pix©), available to thousands of retail 
-              stores scattered the country. Fully dockerized and cloud-based, this SaaS platform uses 
+              stores located all over the country. Fully dockerized and cloud-based, this SaaS platform uses 
               the most advanced and robust secure communications channel to allow a safe 
               operation in fully accordance to the financial industry security requirements. 
               Running Oracle as an OLTP database as core of the platform and Java 17+ both on transaction 
-              server and client application, positioned the vompany as a innovative payment services provider 
-              that has offered to retail stores, access to the most modern digital payments tools such 
-              as digital wallets products and traditional credit and debit cards payments thriving 
+              server and client application, has helped to position the company as an innovative and proeminent 
+              payment services provider. The simaTef© SaaS platafrm has offered retail stores, access to the most modern 
+              digital payments tools such as digital wallets and credit and debit cards payments thriving 
               their productivity and profitability."
               thumbnail={captura}
             />
@@ -54,11 +54,11 @@ class Designs extends React.Component {
             <Design
               provider="FinOps Platform"
               description="Set of applications that allow Observability and Service Engineering teams to track
-          every microservice operational status of the Transfer Funds Platform as a Service. Developed using 
-          Laravel framework, Oracle&copy;, SSL NGINX Reverse Proxy, Redis and NoSQL databases, based on
-          microservices software engineering approach these applications collect metadata in realtime from each OLTP database 
-          and Java services backend where the financial transactions data are persisted and forward them to the Service Desk teams that provide 
-          technical support 24 x 7 for the platform."
+          every microservice operational status of the simaTef© SaaS platform. Developed using 
+          Spring framework, Oracle&copy;, SSL NGINX Reverse Proxy, RabbitMQ, Redis and NoSQL databases and based on
+          microservices software engineering approach, these applications collect metadata in realtime from each OLTP database 
+          and Java services backend where the financial transactions data are persisted and forward them to the Service Desk 
+          teams that provide technical support 24 x 7 for the platform."
               thumbnail={dashBoard}
             />
             <Link
@@ -105,9 +105,10 @@ class Designs extends React.Component {
             <Design
               provider="Financial and Banking Auditing Application"
               description="It is a financial reconciliation application that automatically reconciles 
-              sales done ​​with cards ou instantaneous payments (Pix&copy;), with information provided 
-              by the acquiring networks, by the banks used by the retail store, and
-              by the ERP software, ensuring and validating whether the sales credits were duly credited 
+              sales results ​​with cards ou instantaneous payments (Pix&copy;). There are three sources of information
+              to reconcile the receivables of a retail store. The information provided 
+              by the acquiring networks, the information provided by the banks used by the retail store, and
+              the information provided by the ERP software, ensuring and validating whether the sales credits were duly credited 
               by the acquiring networks to the retail store bank account and whether the contracted rates 
               are in accordance with the contract, avoiding financial losses and reducing the cost and time 
               of verification and financial auditing on the receivables. 
@@ -138,7 +139,7 @@ class Designs extends React.Component {
               There are specific requirements to be met, such as AAA, data persistence, 
               paginated data recovery, consume endpoints of another API, &minus; https://random.org &minus; authenticated 
               access to endpoints and some others.The app has been coded using Java 21, Spring Boot 3.3.2, Gradle, Javadoc, Spring Security, Spring JPA, 
-              Spring Webflux, Flyway, Jackson, Lombok, OpenAPI, MySQL, Docker, ReactJS, React Router, Axios, React hooks, TypeScript and it is hosted in an AWS EC2 instance with 
+              Spring Webflux, RabbitMQ, Flyway, Jackson, Lombok, OpenAPI, MySQL, Docker, ReactJS, React Router, Axios, React hooks, TypeScript and it is hosted in an AWS EC2 instance with 
               secure access provided by a NGINX SSL proxy reverse. Give it a shot at &#128071;
 "
               thumbnail={calculator}
