@@ -42,6 +42,10 @@ const sliderImageUrl = [
     },
     {
         url:
+            'https://www.ferreiras.dev.br/assets/images/webp/spring-ai-udemy.jpg.webp'
+    },
+    {
+        url:
             'https://www.ferreiras.dev.br/assets/images/webp/dsaLeetCode.jpg.webp'
     },
     {
