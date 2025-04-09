@@ -1,4 +1,3 @@
-
 import  './styles.css';
 import CountUp from 'react-countup';
 import { Link } from 'react-router-dom';
@@ -14,8 +13,6 @@ const date =  new Date();
 const year = date.getFullYear();
 const dob:number = 1957;
 
-console.log(year);
-console.log(dob);
 export default function Signature() {
     return (
         <section>

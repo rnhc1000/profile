@@ -1,21 +1,25 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
+import { Fade } from 'react-awesome-reveal';
+
+
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
         items: 1,
-        slidesToSlide: 1// optional, default to 1.
+        slidesToSlide: 1
     },
     tablet: {
-        breakpoint: { max: 1024, min: 768 },
+        breakpoint: { max: 1024, min: 464 },
         items: 1,
-        slidesToSlide: 1 // optional, default to 1.
+        slidesToSlide: 1
     },
     mobile: {
-        breakpoint: { max: 767, min: 320 },
+        breakpoint: { max: 464, min: 0 },
         items: 1,
-        slidesToSlide: 1 // optional, default to 1.
+        slidesToSlide: 1
+
     }
 };
 
@@ -263,20 +267,38 @@ const Slider = () => {
                 <Carousel
                     responsive={responsive}
                     autoPlay={true}
+                    autoPlaySpeed={3000}
                     swipeable={true}
                     draggable={true}
-                    customTransition="all 1"
                     transitionDuration={2000}
                     showDots={true}
                     infinite={true}
-                    partialVisible={false}  
+                    partialVisible={false}
                     dotListClass="custom-dot-list-style"
+                    ssr={true}
+                    keyBoardControl={true}
+                    customTransition="transform 2000ms ease-in-out"
                 >
                     {sliderImageUrl.map((imageUrl, index) => {
                         return (
-                            <div className="slider" key={index}>
-                                <img src={imageUrl.url} style={{ marginLeft: "auto", marginRight: "auto", padding: "0 2rem 0 2rem", display: "flex", justifyContent: "center" }} alt="movie" />
+                            <Fade key={index} direction="up" triggerOnce>
+                                <div className="slider" key={index}>
+                                    <img 
+                                    src={imageUrl.url} 
+                                    style={{ 
+                                    marginLeft: "auto", 
+                                    marginRight: "auto", 
+                                    padding: "0 2rem 0 2rem", 
+                                    display: "flex", 
+                                    justifyContent: "center",
+                                    objectFit: 'cover',
+                                    objectPosition: 'center',
+                                    width: '100%',
+                                    height: '100%',
+                                    borderRadius: '10px'
+                                    }} alt="movie" />
                             </div>
+                            </Fade>
                         );
                     })}
                 </Carousel>
