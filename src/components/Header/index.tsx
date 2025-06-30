@@ -5,7 +5,7 @@ import contactLogo from '../../assets/images/svg/whatsapp.svg';
 import codeLogo from '../../assets/images/svg/tools.svg';
 import history from '../../assets/images/svg/book.svg';
 import gitLogo from '../../assets/images/svg/code-slash.svg'
-import logo from '../../assets/images/webp/avatar.png.webp';
+import logo from '../../assets/png/iconRferreiraBlack.png';
 
 import { Link } from 'react-router-dom';
 
