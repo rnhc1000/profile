@@ -331,24 +331,23 @@ class Designs extends React.Component {
           <div>
             <Design
               provider="Health Educational Portal"
-              description="Educational page for a university professor specializing in Genetics and also working 
-          in the areas of Cytology, Histology, Pathology and Biochemistry. The purpose of this portal is to 
+              description="PhD and MsC Perpétua do Socorro Silva Costa is one of the most prominent experts in Genetics with research in Leprosy(Hansen's disease).
+              The purpose of this portal is to 
           share teaching materials, scientific articles, tutorials and updates on scientific research. 
           The platform aims to offer an intuitive interface to facilitate access to educational resources, 
-          promoting learning and the exchange of knowledge between students and professionals in the field.
-          This pportal is powered by AWS, Angular 18 as frontend and Spring Boot, Spring JPA and PostgreSQL 
-          as the backend."
+          promoting learning and the exchange of knowledge between students, researchers and professionals in the field.
+          This portal is hosted by AWS ECS, running on Docker and AI designed."
               thumbnail={draperpcosta}
             />
 
             <Link
               rel="dns-prefetch"
-              to="https://github.com/rnhc1000/draperpcosta.git"
+              to="https://www.draperpcosta.pro.br"
               target="_blank"
               className="linkTo"
             // textDecoration="inherit"
             >
-              <p>https://github.com/rnhc1000/draperpcosta.git</p>
+              <p>https://www.draperpcosta.pro.br</p>
             </Link>
           </div>
         </Zoom>
