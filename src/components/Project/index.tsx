@@ -105,7 +105,7 @@ export default function Project() {
                             </Link>
                         </Zoom>
                         <Zoom>
-                            <Link rel="dns-prefetch" to="https://github.com/rnhc1000/draperpcosta" target="_blank" className="project project-tile">
+                            <Link rel="dns-prefetch" to="https://draperpcosta.pro.br" target="_blank" className="project project-tile">
                                 <img className="project-image" src={draperpcosta} alt="project"></img>
                                 <p className="project-title">
                                     <span className="code">
