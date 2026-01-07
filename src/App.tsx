@@ -1,10 +1,12 @@
 import React from "react";
-import Contacts from "./routes/Contacts"
-import Home from "./routes/Home"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CommandPalette from "./components/CommandPalette";
+import ScrollToTop from "./utils/ScrollToTop";
+import Background from "./routes/Background";
+import Contacts from "./routes/Contacts";
+import Home from "./routes/Home";
 import Projects from "./routes/Projects";
 import Skills from "./routes/Skills";
-import Background from "./routes/Background";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ScrollToTop from './utils/ScrollToTop';
 import Wakatime from "./routes/Wakatime";
 
 export default function App() {
@@ -18,18 +20,18 @@ export default function App() {
 
   return (
     <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<MemoizedHome />}> </Route>
-          <Route index element={<MemoizedHome />}></Route>
-          <Route path="contacts" element={<MemoizedContacts />}></Route>
-          <Route path="skills" element={<MemoizedSkills />}></Route>
-          <Route path="projects" element={<MemoizedProjects />}></Route>
-          <Route path="history" element={<MemoizedHistory />}></Route>
-          <Route path="wakatime" element={<MemoizedWakatime />}></Route>
-        </Routes>  
-
-      </BrowserRouter>
+       <ScrollToTop />
+       <CommandPalette />
+       <Routes>
+         <Route path="/" element={<MemoizedHome />}></Route>
+         <Route index element={<MemoizedHome />}></Route>
+         <Route path="contacts" element={<MemoizedContacts />}></Route>
+         <Route path="skills" element={<MemoizedSkills />}></Route>
+         <Route path="projects" element={<MemoizedProjects />}></Route>
+         <Route path="history" element={<MemoizedHistory />}></Route>
+         <Route path="wakatime" element={<MemoizedWakatime />}></Route>
+       </Routes>
+     </BrowserRouter>
   )
 }
 

@@ -49,7 +49,14 @@ export default function WakaTime() {
                     <br></br>
                   
                     <figure className="github-img">
-                        <embed src="https://streak-stats.demolab.com?user=rnhc1000&theme=gruvbox&border=EB9119"></embed>
+                        {/* <a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
+</a> */}
+
+                        <embed src="https://github-readme-stats-eight-theta.vercel.app/api?username=rnhc1000&show_icons=true&theme=material-palenight&include_all_commits=true&count_private=true"></embed>
                     </figure>
                     <br></br>
 

@@ -7,7 +7,7 @@ import history from '../../assets/images/svg/book.svg';
 import gitLogo from '../../assets/images/svg/code-slash.svg'
 import logo from '../../assets/png/iconRferreiraBlack.png';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 
@@ -20,27 +20,27 @@ export default function Header() {
 
                 <ul className="nav-list">
                     <li>
-                        <Link to='/'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} alt="Logo" /></Link>
+                        <NavLink to='/' aria-label="Home" className={({ isActive }) => isActive ? 'nav-link nav-link-active' : 'nav-link'}><img data-toggle="tooltip" data-placement="top" data-animation="" title="Home" src={homeLogo} alt="Home" /></NavLink>
                     </li>
 
                     <li>
-                        <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="History" title="History" src={history} /></Link>
+                        <NavLink to='/history' aria-label="History" className={({ isActive }) => isActive ? 'nav-link nav-link-active' : 'nav-link'}><img data-toggle="tooltip" data-placement="top" data-animation="" alt="History" title="History" src={history} /></NavLink>
                     </li>
 
                     <li>
-                        <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Skills" title="Skills" src={skillLogo} /></Link>
+                        <NavLink to='/skills' aria-label="Skills" className={({ isActive }) => isActive ? 'nav-link nav-link-active' : 'nav-link'}><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Skills" title="Skills" src={skillLogo} /></NavLink>
                     </li>
 
                     <li>
-                        <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Projects" title="Projects" src={codeLogo} /></Link>
+                        <NavLink to='/projects' aria-label="Projects" className={({ isActive }) => isActive ? 'nav-link nav-link-active' : 'nav-link'}><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Projects" title="Projects" src={codeLogo} /></NavLink>
                     </li>
 
                     <li>
-                        <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Contacts" title="Contact" src={contactLogo} /></Link>
+                        <NavLink to='/contacts' aria-label="Contacts" className={({ isActive }) => isActive ? 'nav-link nav-link-active' : 'nav-link'}><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Contacts" title="Contact" src={contactLogo} /></NavLink>
                     </li>
 
                     <li>
-                        <Link to='/wakatime'><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Code" title="Code" src={gitLogo} /></Link>
+                        <NavLink to='/wakatime' aria-label="Wakatime" className={({ isActive }) => isActive ? 'nav-link nav-link-active' : 'nav-link'}><img data-toggle="tooltip" data-placement="top" data-animation="" alt="Code" title="Code" src={gitLogo} /></NavLink>
                     </li>
                 </ul>
 

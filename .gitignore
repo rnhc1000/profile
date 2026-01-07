@@ -14,7 +14,8 @@ dist-ssr
 .vite
 *.tgz
 .yarn/
-
+.nvmrc
+eslint.config.js
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

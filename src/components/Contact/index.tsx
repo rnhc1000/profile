@@ -71,7 +71,7 @@ export default function Contact() {
                     </h3>
                     <br></br>
                     <h3 className="questions">
-                        A: Just click here...<Link to='/Wakatime' className="sizeSmiley">✋🏾</Link>
+                        A: Just click here...<Link to='/wakatime' className="sizeSmiley">✋🏾</Link>
                     </h3>
                     <br></br>
                 </Zoom>

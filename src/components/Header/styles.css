@@ -3,6 +3,9 @@
 header {
   border-bottom: 0.0675rem solid rgba(218, 148, 27, 1);
   box-shadow: 0 4px 6px rgba(194, 77, 9, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
 header nav#navbar {
@@ -17,10 +20,9 @@ header nav#navbar {
   margin: 0 auto;
 }
 
-
 header nav#navbar .nav-main {
   font-size: 1.0rem;
-  color: var(#FFF);
+  color: var(--white);
 }
 
 header nav#navbar .nav-brand {
@@ -34,7 +36,6 @@ header nav#navbar .nav-brand h1 {
   font-weight: 300;
 }
 
-
 header nav#navbar ul.nav-list {
   display: flex;
   align-items: center;
@@ -46,28 +47,44 @@ header nav#navbar ul.nav-list li {
   color: var(--white);
   font-size: 1.5rem;
   text-decoration: none;
-
 }
 
 header nav#navbar ul.nav-list li:hover {
-  font-size: 1.75rem;
-  color: rgb(235, 122, 16);
   filter: drop-shadow(0 0 2em #f3c442aa);
-
 }
 
+header nav#navbar ul.nav-list a.nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 8px;
+  transition: transform 120ms ease, background-color 120ms ease, filter 120ms ease;
+}
+
+header nav#navbar ul.nav-list a.nav-link:hover {
+  transform: translateY(-1px);
+  background-color: rgba(218, 148, 27, 0.12);
+}
+
+header nav#navbar ul.nav-list a.nav-link-active {
+  background-color: rgba(218, 148, 27, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(218, 148, 27, 0.35);
+}
+
+header nav#navbar ul.nav-list a.nav-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(218, 148, 27, 0.35);
+}
 
 header nav#navbar .nav-brand img {
   width: 12rem;
   height: 12rem;
-
 }
 
 header nav#navbar .nav-brand img:hover {
-  width: 16rem;
-  height: 16rem;
+  transform: scale(1.05);
 }
-
 
 @media screen and (max-width: 640px) {
   header nav#navbar ul.nav-list li:not(:first-child) {
