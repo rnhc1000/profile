@@ -1,0 +1,83 @@
+.cmdk-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: start center;
+  padding: 10vh 16px 16px;
+}
+
+.cmdk-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border: 0;
+}
+
+.cmdk-panel {
+  position: relative;
+  width: min(640px, 100%);
+  border-radius: 14px;
+  border: 1px solid rgba(218, 148, 27, 0.35);
+  background: rgba(20, 20, 20, 0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+  overflow: hidden;
+}
+
+.cmdk-header {
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid rgba(218, 148, 27, 0.2);
+}
+
+.cmdk-input {
+  width: 100%;
+  border: 1px solid rgba(218, 148, 27, 0.25);
+  background: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  padding: 12px 12px;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+.cmdk-input:focus {
+  border-color: rgba(218, 148, 27, 0.55);
+  box-shadow: 0 0 0 3px rgba(218, 148, 27, 0.15);
+}
+
+.cmdk-hint {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  opacity: 0.75;
+}
+
+.cmdk-list {
+  padding: 10px;
+  max-height: min(380px, 50vh);
+  overflow: auto;
+}
+
+.cmdk-item {
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.92);
+  padding: 12px 12px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cmdk-item:hover,
+.cmdk-item:focus {
+  outline: none;
+  background: rgba(218, 148, 27, 0.12);
+}
+
+.cmdk-empty {
+  padding: 12px;
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
