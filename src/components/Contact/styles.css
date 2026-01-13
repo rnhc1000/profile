@@ -7,31 +7,47 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 1240px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 960px;
     padding: 1rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
     font-weight: 300;
     color: var(--text-linen);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .contacts-section-header {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 300;
     color: var(--text-linen);
+    width: 100%;
+}
+
+.contacts-block {
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contacts-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 0.5rem auto 0.75rem;
+    max-width: 860px;
 }
 
 .contacts-section-qanda {
     font-weight: 300;
     margin: 1rem auto;
     color: var(--text-linen);
+    max-width: 70ch;
 }
 
 .contacts-section-qanda:hover {
-    font-size: 2.0rem;
-    font-weight: 400;
-    margin: 1rem auto;
     color: var(--text-linen);
 }
 
@@ -44,7 +60,7 @@
     color: rgba(218,148,27,1);
     font-weight: 300;
     margin: 1rem auto;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-style: italic;
 
 }
@@ -65,7 +81,7 @@
 
 .questions {
     color: var(--text-linen);
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 300;
 }
 
@@ -75,14 +91,14 @@
 }
 
 .questions::first-letter {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 400;
     color: orangered;
 }
 
 .contacts-waka {
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
     color: var(--text-linen);
     filter: drop-shadow(0 0 2rem rgb(192, 114, 26));
 }
@@ -128,20 +144,21 @@
 .contacts-img {
     border-radius: 50%;
     position: relative;
-    margin-right: 20px;
-    float: left;
-    width: 240px;
-    height: 200px;
+    margin: 1.5rem auto 0;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.45);
 }
 
 @media (max-width: 640px) {
     .contacts-section {
-        margin: 8rem auto;
+        margin: 2rem auto;
         width: 100%;
-        max-width: 480px;
+        max-width: 90%;
         text-align: center;
-        font-size: 0.85rem;
-        font-weight: 200;
+        font-size: 1.15rem;
+        font-weight: 300;
     }
 
     .sizeSmiley {

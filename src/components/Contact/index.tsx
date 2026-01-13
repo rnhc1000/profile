@@ -34,22 +34,19 @@ export default function Contact() {
                     <h1>
                         Keep in touch to learn details about projects, coding challenges, tech stack...
                     </h1>
-                    <br></br>
-                    <h2 className="contacts-section-qanda">
-                        Make a break, text me, send me an email or download my resume. &nbsp;<span className="sizeSmiley">&#128073;&#127998;&nbsp;</span>
+                    <div className="contacts-block">
+                        <h2 className="contacts-section-qanda">
+                            Make a break, text me, send me an email or download my resume. &nbsp;<span className="sizeSmiley">&#128073;&#127998;&nbsp;</span>
+                            <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"><img alt="Resume" src={resumeLogo} /> </Link>
+                        </h2>
 
-                        <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"><img alt="Resume" src={resumeLogo} /> </Link>
-                    </h2>
-                    <br></br>
-                    <h3 className="questions">Q: What about your current hands-on skills and tech stack?
-                    </h3>
-                    <br></br>
+                        <h3 className="questions">Q: What about your current hands-on skills and tech stack?</h3>
 
-                    <h3 className="questions">
-                        A: I am currently working on some projects developing with the tools below <span className="sizeSmiley"><span>&#128071;&#127998;</span></span>:
-                    </h3>
-                    <div>
-                        <br></br>
+                        <h3 className="questions">
+                            A: I am currently working on some projects developing with the tools below <span className="sizeSmiley"><span>&#128071;&#127998;</span></span>:
+                        </h3>
+
+                        <div className="contacts-tech">
                         <img className="contacts-waka" alt="Wakatime" src={wakaLogo} />
                         <img className="contacts-waka" alt="Spring" src={springLogo} />
                         <img className="contacts-waka" alt="Kafka" src={kafkalogo} />
@@ -65,15 +62,14 @@ export default function Contact() {
                         <img className="contacts-waka" alt="Git" src={gitLogo} />
                         <img className="contacts-waka" alt="IntelliJ" src={intellijLogo} />
                         <img className="contacts-waka" alt="VSCode" src={vscodeLogo} />
+                        </div>
+
+                        <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more info about these skills?</h3>
+
+                        <h3 className="questions">
+                            A: Just click here...<Link to='/wakatime' className="sizeSmiley">✋🏾</Link>
+                        </h3>
                     </div>
-                    <br></br>
-                    <h3 className="questions">Q: Sounds exciting dealing with all these tools. How can I find out more info about these skills?
-                    </h3>
-                    <br></br>
-                    <h3 className="questions">
-                        A: Just click here...<Link to='/wakatime' className="sizeSmiley">✋🏾</Link>
-                    </h3>
-                    <br></br>
                 </Zoom>
 
             </div>
@@ -81,12 +77,14 @@ export default function Contact() {
             <div className="contacts-section-header">
 
                 <Zoom>
-                    <h2 className="contacts-section-qanda">
-                        Here you have all my contacts!!!.
-                    </h2>
-                    <h2 className="contacts-section-qanda">
-                        Let's get connected...
-                    </h2>
+                    <div className="contacts-block">
+                        <h2 className="contacts-section-qanda">
+                            Here you have all my contacts!!!.
+                        </h2>
+                        <h2 className="contacts-section-qanda">
+                            Let's get connected...
+                        </h2>
+                    </div>
 
                     
                 </Zoom>

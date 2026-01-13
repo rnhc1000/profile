@@ -2,14 +2,12 @@ import './styles.css';
 
 import { Link } from 'react-router-dom';
 
-
 export default function Footer() {
 
     return (
         <footer>
 
             <nav id="feet-footer">
-
                 <div>
                     <ul className="footer-icons">
 

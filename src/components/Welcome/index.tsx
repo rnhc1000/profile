@@ -12,24 +12,46 @@ export default function Welcome() {
       <div className="welcome-container">
 
         <Zoom>
-        <img className="avatar"  src={logo} alt="avatar by Meta&copy;" />
-          <ReactTyped className="welcome-important" startWhenVisible strings={["Hello, Everybody!!!"]} typeSpeed={100} backSpeed={50} />
+          <img className="avatar" src={logo} alt="Ricardo Ferreira" />
+
+          <h1 className="welcome-title">
+            <ReactTyped
+              className="welcome-important"
+              startWhenVisible
+              strings={["Hello! I’m Ricardo Ferreira."]}
+              typeSpeed={75}
+              backSpeed={35}
+            />
+          </h1>
+
           <blockquote className="welcome-quote">
-            <br></br>
-            Hey! Thanks for touching down. I am <span className="contact-details">Ricardo Ferreira</span> and as a <Link rel="dns-prefetch" to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf" target="_blank" className="contact-details"> Sr Software Engineer</Link>, I love
-            designing, and writing and deploying clean code web-based enterprise applications.
-            I have been very successful as an architect and lead developer of solutions and applications that have fully met the requirements and needs of
-            companies and customers, especially in the digital payments industry.
-            <br /><br />
-
-            I have developed and delivered applications that have helped thousands of retail stores increase their profitability, productivity and efficiency
-            in receiving payments, using modern languages and frameworks, cloud computing, security and compliance to keep up with the demanding requirements of the digital payments industry.
-            <br /><br />
-
-            For a comprehensive description of my journey and roadmap up to today, take a look at my history,
-            clicking on the links below to find out more about my career.
+            I’ve been building software for almost <span className="dt">25 years</span> — from low-level work with
+            <span className="dt"> Assembler</span> and <span className="dt">C</span>, to surfing the early web with
+            <span className="dt"> LAMP</span>, and eventually specializing in architecting and delivering secure, scalable platforms for
+            the <span className="dt">digital payments</span> industry.
           </blockquote>
-          <br></br>
+
+          <blockquote className="welcome-quote">
+            Today, I focus on enterprise systems that run in production, serve real customers, and stand up to strict requirements:
+            security and compliance, observability, performance, and operational excellence.
+          </blockquote>
+
+          <blockquote className="welcome-quote">
+            This portfolio is split in two parts:
+            a deeper narrative in <Link to="/history" className="contact-details">History</Link> and concrete work samples in
+            <Link to="/projects" className="contact-details"> Projects</Link>.
+          </blockquote>
+
+          <ul className="welcome-bullets">
+            <li>&#128204; Digital payments SaaS platforms (cards + Pix), secure communications, and transaction processing</li>
+            <li>&#128204; Observability &amp; operations tooling (dashboards, monitoring, logs) for microservices at scale</li>
+            <li>&#128204; Financial auditing &amp; reconciliation solutions to prevent losses and validate contracts/rates</li>
+            <li>&#128204; REST APIs with clean architecture, CI/CD pipelines, and cloud infrastructure (AWS/Oracle Cloud)</li>
+          </ul>
+
+          <p className="welcome-footnote">
+            If you want to see what I’ve been shipping recently, jump to Projects. If you prefer the full story and roadmap, start with History.
+          </p>
         </Zoom>
 
 
