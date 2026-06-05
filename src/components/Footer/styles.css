@@ -1,92 +1,46 @@
 footer {
-  border-top: 1px solid rgba(218, 148, 27, 1);
-  height: 4rem;
+  border-top: 1px solid rgba(218, 148, 27, 0.3);
+  margin-top: 3rem;
+  padding: 2rem 0;
 }
 
-footer nav#feet-footer .footer-icons {
+footer nav#feet-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  margin: 1rem;
+  gap: 0.5rem;
 }
 
-footer nav#feet-footer .footer-icons img {
-  width: 2rem;
-  height: 2rem;
-  margin: 1rem;
+.footer-year {
+  margin: 0;
 }
 
-footer nav#feet-footer .footer-icons:hover {
-  cursor: pointer;
-  color: rgba(218, 148, 27, 1);
-  filter: drop-shadow(0 0 2em #fbd261aa);
-  transition: transform 0.3s ease-in-out;
-}
-
-footer nav#feet-footer .footer-items ul img {
-  width: 2rem;
-  height: 2rem;
-}
-
-footer nav#feet-footer .footer-head p {
-  text-align: center;
-  font-size: 1rem;
+.footer-year h4 {
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
+  font-size: 1.5rem;
   color: var(--orangered);
+  margin: 0;
 }
 
-footer nav#feet-footer .time {
-  color: var(--white);
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer nav#feet-footer .footer-head .time {
-  color: var(--orangered);
-}
-
-footer nav#feet-footer .footer-head .waviy {
-  color: var(--orangered);
-}
-
-.contacts-details {
-  font-size: 3rem;
-  margin-top: 1.25rem;
-  transition: transform 0.3s ease-in-out;
-  color: var(--text-linen);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .footer-icons {
-    animation: logo-spin infinite 20s linear;
-  }
+.footer-logo img {
+  width: 16rem;
+  height: auto;
+  opacity: 0.9;
 }
 
 @media (max-width: 640px) {
-
-  footer nav#feet-footer .footer-items ul img {
-    width: 2rem;
-    height: 2rem;
+  .footer-logo img {
+    width: 12rem;
   }
 
-
-  footer nav#feet-footer .footer-icons {
-    flex-wrap: nowrap;
-    margin: 1rem;
+  .footer-year h4 {
+    font-size: 1.25rem;
   }
-}
-
-@media (max-width: 768px) {
-
-  footer nav#feet-footer .footer-items ul img {
-    width: 2rem;
-    height: 2rem;
-  }
-
-
-  footer nav#feet-footer .footer-icons {
-    flex-wrap: nowrap;
-    margin: 1rem;
-  }
-
 }

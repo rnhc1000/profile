@@ -13,14 +13,22 @@ import leetcode from "../../assets/images/webp/leetcode.png.webp";
 import todolist from "../../assets/images/webp/todo.webp";
 import calculator from "../../assets/images/webp/webCalculatorUI.png.webp";
 import draperpcosta from "../../assets/images/webp/draPerpCostaReadme.png.webp";
-import { Zoom } from "react-awesome-reveal";
+import { Zoom, Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
 class Designs extends React.Component {
   render() {
     return (
       <section id="articles">
-        <h1 className="articles-title">Here are a few of my latest projects!</h1>
+        <Fade>
+          <div className="projects-header">
+            <p className="projects-greeting">Portfolio</p>
+            <h1 className="projects-title">Featured Projects</h1>
+            <p className="projects-subtitle">Real-world solutions in payments, data engineering, and cloud architecture</p>
+          </div>
+        </Fade>
+
+        <div className="projects-grid">
         <Zoom>
           <div>
             <Design
@@ -351,6 +359,7 @@ class Designs extends React.Component {
             </Link>
           </div>
         </Zoom>
+        </div>
       </section>
     );
   }

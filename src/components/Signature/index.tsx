@@ -1,42 +1,40 @@
 import './styles.css';
 import CountUp from 'react-countup';
-import { Link } from 'react-router-dom';
 import { Fade } from "react-awesome-reveal";
-
-import skillLogo from '../../assets/images/svg/mortarboard.svg';
-import contactLogo from '../../assets/images/svg/whatsapp.svg';
-import codeLogo from '../../assets/images/svg/tools.svg';
-import history from '../../assets/images/svg/book.svg';
-import gitLogo from '../../assets/images/svg/code-slash.svg';
 import logo from '../../assets/images/webp/signRferreiraBlack.png.webp';
 
 const date = new Date();
 const year = date.getFullYear();
 const dob: number = 1957;
 
+const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 export default function Signature() {
     return (
-        <section>
-
+        <section className="signature-section">
             <Fade>
-                <div id="signature">
-                    <Link to='/history'><img data-toggle="tooltip" data-placement="top" data-animation="" title="History" src={history} alt="History" /></Link>
-                    <Link to='/skills'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Skills" src={skillLogo} alt="Skills" /></Link>
-                    <Link to='/projects'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Projects" src={codeLogo} alt="Projects" /></Link>
-                    <Link to='/contacts'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Contact" src={contactLogo} alt="Contact" /></Link>
-                    <Link to='/wakatime'><img data-toggle="tooltip" data-placement="top" data-animation="" title="Code" src={gitLogo} alt="Code" /></Link>
-                </div>
-                                <div >
-                                    <h4 className="sign-rights"><CountUp separator="" delay={0} start={dob} end={year}/></h4>
+                <div className="signature-container">
+                    <button 
+                        className="scroll-to-top" 
+                        onClick={scrollToTop}
+                        aria-label="Scroll to top"
+                    >
+                        <span className="scroll-arrow">↑</span>
+                        <span className="scroll-text">Back to top</span>
+                    </button>
                     
-                </div> 
-                <div id="sign-logo">
-                    <img data-toggle="tooltip" data-placement="top" data-animation="" title="Logo" src={logo} alt="logoRicardoFerreira" />
-                </div>   
-        
+                    <div className="signature-divider"></div>
+                    
+                    <div className="signature-brand">
+                        <img src={logo} alt="Ricardo Ferreira" className="signature-logo" />
+                        <p className="signature-year">
+                            <CountUp separator="" delay={0} start={dob} end={year}/>
+                        </p>
+                    </div>
+                </div>
             </Fade>
         </section>
-
-    )
-
+    );
 }

@@ -8,8 +8,10 @@ import gitLogo from '../../assets/images/svg/code-slash.svg'
 import logo from '../../assets/png/iconRferreiraBlack.png';
 
 import { NavLink } from 'react-router-dom';
+import { useTheme } from '../../context/ThemeContext';
 
 export default function Header() {
+    const { theme, toggleTheme } = useTheme();
 
     return (
         <header>
@@ -45,6 +47,15 @@ export default function Header() {
                 </ul>
 
             </nav>
+            
+            <button 
+                onClick={toggleTheme} 
+                className="theme-toggle"
+                aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+                title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+            >
+                {theme === 'dark' ? '☀️' : '🌙'}
+            </button>
         </header>
     );
 

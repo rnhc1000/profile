@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ThemeProvider } from "./context/ThemeContext";
 import CommandPalette from "./components/CommandPalette";
 import ScrollToTop from "./utils/ScrollToTop";
 import Background from "./routes/Background";
@@ -19,19 +20,21 @@ export default function App() {
   const MemoizedWakatime = React.memo(Wakatime);
 
   return (
-    <BrowserRouter>
-       <ScrollToTop />
-       <CommandPalette />
-       <Routes>
-         <Route path="/" element={<MemoizedHome />}></Route>
-         <Route index element={<MemoizedHome />}></Route>
-         <Route path="contacts" element={<MemoizedContacts />}></Route>
-         <Route path="skills" element={<MemoizedSkills />}></Route>
-         <Route path="projects" element={<MemoizedProjects />}></Route>
-         <Route path="history" element={<MemoizedHistory />}></Route>
-         <Route path="wakatime" element={<MemoizedWakatime />}></Route>
-       </Routes>
-     </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <CommandPalette />
+        <Routes>
+          <Route path="/" element={<MemoizedHome />}></Route>
+          <Route index element={<MemoizedHome />}></Route>
+          <Route path="contacts" element={<MemoizedContacts />}></Route>
+          <Route path="skills" element={<MemoizedSkills />}></Route>
+          <Route path="projects" element={<MemoizedProjects />}></Route>
+          <Route path="history" element={<MemoizedHistory />}></Route>
+          <Route path="wakatime" element={<MemoizedWakatime />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

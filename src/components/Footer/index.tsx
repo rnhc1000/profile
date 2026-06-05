@@ -1,73 +1,24 @@
 import './styles.css';
 
-import { Link } from 'react-router-dom';
+import CountUp from 'react-countup';
+import logo from '../../assets/images/webp/signRferreiraBlack.png.webp';
 
+const date = new Date();
+const year = date.getFullYear();
+const dob: number = 1957;
 
 export default function Footer() {
 
     return (
         <footer>
-
             <nav id="feet-footer">
-
-                <div>
-                    <ul className="footer-icons">
-
-                        <li>
-                            <Link
-                                rel="dns-prefetch"
-                                to="https://www.linkedin.com/in/ricardoaferreirasilva/"
-                                target="_blank"
-                                className="contacts-details"
-                            >
-                                <i className="fab fa-linkedin-in" style={{color: "orange"}}></i>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                rel="dns-prefetch"
-                                to="mailto:ricardo@ferreiras.dev.br"
-                                target="_blank"
-                                className="contacts-details"
-                            >
-                                <i className="fab fa-at" style={{color: "orange"}}></i>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                rel="dns-prefetch"
-                                to="https://wa.me/5571993005555"
-                                target="_blank"
-                                className="contacts-details"
-                            >
-                                <i className="fab fa-whatsapp" style={{color: "orange"}}></i>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                rel="dns-prefetch"
-                                to="https://t.me/RicardoFerreira57"
-                                target="_blank"
-                                className="contacts-details"
-                            >
-                                <i className="fab fa-telegram" style={{color: "orange"}}></i>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                rel="dns-prefetch"
-                                to="https://www.ferreiras.dev.br/cv/ResumeRicardoFerreira.pdf"
-                                target="_blank"
-                                className="contacts-details"
-                            >
-                                <i className="fa fa-address-card" style={{color: "orange"}}></i>
-                            </Link>
-                        </li>
-
-                    </ul>
+                <div className="footer-year">
+                    <h4><CountUp separator="" delay={0} start={dob} end={year}/></h4>
+                </div>
+                <div className="footer-logo">
+                    <img src={logo} alt="Ricardo Ferreira" />
                 </div>
             </nav>
-
         </footer>
     )
 }
