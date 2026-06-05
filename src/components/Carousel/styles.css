@@ -1,57 +1,99 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap');
 
-body {
-  background: #000;
+.parent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .slider {
-  margin: 0 20px;
-  overflow: "hidden";
-  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  min-height: 450px;
 }
 
 .slider img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
+  width: auto;
+  max-width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .react-multi-carousel-list {
-  padding: 0rem 0 0.5rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .custom-dot-list-style button {
   border: none;
-  background: rgb(235, 169, 46);
+  background: rgba(218, 148, 27, 0.5);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 4px;
 }
 
 .react-multi-carousel-dot.react-multi-carousel-dot--active button {
-  background: rgb(235, 169, 46) !important;
+  background: rgba(218, 148, 27, 1) !important;
+}
+
+.carousel-header {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .carousel-header h1 {
-  color: rgba(218, 148, 27, 1);
-  font-weight: 300;
-  margin: 1rem auto;
+  font-family: 'Inter', sans-serif;
   font-size: 2.5rem;
-  font-style: italic;
-  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(135deg, #da941b 0%, #ff6b35 50%, #da941b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
 }
 
-.carousel-container {
-  padding: 20px 0;
-  position: relative;
+@media (max-width: 768px) {
+  .parent {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .slider {
+    min-height: 350px;
+  }
+
+  .slider img {
+    max-height: 350px;
+    border-radius: 8px;
+  }
+
+  .carousel-header h1 {
+    font-size: 2rem;
+  }
 }
 
-.carousel-item {
-  padding: 0 10px;
-  transition: transform 0.3s ease;
-}
+@media (max-width: 480px) {
+  .slider {
+    padding: 0.5rem 0;
+    min-height: 280px;
+  }
 
-.carousel-item:hover {
-  transform: scale(1.02);
+  .slider img {
+    max-height: 280px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .custom-dot-list-style button {
+    width: 8px;
+    height: 8px;
+  }
+
+  .carousel-header h1 {
+    font-size: 1.6rem;
+  }
 }

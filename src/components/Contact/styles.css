@@ -1,167 +1,260 @@
 @import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap');
 
 .contacts-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    max-width: 960px;
-    padding: 1rem;
-    margin: 2rem auto;
-    font-weight: 300;
-    color: var(--text-linen);
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  padding: 0 1rem;
+  margin: 2rem auto;
+  color: var(--text-linen);
 }
 
-.contacts-section-header {
-    font-size: 2rem;
-    font-weight: 300;
-    color: var(--text-linen);
-    width: 100%;
+.contacts-header {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.contacts-block {
-    margin: 1.5rem auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
+.contacts-greeting {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-muted, rgba(255, 255, 255, 0.6));
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
 }
 
-.contacts-tech {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem;
-    margin: 0.5rem auto 0.75rem;
-    max-width: 860px;
+.contacts-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #da941b 0%, #ff6b35 50%, #da941b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0.5rem 0;
 }
 
-.contacts-section-qanda {
-    font-weight: 300;
-    margin: 1rem auto;
-    color: var(--text-linen);
-    max-width: 70ch;
+.contacts-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.8));
+  margin: 0;
 }
 
-.contacts-section-qanda:hover {
-    color: var(--text-linen);
-}
-
-.contacts-section-qanda img:hover {
-    width: 40px;
-    height: 40px;
-}
-
-.contacts-section-header h1 {
-    color: rgba(218,148,27,1);
-    font-weight: 300;
-    margin: 1rem auto;
-    font-size: 3rem;
-    font-style: italic;
-
-}
-
-.contacts-section-header h2 {
-    font-size: 2rem;
-    font-weight: 300;
-
-}
-
-.contact-skills {
-    border-radius: .1em;
-    border: .1em solid hsl(34, 85%, 47%);
-    /* #282A2B */
-    box-shadow: 1px 1px .5em rgb(20, 20, 20) inset;
-    margin: 4rem auto;
-}
-
-.questions {
-    color: var(--text-linen);
-    font-size: 1.75rem;
-    font-weight: 300;
-}
-
-.question {
-    color: orangered;
-    font-size: 2rem;
-}
-
-.questions::first-letter {
-    font-size: 2.25rem;
-    font-weight: 400;
-    color: orangered;
-}
-
-.contacts-waka {
-    height: 24px;
-    width: 24px;
-    color: var(--text-linen);
-    filter: drop-shadow(0 0 2rem rgb(192, 114, 26));
-}
-
-.fa {
-    color: var(--text-linen);
-}
-
-.fab {
-    color: var(--text-linen);
-}
-
-.contacts-links {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2.5rem;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    padding: 0 0 1rem 0;
-    color: var(--text-linen);
-}
-
-.contacts-details {
-    font-size: 3rem;
-    margin-top: 1.25rem;
-    transition: transform 0.3s ease-in-out;
-    color: var(--text-linen);
-}
-
-.contacts-details:hover {
-    transform: translateY(8px);
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: white;
+.contacts-profile {
+  margin: 1.5rem 0;
 }
 
 .contacts-img {
-    border-radius: 50%;
-    position: relative;
-    margin: 1.5rem auto 0;
-    width: 20rem;
-    height: 20rem;
-    object-fit: cover;
-    box-shadow: 0 16px 40px rgba(0,0,0,0.45);
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  border: 3px solid rgba(218, 148, 27, 0.3);
+}
+
+.contacts-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.contacts-card {
+  background: var(--bg-card, rgba(255, 255, 255, 0.03));
+  border: 1px solid var(--border-color, rgba(218, 148, 27, 0.15));
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.contacts-card:hover {
+  background: var(--bg-card-hover, rgba(218, 148, 27, 0.06));
+  border-color: var(--border-hover, rgba(218, 148, 27, 0.3));
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--accent-primary, rgba(218, 148, 27, 1));
+  margin: 0 0 1rem;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-primary, var(--text-linen));
+  margin: 0 0 1.25rem;
+}
+
+.contacts-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: 2px solid rgba(218, 148, 27, 0.5);
+  color: var(--text-linen);
+  background: transparent;
+}
+
+.contact-btn:hover {
+  border-color: rgba(218, 148, 27, 1);
+  background: rgba(218, 148, 27, 0.1);
+  transform: translateY(-2px);
+}
+
+.contact-btn-primary {
+  background: linear-gradient(135deg, rgba(218, 148, 27, 0.9), rgba(255, 107, 53, 0.9));
+  border: none;
+  color: #fff;
+}
+
+.contact-btn-primary:hover {
+  background: linear-gradient(135deg, rgba(218, 148, 27, 1), rgba(255, 107, 53, 1));
+  box-shadow: 0 8px 24px rgba(218, 148, 27, 0.35);
+}
+
+.contacts-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 1rem;
+}
+
+.tech-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: drop-shadow(0 0 8px rgba(218, 148, 27, 0.3));
+  transition: transform 0.2s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.15);
+}
+
+.card-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  color: #60a5fa;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card-link:hover {
+  color: rgba(218, 148, 27, 1);
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.social-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background: var(--bg-card, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+  color: var(--text-primary, var(--text-linen));
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-btn:hover {
+  background: var(--bg-card-hover, rgba(218, 148, 27, 0.15));
+  border-color: var(--border-hover, rgba(218, 148, 27, 0.4));
+}
+
+.social-btn i {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .contacts-title {
+    font-size: 3.5rem;
+  }
+
+  .contacts-subtitle {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 640px) {
-    .contacts-section {
-        margin: 2rem auto;
-        width: 100%;
-        max-width: 90%;
-        text-align: center;
-        font-size: 1.15rem;
-        font-weight: 300;
-    }
+  .contacts-section {
+    max-width: 92%;
+    padding: 0;
+  }
 
-    .sizeSmiley {
-        font-size: 1rem;
-    }
+  .contacts-greeting {
+    font-size: 1.3rem;
+  }
+
+  .contacts-title {
+    font-size: 3rem;
+  }
+
+  .contacts-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .contacts-img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .contacts-card {
+    padding: 1.25rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1.25rem;
+  }
+
+  .contacts-actions {
+    flex-direction: column;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
 }

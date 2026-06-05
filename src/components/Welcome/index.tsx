@@ -14,44 +14,61 @@ export default function Welcome() {
         <Zoom>
           <img className="avatar" src={logo} alt="Ricardo Ferreira" />
 
+          <p className="welcome-greeting">Hello, I'm</p>
           <h1 className="welcome-title">
             <ReactTyped
-              className="welcome-important"
+              className="welcome-name"
               startWhenVisible
-              strings={["Hello! I’m Ricardo Ferreira."]}
+              strings={["Ricardo Ferreira"]}
               typeSpeed={75}
               backSpeed={35}
             />
           </h1>
+          <p className="welcome-tagline">Java Engineer · AI & Machine Learning · Data & Payments · Cloud Architect</p>
 
-          <blockquote className="welcome-quote">
-            I’ve been building software for almost <span className="dt">25 years</span> — from low-level work with
-            <span className="dt"> Assembler</span> and <span className="dt">C</span>, to surfing the early web with
-            <span className="dt"> LAMP</span>, and eventually specializing in architecting and delivering secure, scalable platforms for
-            the <span className="dt">digital payments</span> industry.
-          </blockquote>
+          <div className="welcome-intro">
+            <p className="welcome-lead">
+              Building with <span className="welcome-tech">Java</span>, <span className="welcome-tech">Spring Boot</span>,
+              <span className="welcome-tech"> Apache Spark, Kafka, Snowflake, AWS, Datadog</span> to power <span className="welcome-highlight">data-driven platforms</span>.
+            </p>
+            <p className="welcome-lead">
+              Focused on <span className="welcome-highlight">reactive applications</span>, high-throughput APIs, and
+              <span className="welcome-highlight"> real-time analytics</span> for the web analytics and payments industries,
+              <span className="welcome-highlight"> microservices</span> at scale and of course, leveraging <span className="welcome-highlight">AI and machine learning </span>to power the next generation of applications.
+            </p>
+          </div>
 
-          <blockquote className="welcome-quote">
-            Today, I focus on enterprise systems that run in production, serve real customers, and stand up to strict requirements:
-            security and compliance, observability, performance, and operational excellence.
-          </blockquote>
+          <div className="welcome-ai-highlight">
+            <h2 className="welcome-ai-title">🤖 AI & Machine Learning</h2>
+            <p className="welcome-ai-text">
+              Currently pursuing <span className="welcome-highlight">two Post-Graduate MBA programs in AI</span> at 
+              <span className="welcome-tech">UFV</span> and <span className="welcome-tech">UniPDS</span>. 
+              Building intelligent solutions with <span className="welcome-tech">Java</span>, 
+              <span className="welcome-tech">Python</span>, <span className="welcome-tech">TensorFlow</span>, 
+              and <span className="welcome-tech">LLMs</span> to transform enterprise applications.
+            </p>
+          </div>
 
-          <blockquote className="welcome-quote">
-            This portfolio is split in two parts:
-            a deeper narrative in <Link to="/history" className="contact-details">History</Link> and concrete work samples in
-            <Link to="/projects" className="contact-details"> Projects</Link>.
-          </blockquote>
+          <div className="welcome-focus">
+            <h2 className="welcome-focus-title">Current Focus</h2>
+            <ul className="welcome-bullets">
+              <li><span className="bullet-icon">☕</span> Java 17+ &amp; Spring ecosystem (Boot, Security, WebFlux, Data JPA, etc)</li>
+              <li><span className="bullet-icon">🤖</span> AI &amp; Machine Learning — LLMs, TensorFlow, Python</li>
+              <li><span className="bullet-icon">⚡</span> Reactive programming &amp; high-concurrency I/O bound transaction processing</li>
+              <li><span className="bullet-icon">🔥</span> Apache Spark, Kafka &amp; real-time data pipelines</li>
+              <li><span className="bullet-icon">🗄️</span> Databases (PostgreSQL, MySQL, MongoDB) &amp; data engineering</li>
+              <li><span className="bullet-icon">📊</span> Web analytics, observability &amp; microservices at scale</li>
+              <li><span className="bullet-icon">☁️</span> Cloud infrastructure (AWS, Docker, Kubernetes)</li>
+            </ul>
+          </div>
 
-          <ul className="welcome-bullets">
-            <li>&#128204; Digital payments SaaS platforms (cards + Pix), secure communications, and transaction processing</li>
-            <li>&#128204; Observability &amp; operations tooling (dashboards, monitoring, logs) for microservices at scale</li>
-            <li>&#128204; Financial auditing &amp; reconciliation solutions to prevent losses and validate contracts/rates</li>
-            <li>&#128204; REST APIs with clean architecture, CI/CD pipelines, and cloud infrastructure (AWS/Oracle Cloud)</li>
-          </ul>
-
-          <p className="welcome-footnote">
-            If you want to see what I’ve been shipping recently, jump to Projects. If you prefer the full story and roadmap, start with History.
-          </p>
+          <div className="welcome-cta">
+            <p className="welcome-cta-text">Explore my work:</p>
+            <div className="welcome-links">
+              <Link to="/history" className="welcome-link-btn">📖 My Story</Link>
+              <Link to="/projects" className="welcome-link-btn welcome-link-primary">🚀 Projects</Link>
+            </div>
+          </div>
         </Zoom>
 
 

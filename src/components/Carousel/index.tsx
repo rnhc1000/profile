@@ -1,7 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./styles.css";
-import { Fade } from 'react-awesome-reveal';
 
 
 const responsive = {
@@ -24,6 +23,10 @@ const responsive = {
 };
 
 const sliderImageUrl = [
+    {
+        url:
+            'https://www.ferreiras.dev.br/assets/images/webp/certificado-java-elite.png?v=2'
+    },
     {
         url:
             'https://www.ferreiras.dev.br/assets/images/webp/eCertificateArchitect.jpg.webp'
@@ -267,38 +270,21 @@ const Slider = () => {
                 <Carousel
                     responsive={responsive}
                     autoPlay={true}
-                    autoPlaySpeed={3000}
+                    autoPlaySpeed={4000}
                     swipeable={true}
                     draggable={true}
-                    transitionDuration={2000}
+                    transitionDuration={500}
                     showDots={true}
-                    infinite={true}
+                    infinite={false}
                     partialVisible={false}
                     dotListClass="custom-dot-list-style"
-                    ssr={true}
                     keyBoardControl={true}
-                    customTransition="transform 2000ms ease-in-out"
                 >
                     {sliderImageUrl.map((imageUrl, index) => {
                         return (
-                            <Fade key={index} direction="up" triggerOnce>
-                                <div className="slider" key={index}>
-                                    <img 
-                                    src={imageUrl.url} 
-                                    style={{ 
-                                    marginLeft: "auto", 
-                                    marginRight: "auto", 
-                                    padding: "0 2rem 0 2rem", 
-                                    display: "flex", 
-                                    justifyContent: "center",
-                                    objectFit: 'cover',
-                                    objectPosition: 'center',
-                                    width: '100%',
-                                    height: '100%',
-                                    borderRadius: '10px'
-                                    }} alt="movie" />
+                            <div className="slider" key={index}>
+                                <img src={imageUrl.url} alt="Certificate" />
                             </div>
-                            </Fade>
                         );
                     })}
                 </Carousel>

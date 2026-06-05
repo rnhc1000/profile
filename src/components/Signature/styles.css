@@ -1,33 +1,101 @@
-#signature {
-  display: flex;
-  max-width: 100%;
-  margin: 0.1rem;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  color: var(--orangered);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.signature-section {
+  margin-top: 3rem;
+  padding: 2rem 1rem;
 }
 
-.sign-rights {
-  margin-top: 2rem;
-  text-align: center;
-  font-size: 1.25rem;
-  color: var(--orangered);
-  margin-bottom: 0;
+.signature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-
-#sign-logo {
+.scroll-to-top {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  max-width: 100%;
+  gap: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--border-hover, rgba(218, 148, 27, 0.4));
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--text-primary, var(--text-linen));
+}
+
+.scroll-to-top:hover {
+  background: var(--bg-card-hover, rgba(218, 148, 27, 0.15));
+  border-color: var(--accent-primary, rgba(218, 148, 27, 0.8));
+  transform: translateY(-3px);
+}
+
+.scroll-arrow {
+  font-size: 1.8rem;
+  color: var(--accent-primary, rgba(218, 148, 27, 1));
+  line-height: 1;
+}
+
+.scroll-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.signature-divider {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-primary, rgba(218, 148, 27, 0.5)), transparent);
+}
+
+.signature-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.signature-logo {
+  width: 18rem;
+  height: auto;
+  opacity: 0.9;
+}
+
+.signature-year {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--orangered);
   margin: 0;
-
 }
 
-#sign-logo img {
-  margin-top: 0;
-  width: 24rem;
-  height: 24rem;
+@media (max-width: 640px) {
+  .signature-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .scroll-to-top {
+    padding: 0.6rem 1.25rem;
+  }
+
+  .scroll-arrow {
+    font-size: 1.5rem;
+  }
+
+  .scroll-text {
+    font-size: 1rem;
+  }
+
+  .signature-logo {
+    width: 14rem;
+  }
+
+  .signature-year {
+    font-size: 1.3rem;
+  }
 }
